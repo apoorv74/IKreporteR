@@ -142,4 +142,5 @@ ik_case_summary_geography <- function(citedby){
   return(act_geography_summary_df)
 }
 
+View(ik_case_summary_geography(91685705))
 
