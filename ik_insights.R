@@ -17,7 +17,12 @@ total_data_points <-
   stringr::str_replace_all(pattern = "[:digit:]+ - [:digit:]+ of ", "") %>% 
   as.numeric()
 
+# By geography
+
+
 
 # DataFrame of cases ------------------------------------------------------
 
-
+case_title <- ik_response %>% 
+  html_nodes(css = ".result_url") %>% 
+  html_text()
