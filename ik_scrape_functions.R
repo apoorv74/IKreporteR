@@ -15,24 +15,37 @@ get_all_courts <- function(){
 
 # Scraping stats for individual courts by citationId
 get_court_cases_from_ik <- function( court_name, citedby){
+  
+  Sys.sleep(sample(seq(0.5,2,0.1),1))
+  
   if(court_name == 'all'){
     ik_act_url <- glue::glue('https://indiankanoon.org/search/?formInput=citedby%3A%20{citedby}')
   } else {
     ik_act_url <- glue::glue('https://indiankanoon.org/search/?formInput=citedby%3A%20{citedby}+doctypes:{court_name}')
   }
-  ik_act_data <- ik_act_url %>% read_html() %>% html_nodes(xpath = '/html/body/div[1]/div[3]/div[1]/b') %>% html_text() 
-  ik_act_data <- stringr::str_replace_all(string = ik_act_data, pattern = '[:digit:]+ - [:digit:]+ of ',replacement = '') %>% stringr::str_trim() %>% as.numeric()
-  ik_act_title <- ik_act_url %>% 
-    read_html() %>% 
-    html_nodes(css = '.document_cite a') %>% 
-    html_text() %>% 
-    stringr::str_remove_all("\\\n") %>% 
-    stringr::str_squish()
+  
+  ik_act_title <- tryCatch({
+    ik_act_url %>% 
+      read_html() %>% 
+      html_nodes(css = '.document_cite a') %>% 
+      html_text() %>% 
+      stringr::str_remove_all("\\\n") %>% 
+      stringr::str_squish()
+  }, error = function(e){
+    'error'
+  }) 
+  
+  ik_act_data <- tryCatch({
+    ik_act_data <- ik_act_url %>% read_html() %>% html_nodes(xpath = '/html/body/div[1]/div[3]/div[1]/b') %>% html_text() 
+    ik_act_data <- stringr::str_replace_all(string = ik_act_data, pattern = '[:digit:]+ - [:digit:]+ of ',replacement = '') %>% stringr::str_trim() %>% as.numeric()
+  }, error = function(e){
+    'error'
+  })
   
   if(is.na(ik_act_data)){
-    ik_act_data <- list('title' = ik_act_title, 'citedby'=citedby,'court'=court_name,'total_cases'= 0)  
+    ik_act_data <- list('title' = ik_act_title, 'citedby'=citedby,'court'=court_name,'total_cases'= '0')  
   } else {
-    ik_act_data <- list('title' = ik_act_title, 'citedby'=citedby,'court'=court_name,'total_cases'=ik_act_data)  
+    ik_act_data <- list('title' = ik_act_title, 'citedby'=citedby,'court'=court_name,'total_cases'=as.character(ik_act_data))
   }
   return(ik_act_data)
 }
@@ -68,20 +81,21 @@ generate_act_summary <- function(act_id){
   ik_act_url <- glue::glue('https://indiankanoon.org/doc/{act_id}/')
   
   print('Fetching links to sections and sub sections')
-  all_sections_of_act_link <- ik_act_url %>% 
-    read_html() %>% 
-    html_nodes(css = ".article a") %>% 
-    html_attr('href') %>% 
+  all_sections_of_act_link <- ik_act_url %>%
+    read_html() %>%
+    html_nodes(css = ".article a") %>%
+    html_attr('href') %>%
     unlist()
-  
-  section_id <- all_sections_of_act_link %>% 
+
+  section_id <- all_sections_of_act_link %>%
     stringr::str_replace_all(pattern = "\\/doc\\/",replacement = "") %>%
-    stringr::str_trim() %>% 
+    stringr::str_trim() %>%
     stringr::str_replace_all(pattern = "\\/",replacement = "")
-  
+
   # Adding the parent act
   section_id <- c(act_id, section_id)
   
+  # section_id <- 1873250
   print('Starting to fetch citations ... ')
   all_sections_citations_df <- lapply(section_id, ik_case_summary_geography) %>%
     dplyr::bind_rows()
