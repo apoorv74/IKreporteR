@@ -101,46 +101,7 @@ all_acts_df$ik_cite_number <- all_acts_cite_number
 # data.table::fwrite(all_acts_df, "~/cdl/vayam/india_code/central_acts.csv")
 
 # Reports from IK
+source("ik_scrape_functions.R")
 
-all_courts_xpath <- '/html/body/div[2]/div/form/div[2]/table[2]'
-advanced_url <- 'https://indiankanoon.org/advanced.html'
-all_courts_list <- advanced_url %>% read_html() %>%  html_nodes(xpath=all_courts_xpath) %>% html_children() %>% html_children() %>% html_children() %>% html_attrs() %>% unlist()
-all_courts_list <- all_courts_list[seq(3,length(all_courts_list),3),]
-names(all_courts_list)[] <- ''
-
-get_court_cases_from_ik <- function( court_name, citedby){
-  ik_act_url <- glue::glue('https://indiankanoon.org/search/?formInput=citedby%3A%20{citedby}+doctypes:{court_name}')
-  ik_act_data <- ik_act_url %>% read_html() %>% html_nodes(xpath = '/html/body/div[1]/div[3]/div[1]/b') %>% html_text() 
-  ik_act_data <- stringr::str_replace_all(string = ik_act_data, pattern = '[:digit:]+ - [:digit:]+ of ',replacement = '') %>% stringr::str_trim() %>% as.numeric()
-  if(is.na(ik_act_data)){
-    ik_act_data <- list('citedby'=citedby,'court'=court_name,'total_cases'= 0)  
-  } else {
-    ik_act_data <- list('citedby'=citedby,'court'=court_name,'total_cases'=ik_act_data)  
-  }
-  
-  return(ik_act_data)
-}
-
-ik_case_summary_geography <- function(citedby){
-  all_courts_list <- c("supremecourt","scorders","allahabad","andhra",
-                       "bombay","chattisgarh","chennai","delhi",
-                       "gauhati","gujarat","himachal_pradesh","jammu",
-                       "jharkhand","karnataka","kerala","kolkata",
-                       "lucknow","madhyapradesh","orissa","patna",
-                       "punjab","rajasthan","sikkim","uttaranchal",
-                       "kolkata_app","jodhpur","patna_orders","srinagar",
-                       "meghalaya","tripura","delhidc","bangaloredc")
-  
-  
-  act_geography_summary <- list()
-  for(i in 1:length(all_courts_list)){
-    print(glue::glue('Processing for {all_courts_list[[i]]}'))
-    case_summary <- get_court_cases_from_ik(all_courts_list[[i]], citedby)
-    act_geography_summary[[i]] <- case_summary
-  }
-  act_geography_summary_df <- dplyr::bind_rows(act_geography_summary)
-  return(act_geography_summary_df)
-}
-
-View(ik_case_summary_geography(91685705))
+View(ik_case_summary_geography(1965344))
 

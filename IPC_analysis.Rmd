@@ -1,0 +1,36 @@
+---
+title: "IPC (Indian Penal Code) Notebook"
+output: html_notebook
+description: An analysis of the citations of sections of Indian Penal Code in the case laws from the High Courts and Supreme court of India
+---
+
+# Analysis of the citations of Indian Penal Code (IPC) Act using cases from [IndianKanoon](https://indiankanoon.org/)
+
+> Please refer to this [link](https://indiankanoon.org/doc/1569253/) to access the original document of the IPC act
+
+## All sections of the IPC
+
+```{r include=FALSE}
+
+library(dplyr)
+library(rvest)
+library(glue)
+
+act_id <- 1569253
+
+ik_act_url <- glue::glue('https://indiankanoon.org/doc/{act_id}/')
+
+all_sections_of_act_link <- ik_act_url %>% 
+  read_html() %>% 
+  html_nodes(css = ".article a") %>% 
+  html_attr('href') %>% 
+  unlist()
+
+section_id <- all_sections_of_act_link %>% 
+  stringr::str_replace_all(pattern = "\\/doc\\/",replacement = "") %>%
+  stringr::str_trim() %>% 
+  stringr::str_replace_all(pattern = "\\/",replacement = "")
+
+```
+
+
