@@ -15,6 +15,7 @@ description: An analysis of the citations of sections of Indian Penal Code in th
 library(dplyr)
 library(rvest)
 library(glue)
+source("ik_scrape_functions.R")
 
 act_id <- 1569253
 
@@ -31,6 +32,7 @@ section_id <- all_sections_of_act_link %>%
   stringr::str_trim() %>% 
   stringr::str_replace_all(pattern = "\\/",replacement = "")
 
+all_sections_citations <- lapply(section_id[1], ik_case_summary_geography)
 ```
 
 

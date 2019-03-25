@@ -8,7 +8,11 @@ get_all_courts <- function(){
 }
 
 get_court_cases_from_ik <- function( court_name, citedby){
-  ik_act_url <- glue::glue('https://indiankanoon.org/search/?formInput=citedby%3A%20{citedby}+doctypes:{court_name}')
+  if(court_name == 'all'){
+    ik_act_url <- glue::glue('https://indiankanoon.org/search/?formInput=citedby%3A%20{citedby}')
+  } else {
+    ik_act_url <- glue::glue('https://indiankanoon.org/search/?formInput=citedby%3A%20{citedby}+doctypes:{court_name}')
+  }
   ik_act_data <- ik_act_url %>% read_html() %>% html_nodes(xpath = '/html/body/div[1]/div[3]/div[1]/b') %>% html_text() 
   ik_act_data <- stringr::str_replace_all(string = ik_act_data, pattern = '[:digit:]+ - [:digit:]+ of ',replacement = '') %>% stringr::str_trim() %>% as.numeric()
   if(is.na(ik_act_data)){
@@ -16,11 +20,12 @@ get_court_cases_from_ik <- function( court_name, citedby){
   } else {
     ik_act_data <- list('citedby'=citedby,'court'=court_name,'total_cases'=ik_act_data)  
   }
-  
   return(ik_act_data)
 }
 
 ik_case_summary_geography <- function(citedby){
+  # get_all_courts <- get_all_courts()
+  
   all_courts_list <- c("supremecourt","scorders","allahabad","andhra",
                        "bombay","chattisgarh","chennai","delhi",
                        "gauhati","gujarat","himachal_pradesh","jammu",
@@ -30,6 +35,7 @@ ik_case_summary_geography <- function(citedby){
                        "kolkata_app","jodhpur","patna_orders","srinagar",
                        "meghalaya","tripura","delhidc","bangaloredc")
   
+  all_courts_list <- c("all",all_courts_list)
   
   act_geography_summary <- list()
   for(i in 1:length(all_courts_list)){
@@ -40,3 +46,4 @@ ik_case_summary_geography <- function(citedby){
   act_geography_summary_df <- dplyr::bind_rows(act_geography_summary)
   return(act_geography_summary_df)
 }
+
