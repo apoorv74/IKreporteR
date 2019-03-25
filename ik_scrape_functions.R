@@ -17,7 +17,7 @@ get_court_cases_from_ik <- function( court_name, citedby){
   ik_act_data <- stringr::str_replace_all(string = ik_act_data, pattern = '[:digit:]+ - [:digit:]+ of ',replacement = '') %>% stringr::str_trim() %>% as.numeric()
   ik_act_title <- ik_act_url %>% 
     read_html() %>% 
-    html_nodes(xpath = '/html/body/div[8]/div[2]') %>% 
+    html_nodes(css = '.document_cite a') %>% 
     html_text() %>% 
     stringr::str_remove_all("\\\n") %>% 
     stringr::str_squish()
