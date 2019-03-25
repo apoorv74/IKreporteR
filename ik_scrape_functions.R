@@ -1,3 +1,9 @@
+library(dplyr)
+library(rvest)
+library(glue)
+
+
+# Get a list of all courts present on the IK portal
 get_all_courts <- function(){
   advanced_url <- 'https://indiankanoon.org/advanced.html'
   all_courts_xpath <- '/html/body/div[2]/div/form/div[2]/table[2]'
@@ -7,6 +13,7 @@ get_all_courts <- function(){
   return(all_courts_list)
 }
 
+# Scraping stats for individual courts by citationId
 get_court_cases_from_ik <- function( court_name, citedby){
   if(court_name == 'all'){
     ik_act_url <- glue::glue('https://indiankanoon.org/search/?formInput=citedby%3A%20{citedby}')
@@ -30,9 +37,11 @@ get_court_cases_from_ik <- function( court_name, citedby){
   return(ik_act_data)
 }
 
+# Scraping stats for all high courts and supreme court
 ik_case_summary_geography <- function(citedby){
   # get_all_courts <- get_all_courts()
   
+  print(glue::glue("Processing citation Id: {citedby}"))
   all_courts_list <- c("supremecourt","scorders","allahabad","andhra",
                        "bombay","chattisgarh","chennai","delhi",
                        "gauhati","gujarat","himachal_pradesh","jammu",
@@ -54,3 +63,28 @@ ik_case_summary_geography <- function(citedby){
   return(act_geography_summary_df)
 }
 
+# Generate a summary of all citations of the acts and all its sections across geographies
+generate_act_summary <- function(act_id){
+  ik_act_url <- glue::glue('https://indiankanoon.org/doc/{act_id}/')
+  
+  print('Fetching links to sections and sub sections')
+  all_sections_of_act_link <- ik_act_url %>% 
+    read_html() %>% 
+    html_nodes(css = ".article a") %>% 
+    html_attr('href') %>% 
+    unlist()
+  
+  section_id <- all_sections_of_act_link %>% 
+    stringr::str_replace_all(pattern = "\\/doc\\/",replacement = "") %>%
+    stringr::str_trim() %>% 
+    stringr::str_replace_all(pattern = "\\/",replacement = "")
+  
+  # Adding the parent act
+  section_id <- c(act_id, section_id)
+  
+  print('Starting to fetch citations ... ')
+  all_sections_citations_df <- lapply(section_id, ik_case_summary_geography) %>%
+    dplyr::bind_rows()
+  
+  return(all_sections_citations_df)
+}

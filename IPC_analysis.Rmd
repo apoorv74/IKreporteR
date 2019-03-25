@@ -21,6 +21,7 @@ act_id <- 1569253
 
 ik_act_url <- glue::glue('https://indiankanoon.org/doc/{act_id}/')
 
+print('Fetching links to sections and sub sections')
 all_sections_of_act_link <- ik_act_url %>% 
   read_html() %>% 
   html_nodes(css = ".article a") %>% 
@@ -32,9 +33,12 @@ section_id <- all_sections_of_act_link %>%
   stringr::str_trim() %>% 
   stringr::str_replace_all(pattern = "\\/",replacement = "")
 
-all_sections_citations_df <- lapply(section_id[1], ik_case_summary_geography) %>%
-  dplyr::bind_rows()
+# Adding the parent act
+section_id <- c(act_id, section_id)
 
+print('Starting to fetch citations')
+all_sections_citations_df <- lapply(section_id, ik_case_summary_geography) %>%
+  dplyr::bind_rows()
 
 ```
 
