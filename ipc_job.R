@@ -10,3 +10,4 @@ all_court_summary <- generate_act_summary(act_id)
 
 print("Exporting file ... ")
 write.csv(all_court_summary, "ipc_all_court_summary.csv", row.names = FALSE)
+
