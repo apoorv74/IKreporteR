@@ -51,18 +51,20 @@ get_court_cases_from_ik <- function( court_name, citedby){
 }
 
 # Scraping stats for all high courts and supreme court
-ik_case_summary_geography <- function(citedby){
+ik_case_summary_geography <- function(citedby, court_list){
   # get_all_courts <- get_all_courts()
   
+  all_courts_list <- unlist(court_list)
+  
   print(glue::glue("Processing citation Id: {citedby}"))
-  all_courts_list <- c("supremecourt","scorders","allahabad","andhra",
-                       "bombay","chattisgarh","chennai","delhi",
-                       "gauhati","gujarat","himachal_pradesh","jammu",
-                       "jharkhand","karnataka","kerala","kolkata",
-                       "lucknow","madhyapradesh","orissa","patna",
-                       "punjab","rajasthan","sikkim","uttaranchal",
-                       "kolkata_app","jodhpur","patna_orders","srinagar",
-                       "meghalaya","tripura","delhidc","bangaloredc")
+  # all_courts_list <- c("supremecourt","scorders","allahabad","andhra",
+  #                      "bombay","chattisgarh","chennai","delhi",
+  #                      "gauhati","gujarat","himachal_pradesh","jammu",
+  #                      "jharkhand","karnataka","kerala","kolkata",
+  #                      "lucknow","madhyapradesh","orissa","patna",
+  #                      "punjab","rajasthan","sikkim","uttaranchal",
+  #                      "kolkata_app","jodhpur","patna_orders","srinagar",
+  #                      "meghalaya","tripura","delhidc","bangaloredc")
   
   all_courts_list <- c("all",all_courts_list)
   
