@@ -37,39 +37,21 @@ fluidPage(
                materialSwitch(inputId = "dateid", label = "Filter cases by date", status = "danger")),
         column(
         width = 2,
-        dateRangeInput(
-            inputId = "dates",
-            label = "Choose start and end dates",
-            start = Sys.Date() - 7,
-            end = Sys.Date(),
-            min = Sys.Date() - 45,
-            max = Sys.Date(),
-            width = "300px"
-        )
+        uiOutput('selectDate')
     )),
     fluidRow(column(width=2, 
-                    materialSwitch(inputId = "courtid", label = "Explore data from all courts ?", status = "danger")),
+                    materialSwitch(inputId = "courtid", label = "Toggle to select courts (Default - All courts)", status = "danger")),
              column(
         width = 4,
-        checkboxGroupButtons(
-            inputId = "selectcourts", label = "Select courts to explore:", 
-            choices = c("supremecourt","allahabad","andhra",
-                        "bombay","chattisgarh","chennai","delhi",
-                        "gauhati","gujarat","himachal_pradesh","jammu",
-                        "jharkhand","karnataka","kerala","kolkata",
-                        "lucknow","madhyapradesh","orissa","patna",
-                        "punjab","rajasthan","sikkim","uttaranchal",
-                        "jodhpur","srinagar","meghalaya","tripura"), 
-            justified = FALSE, status = "primary",
-            checkIcon = list(yes = icon("ok", lib = "glyphicon"), no = icon("remove", lib = "glyphicon"))
-        )
+        uiOutput('selectCourts')
     )),
     fluidRow(column(
-        width = 2,
-        actionButton(
+        width = 4,
+        actionBttn(
             inputId = "refresh",
             label = "Go",
-            style = "height: 30px; width:100px;padding: 0px 12px;"
+            style = "unite", 
+            color = "danger"
         )
     )),
     tags$br(),

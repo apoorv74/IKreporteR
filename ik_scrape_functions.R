@@ -2,6 +2,15 @@ library(dplyr)
 library(rvest)
 library(glue)
 
+# Change date formats to be compatible with IK
+
+change_date_format <- function(date_to_change){
+  return(
+    paste0(as.numeric(lubridate::day(date_to_change)),'-',
+           as.numeric(lubridate::month(date_to_change)),'-',
+           as.numeric(lubridate::year(date_to_change)))
+  )
+}
 
 # Get a list of all courts present on the IK portal
 get_all_courts <- function(){
@@ -14,16 +23,25 @@ get_all_courts <- function(){
 }
 
 # Scraping stats for individual courts by citationId
-get_court_cases_from_ik <- function( court_name, citedby){
+get_court_cases_from_ik <- function( court_name, citedby, from_date=NULL, to_date=NULL){
   
   Sys.sleep(sample(seq(0.5,2,0.1),1))
   
   if(court_name == 'all'){
-    ik_act_url <- glue::glue('https://indiankanoon.org/search/?formInput=citedby%3A%20{citedby}')
+    if(length(from_date)>0){
+      ik_act_url <- glue::glue('https://indiankanoon.org/search/?formInput=citedby%3A+{citedby}+fromdate%3A+{from_date}+todate%3A+{to_date}')
+    } else {
+      ik_act_url <- glue::glue('https://indiankanoon.org/search/?formInput=citedby%3A%20{citedby}')  
+    }
   } else {
-    ik_act_url <- glue::glue('https://indiankanoon.org/search/?formInput=citedby%3A%20{citedby}+doctypes:{court_name}')
+    if(length(from_date)>0){
+      ik_act_url <- glue::glue('https://indiankanoon.org/search/?formInput=citedby%3A+{citedby}%20fromdate%3A%20{from_date}%20todate%3A%20{to_date}+doctypes:{court_name}')  
+    } else {
+      ik_act_url <- glue::glue('https://indiankanoon.org/search/?formInput=citedby%3A%20{citedby}+doctypes:{court_name}')  
+    }
   }
   
+  print(ik_act_url)
   ik_act_title <- tryCatch({
     ik_act_url %>% 
       read_html() %>% 
@@ -51,7 +69,7 @@ get_court_cases_from_ik <- function( court_name, citedby){
 }
 
 # Scraping stats for all high courts and supreme court
-ik_case_summary_geography <- function(citedby, court_list){
+ik_case_summary_geography <- function(citedby, court_list, from_date=NULL, to_date=NULL){
   # get_all_courts <- get_all_courts()
   
   all_courts_list <- unlist(court_list)
@@ -67,11 +85,15 @@ ik_case_summary_geography <- function(citedby, court_list){
   #                      "meghalaya","tripura","delhidc","bangaloredc")
   
   all_courts_list <- c("all",all_courts_list)
-  
+
+  if(length(from_date)>0){
+    from_date <- change_date_format(from_date)
+    to_date <- change_date_format(to_date)  
+  }
   act_geography_summary <- list()
   for(i in 1:length(all_courts_list)){
     print(glue::glue('Processing for {all_courts_list[[i]]}'))
-    case_summary <- get_court_cases_from_ik(all_courts_list[[i]], citedby)
+    case_summary <- get_court_cases_from_ik(all_courts_list[[i]], citedby, from_date = from_date, to_date = to_date)
     act_geography_summary[[i]] <- case_summary
   }
   act_geography_summary_df <- dplyr::bind_rows(act_geography_summary)
