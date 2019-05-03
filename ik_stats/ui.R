@@ -1,6 +1,7 @@
 library(shinyWidgets)
 library(shiny)
 library(shinycssloaders)
+library(D3TableFilter)
 
 fluidPage(
     tags$head(
@@ -62,6 +63,6 @@ fluidPage(
     tags$br(),
     fluidRow(column(
         width=10,
-        withSpinner(dataTableOutput(outputId = 'caseAggregator'),type = 8) 
+        withSpinner(dataTableOutput(outputId = 'caseAggregator'),type = 8)
     ))
 ))

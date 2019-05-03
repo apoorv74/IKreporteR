@@ -57,5 +57,5 @@ shinyServer(function(input, output) {
   
   output$caseAggregator <- renderDataTable({
     cases_by_courts()
- })
+ }, escape = FALSE)
 })

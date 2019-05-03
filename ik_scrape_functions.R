@@ -29,15 +29,15 @@ get_court_cases_from_ik <- function( court_name, citedby, from_date=NULL, to_dat
   
   if(court_name == 'all'){
     if(length(from_date)>0){
-      ik_act_url <- glue::glue('https://indiankanoon.org/search/?formInput=citedby%3A+{citedby}+fromdate%3A+{from_date}+todate%3A+{to_date}')
+      ik_act_url <- glue::glue('http://indiankanoon.org/search/?formInput=citedby%3A+{citedby}+fromdate%3A+{from_date}+todate%3A+{to_date}')
     } else {
-      ik_act_url <- glue::glue('https://indiankanoon.org/search/?formInput=citedby%3A%20{citedby}')  
+      ik_act_url <- glue::glue('http://indiankanoon.org/search/?formInput=citedby%3A%20{citedby}')  
     }
   } else {
     if(length(from_date)>0){
-      ik_act_url <- glue::glue('https://indiankanoon.org/search/?formInput=citedby%3A+{citedby}%20fromdate%3A%20{from_date}%20todate%3A%20{to_date}+doctypes:{court_name}')  
+      ik_act_url <- glue::glue('http://indiankanoon.org/search/?formInput=citedby%3A+{citedby}%20fromdate%3A%20{from_date}%20todate%3A%20{to_date}+doctypes:{court_name}')  
     } else {
-      ik_act_url <- glue::glue('https://indiankanoon.org/search/?formInput=citedby%3A%20{citedby}+doctypes:{court_name}')  
+      ik_act_url <- glue::glue('http://indiankanoon.org/search/?formInput=citedby%3A%20{citedby}+doctypes:{court_name}')  
     }
   }
   
@@ -60,11 +60,22 @@ get_court_cases_from_ik <- function( court_name, citedby, from_date=NULL, to_dat
     'error'
   })
   
+  ## Prepare columns to be included in the final data frame
+  act_name <- ipc_section_citations$act_name[ipc_section_citations$section_id == citedby]
+  section_name <- ipc_section_citations$section_name[ipc_section_citations$section_id == citedby]
+  court_name <- court_df$court_name[court_df$court_id == court_name]
+  
+  
   if(is.na(ik_act_data)){
-    ik_act_data <- list('title' = ik_act_title, 'citedby'=citedby,'court'=court_name,'total_cases'= '0')  
+    ik_act_url <- 'https:://indiankanoon.org/'
+    total_judgements <- 0
   } else {
-    ik_act_data <- list('title' = ik_act_title, 'citedby'=citedby,'court'=court_name,'total_cases'=as.character(ik_act_data))
+    total_judgements <- as.numeric(ik_act_data)
   }
+  
+  ik_link <- createLink(ik_act_url)
+  ik_act_data <- list('Act' = act_name, 'Section'= section_name,'Court Name' = court_name,'Total Judgements' = total_judgements,'IndianKanon link'=ik_link)
+  
   return(ik_act_data)
 }
 
