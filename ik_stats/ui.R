@@ -37,17 +37,17 @@ fluidPage(
     ),
     fluidRow(
         column(width=2,
-               materialSwitch(inputId = "dateid", label = "Filter cases by date", status = "danger")),
+               materialSwitch(inputId = "dateid", label = "Filter cases by date", status = "primary")),
         column(width=2),
         column(
         width = 4,
         uiOutput('selectDate')
     )),
     fluidRow(column(width=2, 
-                    materialSwitch(inputId = "courtid", label = "Toggle to select courts (Default - All courts)", status = "danger")),
+                    materialSwitch(inputId = "courtid", label = "Toggle to select courts (Default - All courts)", status = "primary")),
              column(width=2),
              column(
-        width = 4,
+        width = 6,
         uiOutput('selectCourts')
     )),
     fluidRow(column(
@@ -56,7 +56,7 @@ fluidPage(
             inputId = "refresh",
             label = "Go",
             style = "unite", 
-            color = "danger"
+            color = "primary"
         )
     )),
     tags$br(),

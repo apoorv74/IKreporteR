@@ -73,6 +73,7 @@ ik_case_summary_geography <- function(citedby, court_list, from_date=NULL, to_da
   # get_all_courts <- get_all_courts()
   
   all_courts_list <- unlist(court_list)
+  all_courts_list <- court_df$court_id[court_df$court_name %in% all_courts_list]
   
   print(glue::glue("Processing citation Id: {citedby}"))
   # all_courts_list <- c("supremecourt","scorders","allahabad","andhra",
