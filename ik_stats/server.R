@@ -1,5 +1,4 @@
 library(shiny)
-library(readr)
 
 shinyServer(function(input, output) {
   
@@ -38,9 +37,9 @@ shinyServer(function(input, output) {
   })
   
   
-  observeEvent(input$refresh,{
-    cat("")
-  })
+  # observeEvent(input$refresh,{
+  #   cat("")
+  # })
   
   cases_by_courts <- eventReactive(input$refresh, {
     cited_by_section <- input$select_section

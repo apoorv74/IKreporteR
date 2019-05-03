@@ -1,5 +1,6 @@
 library(shinyWidgets)
 library(shiny)
+library(shinycssloaders)
 
 fluidPage(
     tags$head(
@@ -57,6 +58,6 @@ fluidPage(
     tags$br(),
     fluidRow(column(
         width=10,
-        dataTableOutput(outputId = 'caseAggregator')
+        withSpinner(dataTableOutput(outputId = 'caseAggregator'),type = 8) 
     ))
 )
