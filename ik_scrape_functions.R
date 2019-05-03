@@ -109,6 +109,11 @@ ik_case_summary_geography <- function(citedby, court_list, from_date=NULL, to_da
     act_geography_summary[[i]] <- case_summary
   }
   act_geography_summary_df <- dplyr::bind_rows(act_geography_summary)
+  
+  # Find case contribution percent
+  total_cases <- act_geography_summary_df$`Total Judgements`[act_geography_summary_df$`Court Name` == 'All courts']
+  act_geography_summary_df <- act_geography_summary_df %>% mutate('Case contribution' = paste0(round(`Total Judgements`/total_cases*100,2)," %"))
+  
   return(act_geography_summary_df)
 }
 

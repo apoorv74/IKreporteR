@@ -3,18 +3,26 @@ source("../ik_scrape_functions.R")
 
 court_df <- data.frame('court_name' = c("All courts","Supreme court","Allahabad","Andhra Pradesh",
                                         "Bombay","Chattisgarh","Chennai","Delhi",
-                                        "Gauhati","Gujarat","Himachal Pradesh","Jammu",
+                                        "Gauhati","Gujarat","Himachal Pradesh","Jammu & Kashmir",
                                         "Jharkhand","Karnataka","Kerala","Kolkata",
-                                        "Lucknow","Madhya Pradesh","Orissa","Patna",
-                                        "Punjab","Rajasthan","Sikkim","Uttaranchal",
-                                        "Jodhpur","Srinagar","Meghalaya","Tripura"), 
+                                        "Lucknow (B)","Madhya Pradesh","Orissa","Patna",
+                                        "Punjab","Rajasthan","Sikkim","Uttarakhand",
+                                        "Jodhpur (B)","Srinagar (B)","Meghalaya","Tripura"), 
                        'court_id' = c('all',"supremecourt","allahabad","andhra",
                                         "bombay","chattisgarh","chennai","delhi",
                                         "gauhati","gujarat","himachal_pradesh","jammu",
                                         "jharkhand","karnataka","kerala","kolkata",
                                         "lucknow","madhyapradesh","orissa","patna",
                                         "punjab","rajasthan","sikkim","uttaranchal",
-                                        "jodhpur","srinagar","meghalaya","tripura"))
+                                        "jodhpur","srinagar","meghalaya","tripura"),
+                       'jurisdiction' = c(c("all courts","supreme court","Uttar Pradesh",
+                                            "Andhra Pradesh and Telangana","Goa, Dadra and Nagar Haveli, Daman and Diu, Maharashtra",
+                                            "Chhattisgarh","Pondicherry, Tamil Nadu","National Capital Territory of Delhi",
+                                            "Arunachal Pradesh, Assam, Mizoram, Nagaland","Gujarat",
+                                            "Himachal Pradesh","Jammu and Kashmir","Jharkhand","Karnataka",
+                                            "Kerala, Lakshadweep","Andaman and Nicobar Islands, West Bengal",
+                                            "Uttar Pradesh","Madhya Pradesh","Odisha","Bihar","Chandigarh, Haryana, Punjab",
+                                            "Rajasthan","Sikkim","Uttarakhand","Jodhpur","Srinagar","Meghalaya","Tripura")))
 
 ipc_section_citations <- read_csv("../ipc_section_citations.csv")
 all_acts <- ipc_section_citations$section_name[!grepl(pattern = 'section',ignore.case = TRUE,x = ipc_section_citations$section_name)]

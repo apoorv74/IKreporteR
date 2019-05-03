@@ -23,13 +23,7 @@ shinyServer(function(input, output) {
     if(input$courtid == TRUE){
       checkboxGroupButtons(
         inputId = "selectcourts", label = "Select courts to explore:", 
-        choices = c("Supreme court","Allahabad","Andhra Pradesh",
-                    "Bombay","Chattisgarh","Chennai","Delhi",
-                    "Gauhati","Gujarat","Himachal Pradesh","Jammu",
-                    "Jharkhand","Karnataka","Kerala","Kolkata",
-                    "Lucknow","Madhya Pradesh","Orissa","Patna",
-                    "Punjab","Rajasthan","Sikkim","Uttaranchal",
-                    "Jodhpur","Srinagar","Meghalaya","Tripura"), 
+        choices = court_df$court_name[!grepl(court_df$court_name,pattern = 'all',ignore.case = TRUE)], 
         justified = FALSE, status = "primary",
         checkIcon = list(yes = icon("ok", lib = "glyphicon"), no = icon("remove", lib = "glyphicon"))
       )
