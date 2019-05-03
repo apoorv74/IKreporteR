@@ -23,40 +23,8 @@
 
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #112446;
 }
-
-
-
-#magnifying-glass
-{
- font-size: 30em; /* This controls the size. */
- display: inline-block;
- width: 0.4em;
- height: 0.4em;
- border: 0.1em solid red;
- position: fixed;
- top: 10px;
- left: 10px;
- border-radius: 0.35em;
-}
-#magnifying-glass::before
-{
- content: "";
- display: inline-block;
- position: absolute;
- right: -0.25em;
- bottom: -0.1em;
- border-width: 0;
- background: red;
- width: 0.35em;
- height: 0.08em;
- -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-     -ms-transform: rotate(45deg);
-      -o-transform: rotate(45deg);
-}
-
-
 
 .main-icon {
   position: absolute; 
@@ -64,30 +32,8 @@ body {
   right: 15px; 
   color: #F2F2F2; 
   font-size: 1100%; 
-  z-index: -1;
+  
 }
-
-.dreamrs {
-  background-image:url(logo_dreamRs_couleur.png);
-  background-repeat:no-repeat;
-  background-position:right bottom;
-  background-size: 156px 100px;
-}
-
-
-.progress {
-  margin-bottom: 3px !important;
-}
-.progress-bar-nuclear {
-  background-color: #f8ca4c;
-}
-.progress-bar-fossil {
-  background-color: #848484;
-}
-.progress-bar-renewable {
-  background-color: #088A08;
-}
-
 
 .material-switch > input[type="checkbox"]:checked + label::after {
     background: #112446;
@@ -117,10 +63,15 @@ body {
   background: #FFFFFF;
 }
 
-.bb-line-forecast {
-  stroke-width: 2px;
-}
-
-.bb-line-observed {
-  stroke-dasharray: 12 4; stroke-width: 2px;
+.container
+{
+  position: absolute;
+  top: 15px;
+  width:90%;
+  max-width: 1400px;
+  min-width: 600px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  background-color: #fff;
 }
