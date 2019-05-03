@@ -63,6 +63,6 @@ fluidPage(
     tags$br(),
     fluidRow(column(
         width=10,
-        withSpinner(dataTableOutput(outputId = 'caseAggregator'),type = 8)
+        withSpinner(DT::dataTableOutput(outputId = 'caseAggregator'),type = 8)
     ))
 ))

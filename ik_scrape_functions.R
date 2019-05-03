@@ -74,7 +74,7 @@ get_court_cases_from_ik <- function( court_name, citedby, from_date=NULL, to_dat
   }
   
   ik_link <- createLink(ik_act_url)
-  ik_act_data <- list('Act' = act_name, 'Section'= section_name,'Court Name' = court_name,'Total Judgements' = total_judgements,'IndianKanon link'=ik_link)
+  ik_act_data <- list('Act' = act_name, 'Section'= section_name,'CourtName' = court_name,'TotalJudgements' = total_judgements,'IndianKanon link'=ik_link)
   
   return(ik_act_data)
 }
@@ -111,8 +111,9 @@ ik_case_summary_geography <- function(citedby, court_list, from_date=NULL, to_da
   act_geography_summary_df <- dplyr::bind_rows(act_geography_summary)
   
   # Find case contribution percent
-  total_cases <- act_geography_summary_df$`Total Judgements`[act_geography_summary_df$`Court Name` == 'All courts']
-  act_geography_summary_df <- act_geography_summary_df %>% mutate('Case contribution' = paste0(round(`Total Judgements`/total_cases*100,2)," %"))
+  total_cases <- act_geography_summary_df$`TotalJudgements`[act_geography_summary_df$`CourtName` == 'All courts']
+  act_geography_summary_df <- act_geography_summary_df %>% mutate('CaseContribution' = paste0(round(`TotalJudgements`/total_cases*100,2)," %"),
+                                                                  'CourtRank' = rank(-TotalJudgements)-1)
   
   return(act_geography_summary_df)
 }
