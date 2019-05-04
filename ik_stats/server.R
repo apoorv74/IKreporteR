@@ -47,25 +47,23 @@ shinyServer(function(input, output) {
       from_date <- NULL
       to_date <- NULL
     }
-    ik_case_summary_geography(cited_by_id, court_list, from_date, to_date)
+    ik_case_summary_geography_mem(cited_by_id, court_list, from_date, to_date)
   })
   
-  format_court_colour <- 
-  
-    output$caseAggregator <- DT::renderDataTable({
-      cases_by_courts() %>% DT::datatable(escape = FALSE, class = 'row-border hover nowrap') %>%
-        DT::formatStyle(
-          columns = 'CourtName',
-          backgroundColor = DT::styleEqual(c(unique(
-            cases_by_courts()$CourtName
-          )),
-          c(court_df$formatcolor[court_df$court_name %in% cases_by_courts()$CourtName])),
-          fontWeight = 'bold'
-        ) %>%
-        DT::formatStyle(
-          columns = 'CaseContribution',
-          valueColumns = 'CourtRank',
-          backgroundColor = styleEqual(c(1), c('#bc4b51'))
-        )
-    })
+  output$caseAggregator <- DT::renderDataTable({
+    cases_by_courts() %>% DT::datatable(escape = FALSE, class = 'row-border hover nowrap') %>%
+      DT::formatStyle(
+        columns = 'CourtName',
+        backgroundColor = DT::styleEqual(c(unique(
+          cases_by_courts()$CourtName
+        )),
+        c(court_df$formatcolor[court_df$court_name %in% cases_by_courts()$CourtName])),
+        fontWeight = 'bold'
+      ) %>%
+      DT::formatStyle(
+        columns = 'CaseContribution',
+        valueColumns = 'CourtRank',
+        backgroundColor = styleEqual(c(1), c('#bc4b51'))
+      )
+  })
 })

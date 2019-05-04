@@ -118,6 +118,9 @@ ik_case_summary_geography <- function(citedby, court_list, from_date=NULL, to_da
   return(act_geography_summary_df)
 }
 
+# Memoised copy of ik_case_summary_geography - for caching similar requests
+ik_case_summary_geography_mem <- memoise::memoise(ik_case_summary_geography)
+
 # Generate a summary of all citations of the acts and all its sections across geographies
 generate_act_summary <- function(act_id){
   ik_act_url <- glue::glue('https://indiankanoon.org/doc/{act_id}/')
