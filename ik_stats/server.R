@@ -1,5 +1,7 @@
 library(shiny)
 library(DT)
+library(shinyjs)
+library(rvest)
 
 shinyServer(function(input, output) {
   
@@ -39,7 +41,11 @@ shinyServer(function(input, output) {
   cases_by_courts <- eventReactive(input$refresh, {
     cited_by_section <- input$select_section
     cited_by_id <- ipc_section_citations$section_id[ipc_section_citations$section_name == cited_by_section]
-    court_list <- input$selectcourts
+    if(input$courtid == TRUE) {
+      court_list <- input$selectcourts 
+    } else {
+      court_list <- court_df$court_name 
+    }
     if(input$dateid == TRUE){
       from_date <- input$dates[[1]]
       to_date <- input$dates[[2]]
@@ -66,4 +72,43 @@ shinyServer(function(input, output) {
         backgroundColor = styleEqual(c(1), c('#bc4b51'))
       )
   })
+  
+  observeEvent(input$refresh, {
+    shinyjs::show("exportCSV")
+    shinyjs::show("exportJSON")
+  })
+  
+  output$exportCSV <- downloadHandler(
+    filename = function() {
+      "ik_court_aggregates.csv"
+    },
+    content = function(file) {
+      cases_by_courts <- cases_by_courts() %>% data.frame()
+      ik_link <- cases_by_courts$IndianKanonLink
+      ik_link <- stringr::str_replace_all(ik_link,'""','"')
+      ik_link <- paste0(ik_link, collapse = "")
+      ik_link <- ik_link %>% read_html() %>% html_nodes('a') %>% html_attr('href') %>% unlist()
+      cases_by_courts$IndianKanonLink <- ik_link
+      write.csv(cases_by_courts, file, row.names = FALSE)
+    }
+  )
+  
+  output$exportJSON <- downloadHandler(
+    filename = function() {
+      "ik_court_aggregates.json"
+    },
+    content = function(file) {
+      cases_by_courts <- cases_by_courts() %>% data.frame()
+      ik_link <- cases_by_courts$IndianKanonLink
+      ik_link <- stringr::str_replace_all(ik_link,'""','"')
+      ik_link <- paste0(ik_link, collapse = "")
+      ik_link <- ik_link %>% read_html() %>% html_nodes('a') %>% html_attr('href') %>% unlist()
+      cases_by_courts$IndianKanonLink <- ik_link
+      jsonlite::write_json(cases_by_courts,file)
+    }
+  )
+  
+  # disable the downdload buttons on page load
+  shinyjs::hide("exportCSV")
+  shinyjs::hide("exportJSON")
 })

@@ -4,6 +4,7 @@ library(shinycssloaders)
 library(D3TableFilter)
 
 fluidPage(
+    shinyjs::useShinyjs(), 
     tags$head(
         tags$link(href = "styles.css", rel = "stylesheet", type = "text/css")
     ),
@@ -64,5 +65,18 @@ fluidPage(
     fluidRow(column(
         width=10,
         withSpinner(DT::dataTableOutput(outputId = 'caseAggregator'),type = 8)
-    ))
+    )),
+    
+    tags$hr(),
+    
+    # Export options
+    fluidRow(
+        column(width = 2),
+        column(width = 2,
+               downloadButton('exportCSV',"Export as CSV")),
+        column(width = 2),
+        downloadButton('exportJSON',"Export as JSON")
+    ),
+    tags$br(),
+    tags$br()
 ))

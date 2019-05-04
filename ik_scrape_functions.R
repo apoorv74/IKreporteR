@@ -74,7 +74,7 @@ get_court_cases_from_ik <- function( court_name, citedby, from_date=NULL, to_dat
   }
   
   ik_link <- createLink(ik_act_url)
-  ik_act_data <- list('Act' = act_name, 'Section'= section_name,'CourtName' = court_name,'TotalJudgements' = total_judgements,'IndianKanon link'=ik_link)
+  ik_act_data <- list('Act' = act_name, 'Section'= section_name,'CourtName' = court_name,'TotalJudgements' = total_judgements,'IndianKanonLink'=ik_link)
   
   return(ik_act_data)
 }
