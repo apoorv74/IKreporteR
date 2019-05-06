@@ -46,7 +46,7 @@ fluidPage(
         uiOutput('selectDate')
     )),
     fluidRow(column(width=2, 
-                    materialSwitch(inputId = "courtid", label = "Toggle to select courts (Default - All courts)", status = "primary")),
+                    materialSwitch(inputId = "courtid", label = "Toggle to select courts (Default - Supreme Court)", status = "primary")),
              column(width=2),
              column(
         width = 6,
