@@ -10,6 +10,14 @@ shinyServer(function(input, output, session) {
   # user is forced to re-select the courts
   reactiveFlags <- reactiveValues(court_number_flag = TRUE)
   
+  # Select sections
+  
+  output$section_explorer <- renderUI({
+    all_sections <- ipc_section_citations$section_name[ipc_section_citations$act_name == input$select_act]
+    selectizeInput('select_section', 'Select section to explore',
+                   choices = all_sections)
+  })
+  
   # Enable/Disable date picker
   
   output$selectDate <- renderUI({

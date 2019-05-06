@@ -26,11 +26,11 @@ court_df <- data.frame('court_name' = c("All courts","Supreme court","Allahabad"
                        'formatcolor' = c('#52aa8a', '#08b2e3',rep('#fed766', 26)))
 
 ipc_section_citations <- read_csv("../ipc_section_citations.csv")
-all_acts <- ipc_section_citations$section_name[!grepl(pattern = 'section',ignore.case = TRUE,x = ipc_section_citations$section_name)]
-all_sections <- ipc_section_citations$section_name[grepl(pattern = 'section',ignore.case = TRUE,x = ipc_section_citations$section_name)]
-all_sections <- c(all_acts, all_sections)
+all_acts <- unique(ipc_section_citations$act_name)
 
 # Reference - https://stackoverflow.com/questions/28117556/clickable-links-in-shiny-datatable
 createLink <- function(val) {
   sprintf('<a href="%s" target="_blank" class="btn btn-primary">View Judgements</a>',val)
 }
+
+

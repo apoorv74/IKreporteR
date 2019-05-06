@@ -1,968 +1,1274 @@
-section_name,section_id,act_name
-The Indian Penal Code,1569253,The Indian Penal Code
-Section 1 in The Indian Penal Code,1873250,The Indian Penal Code
-Section 2 in The Indian Penal Code,915147,The Indian Penal Code
-Section 3 in The Indian Penal Code,1507082,The Indian Penal Code
-Section 4(1) in The Indian Penal Code,1609585,The Indian Penal Code
-Section 4(2) in The Indian Penal Code,210986,The Indian Penal Code
-Section 4(3) in The Indian Penal Code,184142758,The Indian Penal Code
-Section 4(3)(a) in The Indian Penal Code,63940315,The Indian Penal Code
-Section 4(3)(b) in The Indian Penal Code,150275472,The Indian Penal Code
-Section 5 in The Indian Penal Code,1227639,The Indian Penal Code
-Section 6 in The Indian Penal Code,1633827,The Indian Penal Code
-Section 6(a) in The Indian Penal Code,1632734,The Indian Penal Code
-Section 6(b) in The Indian Penal Code,235596,The Indian Penal Code
-Section 7 in The Indian Penal Code,1597655,The Indian Penal Code
-Section 8 in The Indian Penal Code,1738671,The Indian Penal Code
-Section 9 in The Indian Penal Code,1977541,The Indian Penal Code
-Section 10 in The Indian Penal Code,1980183,The Indian Penal Code
-Section 11 in The Indian Penal Code,668722,The Indian Penal Code
-Section 12 in The Indian Penal Code,1066594,The Indian Penal Code
-Section 13 in The Indian Penal Code,86648814,The Indian Penal Code
-Section 14 in The Indian Penal Code,1087156,The Indian Penal Code
-Section 15 in The Indian Penal Code,178237634,The Indian Penal Code
-Section 16 in The Indian Penal Code,197248120,The Indian Penal Code
-Section 17 in The Indian Penal Code,44781517,The Indian Penal Code
-Section 18 in The Indian Penal Code,1638420,The Indian Penal Code
-Section 19 in The Indian Penal Code,1807029,The Indian Penal Code
-Section 19(a) in The Indian Penal Code,934102,The Indian Penal Code
-Section 19(b) in The Indian Penal Code,1277561,The Indian Penal Code
-Section 19(c) in The Indian Penal Code,1748633,The Indian Penal Code
-Section 19(d) in The Indian Penal Code,1754152,The Indian Penal Code
-Section 20 in The Indian Penal Code,1666329,The Indian Penal Code
-Section 21 in The Indian Penal Code,1052367,The Indian Penal Code
-Section 21(Second) in The Indian Penal Code,173018002,The Indian Penal Code
-Section 21(Third) in The Indian Penal Code,85211723,The Indian Penal Code
-Section 21(Fourth) in The Indian Penal Code,2451848,The Indian Penal Code
-Section 21(Fifth) in The Indian Penal Code,73765099,The Indian Penal Code
-Section 21(Sixth) in The Indian Penal Code,18139305,The Indian Penal Code
-Section 21(Seventh) in The Indian Penal Code,76788054,The Indian Penal Code
-Section 21(Eighth) in The Indian Penal Code,41192048,The Indian Penal Code
-Section 21(Ninth) in The Indian Penal Code,146041163,The Indian Penal Code
-Section 21(Tenth) in The Indian Penal Code,79688252,The Indian Penal Code
-Section 21(Eleventh) in The Indian Penal Code,141635330,The Indian Penal Code
-Section 21(Twelfth) in The Indian Penal Code,109485496,The Indian Penal Code
-Section 21(Twelfth)(a) in The Indian Penal Code,28172280,The Indian Penal Code
-Section 21(Twelfth)(b) in The Indian Penal Code,125556856,The Indian Penal Code
-Section 21(Rajasthan) in The Indian Penal Code,194034146,The Indian Penal Code
-Section 21(Rajasthan)(a) in The Indian Penal Code,82082490,The Indian Penal Code
-Section 21(Rajasthan)(b) in The Indian Penal Code,7071870,The Indian Penal Code
-Section 22 in The Indian Penal Code,1439341,The Indian Penal Code
-Section 23 in The Indian Penal Code,519920,The Indian Penal Code
-Section 24 in The Indian Penal Code,898393,The Indian Penal Code
-Section 25 in The Indian Penal Code,1961417,The Indian Penal Code
-Section 26 in The Indian Penal Code,1475631,The Indian Penal Code
-Section 27 in The Indian Penal Code,412448,The Indian Penal Code
-Section 28 in The Indian Penal Code,1133131,The Indian Penal Code
-Section 29 in The Indian Penal Code,1580204,The Indian Penal Code
-Section 29A in The Indian Penal Code,98853717,The Indian Penal Code
-Section 29A(1) in The Indian Penal Code,167454609,The Indian Penal Code
-Section 30 in The Indian Penal Code,1320984,The Indian Penal Code
-Section 31 in The Indian Penal Code,1495541,The Indian Penal Code
-Section 32 in The Indian Penal Code,1498946,The Indian Penal Code
-Section 33 in The Indian Penal Code,1235517,The Indian Penal Code
-Section 34 in The Indian Penal Code,37788,The Indian Penal Code
-Section 35 in The Indian Penal Code,177872,The Indian Penal Code
-Section 36 in The Indian Penal Code,615115,The Indian Penal Code
-Section 37 in The Indian Penal Code,1201044,The Indian Penal Code
-Section 37(a) in The Indian Penal Code,1142251,The Indian Penal Code
-Section 37(b) in The Indian Penal Code,222372,The Indian Penal Code
-Section 37(c) in The Indian Penal Code,958116,The Indian Penal Code
-Section 38 in The Indian Penal Code,1138600,The Indian Penal Code
-Section 39 in The Indian Penal Code,1284765,The Indian Penal Code
-Section 41 in The Indian Penal Code,170198,The Indian Penal Code
-Section 42 in The Indian Penal Code,1083970,The Indian Penal Code
-Section 43 in The Indian Penal Code,704346,The Indian Penal Code
-Section 44 in The Indian Penal Code,1106981,The Indian Penal Code
-Section 45 in The Indian Penal Code,71684,The Indian Penal Code
-Section 46 in The Indian Penal Code,1474653,The Indian Penal Code
-Section 47 in The Indian Penal Code,1490617,The Indian Penal Code
-Section 48 in The Indian Penal Code,1429988,The Indian Penal Code
-Section 49 in The Indian Penal Code,201639,The Indian Penal Code
-Section 50 in The Indian Penal Code,1778852,The Indian Penal Code
-Section 51 in The Indian Penal Code,773857,The Indian Penal Code
-Section 52 in The Indian Penal Code,1180351,The Indian Penal Code
-Section 52A in The Indian Penal Code,328157,The Indian Penal Code
-Section 53 in The Indian Penal Code,543586,The Indian Penal Code
-Section 53(First) in The Indian Penal Code,163692843,The Indian Penal Code
-Section 53(Fourthly) in The Indian Penal Code,190148979,The Indian Penal Code
-Section 53(Fourthly)(1) in The Indian Penal Code,54041865,The Indian Penal Code
-Section 53(Fourthly)(2) in The Indian Penal Code,38505867,The Indian Penal Code
-Section 53(Fifthly) in The Indian Penal Code,86344884,The Indian Penal Code
-Section 53(Sixthly) in The Indian Penal Code,64079424,The Indian Penal Code
-Section 53A in The Indian Penal Code,492462,The Indian Penal Code
-Section 53A(1) in The Indian Penal Code,244327,The Indian Penal Code
-Section 53A(2) in The Indian Penal Code,1106243,The Indian Penal Code
-Section 53A(3) in The Indian Penal Code,1498648,The Indian Penal Code
-Section 53A(4) in The Indian Penal Code,1393088,The Indian Penal Code
-Section 53A(4)(a) in The Indian Penal Code,1858467,The Indian Penal Code
-Section 53A(4)(b) in The Indian Penal Code,1028342,The Indian Penal Code
-Section 54 in The Indian Penal Code,1764008,The Indian Penal Code
-Section 55 in The Indian Penal Code,370128,The Indian Penal Code
-Section 55A in The Indian Penal Code,1703408,The Indian Penal Code
-Section 55A(a) in The Indian Penal Code,1821835,The Indian Penal Code
-Section 55A(b) in The Indian Penal Code,415592,The Indian Penal Code
-Section 56 in The Indian Penal Code,464015,The Indian Penal Code
-Section 57 in The Indian Penal Code,975467,The Indian Penal Code
-Section 58 in The Indian Penal Code,1091779,The Indian Penal Code
-Section 59 in The Indian Penal Code,1305735,The Indian Penal Code
-Section 60 in The Indian Penal Code,1144631,The Indian Penal Code
-Section 61 in The Indian Penal Code,1173866,The Indian Penal Code
-Section 63 in The Indian Penal Code,961907,The Indian Penal Code
-Section 64 in The Indian Penal Code,1314176,The Indian Penal Code
-Section 65 in The Indian Penal Code,26136,The Indian Penal Code
-Section 66 in The Indian Penal Code,1779880,The Indian Penal Code
-Section 67 in The Indian Penal Code,1500319,The Indian Penal Code
-Section 68 in The Indian Penal Code,58854,The Indian Penal Code
-Section 69 in The Indian Penal Code,539183,The Indian Penal Code
-Section 70 in The Indian Penal Code,1617023,The Indian Penal Code
-Section 71 in The Indian Penal Code,396582,The Indian Penal Code
-Section 71(a) in The Indian Penal Code,1012558,The Indian Penal Code
-Section 71(b) in The Indian Penal Code,1363155,The Indian Penal Code
-Section 72 in The Indian Penal Code,823480,The Indian Penal Code
-Section 73 in The Indian Penal Code,1589108,The Indian Penal Code
-Section 74 in The Indian Penal Code,1105025,The Indian Penal Code
-Section 75 in The Indian Penal Code,378408,The Indian Penal Code
-Section 75(a) in The Indian Penal Code,1894622,The Indian Penal Code
-Section 76 in The Indian Penal Code,202169,The Indian Penal Code
-Section 76(a) in The Indian Penal Code,1076438,The Indian Penal Code
-Section 76(b) in The Indian Penal Code,725903,The Indian Penal Code
-Section 77 in The Indian Penal Code,306489,The Indian Penal Code
-Section 78 in The Indian Penal Code,208139,The Indian Penal Code
-Section 79 in The Indian Penal Code,1918278,The Indian Penal Code
-Section 80 in The Indian Penal Code,602933,The Indian Penal Code
-Section 81 in The Indian Penal Code,538716,The Indian Penal Code
-Section 81(a) in The Indian Penal Code,1842141,The Indian Penal Code
-Section 81(b) in The Indian Penal Code,938440,The Indian Penal Code
-Section 82 in The Indian Penal Code,1530896,The Indian Penal Code
-Section 83 in The Indian Penal Code,1703265,The Indian Penal Code
-Section 84 in The Indian Penal Code,1433889,The Indian Penal Code
-Section 85 in The Indian Penal Code,138486,The Indian Penal Code
-Section 86 in The Indian Penal Code,420874,The Indian Penal Code
-Section 87 in The Indian Penal Code,287914,The Indian Penal Code
-Section 88 in The Indian Penal Code,862963,The Indian Penal Code
-Section 89 in The Indian Penal Code,1858333,The Indian Penal Code
-Section 89(First) in The Indian Penal Code,27696165,The Indian Penal Code
-Section 89(Secondly) in The Indian Penal Code,16744523,The Indian Penal Code
-Section 89(Thirdly) in The Indian Penal Code,30748728,The Indian Penal Code
-Section 89(Fourthly) in The Indian Penal Code,6770100,The Indian Penal Code
-Section 90 in The Indian Penal Code,1742535,The Indian Penal Code
-Section 91 in The Indian Penal Code,1957001,The Indian Penal Code
-Section 92 in The Indian Penal Code,870189,The Indian Penal Code
-Section 92(First) in The Indian Penal Code,2277460,The Indian Penal Code
-Section 92(Secondly) in The Indian Penal Code,177168923,The Indian Penal Code
-Section 92(Thirdly) in The Indian Penal Code,44593949,The Indian Penal Code
-Section 92(Fourthly) in The Indian Penal Code,8740288,The Indian Penal Code
-Section 92(Fourthly)(a) in The Indian Penal Code,133838321,The Indian Penal Code
-Section 92(Fourthly)(b) in The Indian Penal Code,197483355,The Indian Penal Code
-Section 92(Fourthly)(c) in The Indian Penal Code,177171328,The Indian Penal Code
-Section 92(Fourthly)(d) in The Indian Penal Code,174564797,The Indian Penal Code
-Section 93 in The Indian Penal Code,1184400,The Indian Penal Code
-Section 94 in The Indian Penal Code,1174913,The Indian Penal Code
-Section 95 in The Indian Penal Code,62835,The Indian Penal Code
-Section 96 in The Indian Penal Code,777353,The Indian Penal Code
-Section 97 in The Indian Penal Code,1499794,The Indian Penal Code
-Section 97(First) in The Indian Penal Code,116325044,The Indian Penal Code
-Section 97(Secondly) in The Indian Penal Code,93777918,The Indian Penal Code
-Section 98 in The Indian Penal Code,1159920,The Indian Penal Code
-Section 98(a) in The Indian Penal Code,885164,The Indian Penal Code
-Section 98(b) in The Indian Penal Code,15030,The Indian Penal Code
-Section 99 in The Indian Penal Code,650803,The Indian Penal Code
-Section 100 in The Indian Penal Code,714464,The Indian Penal Code
-Section 100(First) in The Indian Penal Code,187894963,The Indian Penal Code
-Section 100(Secondly) in The Indian Penal Code,76243000,The Indian Penal Code
-Section 100(Thirdly) in The Indian Penal Code,107378943,The Indian Penal Code
-Section 100(Fourthly) in The Indian Penal Code,37795711,The Indian Penal Code
-Section 100(Fifthly) in The Indian Penal Code,142496480,The Indian Penal Code
-Section 100(Sixthly) in The Indian Penal Code,40081502,The Indian Penal Code
-Section 101 in The Indian Penal Code,399205,The Indian Penal Code
-Section 102 in The Indian Penal Code,1985227,The Indian Penal Code
-Section 103 in The Indian Penal Code,860501,The Indian Penal Code
-Section 103(First) in The Indian Penal Code,18959533,The Indian Penal Code
-Section 103(Secondly) in The Indian Penal Code,194543591,The Indian Penal Code
-Section 103(Thirdly) in The Indian Penal Code,140301972,The Indian Penal Code
-Section 103(Fourthly) in The Indian Penal Code,68694017,The Indian Penal Code
-Section 103(Karnataka) in The Indian Penal Code,54392100,The Indian Penal Code
-Section 103(Karnataka)(i) in The Indian Penal Code,159104462,The Indian Penal Code
-Section 103(Karnataka)(ii) in The Indian Penal Code,181059818,The Indian Penal Code
-Section 103(Karnataka)(ii)(2) in The Indian Penal Code,166056518,The Indian Penal Code
-Section 103(Maharashtra) in The Indian Penal Code,146052308,The Indian Penal Code
-Section 103(Maharashtra)(a) in The Indian Penal Code,26767939,The Indian Penal Code
-Section 103(Maharashtra)(b) in The Indian Penal Code,83161666,The Indian Penal Code
-Section 103(Maharashtra)(c) in The Indian Penal Code,190427701,The Indian Penal Code
-Section 105 in The Indian Penal Code,1944062,The Indian Penal Code
-Section 106 in The Indian Penal Code,1606852,The Indian Penal Code
-Section 107(First) in The Indian Penal Code,140859846,The Indian Penal Code
-Section 107(Secondly) in The Indian Penal Code,13181557,The Indian Penal Code
-Section 108 in The Indian Penal Code,1494082,The Indian Penal Code
-Section 108(a) in The Indian Penal Code,271991,The Indian Penal Code
-Section 108(a) in The Indian Penal Code,271991,The Indian Penal Code
-Section 108(c) in The Indian Penal Code,1835026,The Indian Penal Code
-Section 108(d) in The Indian Penal Code,1355701,The Indian Penal Code
-Section 109 in The Indian Penal Code,513074,The Indian Penal Code
-Section 109(a) in The Indian Penal Code,607056,The Indian Penal Code
-Section 109(b) in The Indian Penal Code,1198272,The Indian Penal Code
-Section 110 in The Indian Penal Code,1504556,The Indian Penal Code
-Section 111 in The Indian Penal Code,1504203,The Indian Penal Code
-Section 111(Proviso)(a) in The Indian Penal Code,155914673,The Indian Penal Code
-Section 111(Proviso)(c) in The Indian Penal Code,145769552,The Indian Penal Code
-Section 112 in The Indian Penal Code,1541278,The Indian Penal Code
-Section 114 in The Indian Penal Code,112749,The Indian Penal Code
-Section 115 in The Indian Penal Code,1075683,The Indian Penal Code
-Section 116 in The Indian Penal Code,609127,The Indian Penal Code
-Section 116(b) in The Indian Penal Code,1527216,The Indian Penal Code
-Section 116(c) in The Indian Penal Code,880237,The Indian Penal Code
-Section 117 in The Indian Penal Code,96849,The Indian Penal Code
-Section 120A in The Indian Penal Code,591631,The Indian Penal Code
-Section 120A(1) in The Indian Penal Code,1345425,The Indian Penal Code
-Section 120B in The Indian Penal Code,1897847,The Indian Penal Code
-Section 120B(1) in The Indian Penal Code,81396,The Indian Penal Code
-Section 120B(2) in The Indian Penal Code,822448,The Indian Penal Code
-Section 121A in The Indian Penal Code,1949191,The Indian Penal Code
-Section 122 in The Indian Penal Code,1661760,The Indian Penal Code
-Section 124 in The Indian Penal Code,1392445,The Indian Penal Code
-Section 124A in The Indian Penal Code,1641007,The Indian Penal Code
-Section 126 in The Indian Penal Code,786873,The Indian Penal Code
-Section 127 in The Indian Penal Code,186208,The Indian Penal Code
-Section 129 in The Indian Penal Code,1042889,The Indian Penal Code
-Section 130 in The Indian Penal Code,1097555,The Indian Penal Code
-Section 132 in The Indian Penal Code,1874283,The Indian Penal Code
-Section 133 in The Indian Penal Code,356470,The Indian Penal Code
-Section 135 in The Indian Penal Code,555656,The Indian Penal Code
-Section 136(Exception) in The Indian Penal Code,9686916,The Indian Penal Code
-Section 137 in The Indian Penal Code,1452939,The Indian Penal Code
-Section 138A in The Indian Penal Code,1411937,The Indian Penal Code
-Section 139 in The Indian Penal Code,64871,The Indian Penal Code
-Section 141 in The Indian Penal Code,1542085,The Indian Penal Code
-Section 141(First) in The Indian Penal Code,195482208,The Indian Penal Code
-Section 141(Third) in The Indian Penal Code,170276286,The Indian Penal Code
-Section 141(Fourth) in The Indian Penal Code,15421721,The Indian Penal Code
-Section 142 in The Indian Penal Code,1364868,The Indian Penal Code
-Section 143 in The Indian Penal Code,1096965,The Indian Penal Code
-Section 144 in The Indian Penal Code,1196530,The Indian Penal Code
-Section 145 in The Indian Penal Code,138788,The Indian Penal Code
-Section 146 in The Indian Penal Code,1601950,The Indian Penal Code
-Section 147 in The Indian Penal Code,1258372,The Indian Penal Code
-Section 148 in The Indian Penal Code,763672,The Indian Penal Code
-Section 149 in The Indian Penal Code,999134,The Indian Penal Code
-Section 150 in The Indian Penal Code,737087,The Indian Penal Code
-Section 152 in The Indian Penal Code,1506699,The Indian Penal Code
-Section 153 in The Indian Penal Code,857209,The Indian Penal Code
-Section 153A in The Indian Penal Code,345634,The Indian Penal Code
-Section 153A(1)(a) in The Indian Penal Code,1102504,The Indian Penal Code
-Section 153A(1)(b) in The Indian Penal Code,1361857,The Indian Penal Code
-Section 153B in The Indian Penal Code,771276,The Indian Penal Code
-Section 153B(1) in The Indian Penal Code,1928242,The Indian Penal Code
-Section 153B(1)(b) in The Indian Penal Code,1811556,The Indian Penal Code
-Section 153B(2) in The Indian Penal Code,1054720,The Indian Penal Code
-Section 154 in The Indian Penal Code,1034470,The Indian Penal Code
-Section 156 in The Indian Penal Code,833310,The Indian Penal Code
-Section 157 in The Indian Penal Code,1773948,The Indian Penal Code
-Section 158 in The Indian Penal Code,227771,The Indian Penal Code
-Section 160 in The Indian Penal Code,518086,The Indian Penal Code
-Section 161 in The Indian Penal Code,48127346,The Indian Penal Code
-Section 162 in The Indian Penal Code,108500659,The Indian Penal Code
-Section 164 in The Indian Penal Code,78014276,The Indian Penal Code
-Section 165 in The Indian Penal Code,126359453,The Indian Penal Code
-Section 166 in The Indian Penal Code,570574,The Indian Penal Code
-Section 167 in The Indian Penal Code,1815602,The Indian Penal Code
-Section 168 in The Indian Penal Code,9353,The Indian Penal Code
-Section 170 in The Indian Penal Code,159157,The Indian Penal Code
-Section 171 in The Indian Penal Code,1408303,The Indian Penal Code
-Section 171A(a) in The Indian Penal Code,83989,The Indian Penal Code
-Section 171B in The Indian Penal Code,298814,The Indian Penal Code
-Section 171B(1) in The Indian Penal Code,511785,The Indian Penal Code
-Section 171B(1)(i) in The Indian Penal Code,764852,The Indian Penal Code
-Section 171B(2) in The Indian Penal Code,1645926,The Indian Penal Code
-Section 171B(3) in The Indian Penal Code,1132618,The Indian Penal Code
-Section 171C(1) in The Indian Penal Code,494088,The Indian Penal Code
-Section 171C(2) in The Indian Penal Code,803249,The Indian Penal Code
-Section 171C(2)(b) in The Indian Penal Code,1732104,The Indian Penal Code
-Section 171D in The Indian Penal Code,1987204,The Indian Penal Code
-Section 171E in The Indian Penal Code,1521382,The Indian Penal Code
-Section 171G in The Indian Penal Code,872881,The Indian Penal Code
-Section 171H in The Indian Penal Code,76721,The Indian Penal Code
-Section 173 in The Indian Penal Code,1187622,The Indian Penal Code
-Section 174 in The Indian Penal Code,456664,The Indian Penal Code
-Section 174(a) in The Indian Penal Code,1995369,The Indian Penal Code
-Section 174A in The Indian Penal Code,119436650,The Indian Penal Code
-Section 174A(1) in The Indian Penal Code,55977849,The Indian Penal Code
-Section 176 in The Indian Penal Code,641385,The Indian Penal Code
-Section 176(1) in The Indian Penal Code,191514436,The Indian Penal Code
-Section 177(a) in The Indian Penal Code,16728,The Indian Penal Code
-Section 178 in The Indian Penal Code,1544991,The Indian Penal Code
-Section 179 in The Indian Penal Code,1380952,The Indian Penal Code
-Section 180 in The Indian Penal Code,1658410,The Indian Penal Code
-Section 182 in The Indian Penal Code,534484,The Indian Penal Code
-Section 182(a) in The Indian Penal Code,801371,The Indian Penal Code
-Section 182(a) in The Indian Penal Code,801371,The Indian Penal Code
-Section 182(b) in The Indian Penal Code,1023236,The Indian Penal Code
-Section 183 in The Indian Penal Code,1257136,The Indian Penal Code
-Section 184 in The Indian Penal Code,1177574,The Indian Penal Code
-Section 186 in The Indian Penal Code,488479,The Indian Penal Code
-Section 187 in The Indian Penal Code,697568,The Indian Penal Code
-Section 189 in The Indian Penal Code,454796,The Indian Penal Code
-Section 190 in The Indian Penal Code,276703,The Indian Penal Code
-Section 191(a) in The Indian Penal Code,265754,The Indian Penal Code
-Section 191(b) in The Indian Penal Code,1539592,The Indian Penal Code
-Section 191(d) in The Indian Penal Code,1823184,The Indian Penal Code
-Section 191(e) in The Indian Penal Code,772652,The Indian Penal Code
-Section 192(a) in The Indian Penal Code,167554,The Indian Penal Code
-Section 192(b) in The Indian Penal Code,1814231,The Indian Penal Code
-Section 193 in The Indian Penal Code,308396,The Indian Penal Code
-Section 194 in The Indian Penal Code,1274033,The Indian Penal Code
-Section 195A in The Indian Penal Code,76352360,The Indian Penal Code
-Section 196 in The Indian Penal Code,814524,The Indian Penal Code
-Section 198 in The Indian Penal Code,373409,The Indian Penal Code
-Section 199 in The Indian Penal Code,739296,The Indian Penal Code
-Section 201 in The Indian Penal Code,386021,The Indian Penal Code
-Section 202 in The Indian Penal Code,162723,The Indian Penal Code
-Section 204 in The Indian Penal Code,1905618,The Indian Penal Code
-Section 205 in The Indian Penal Code,1346193,The Indian Penal Code
-Section 206 in The Indian Penal Code,455873,The Indian Penal Code
-Section 208 in The Indian Penal Code,844323,The Indian Penal Code
-Section 210 in The Indian Penal Code,206797,The Indian Penal Code
-Section 211 in The Indian Penal Code,172919,The Indian Penal Code
-Section 212 in The Indian Penal Code,66955,The Indian Penal Code
-Section 213 in The Indian Penal Code,340188,The Indian Penal Code
-Section 214 in The Indian Penal Code,1156930,The Indian Penal Code
-Section 216 in The Indian Penal Code,1865807,The Indian Penal Code
-Section 216(Exception) in The Indian Penal Code,115813370,The Indian Penal Code
-Section 216A(Exception) in The Indian Penal Code,79075967,The Indian Penal Code
-Section 216B in The Indian Penal Code,104723,The Indian Penal Code
-Section 217 in The Indian Penal Code,1441158,The Indian Penal Code
-Section 219 in The Indian Penal Code,311136,The Indian Penal Code
-Section 220 in The Indian Penal Code,218156,The Indian Penal Code
-Section 222 in The Indian Penal Code,384218,The Indian Penal Code
-Section 223 in The Indian Penal Code,1375217,The Indian Penal Code
-Section 224 in The Indian Penal Code,1522870,The Indian Penal Code
-Section 225A in The Indian Penal Code,1452470,The Indian Penal Code
-Section 225A(a) in The Indian Penal Code,257066,The Indian Penal Code
-Section 225B in The Indian Penal Code,824298,The Indian Penal Code
-Section 227 in The Indian Penal Code,470297,The Indian Penal Code
-Section 228 in The Indian Penal Code,1969991,The Indian Penal Code
-Section 228A in The Indian Penal Code,1696350,The Indian Penal Code
-Section 228A(2) in The Indian Penal Code,177666,The Indian Penal Code
-Section 228A(2)(a) in The Indian Penal Code,383815,The Indian Penal Code
-Section 228A(2)(c) in The Indian Penal Code,473434,The Indian Penal Code
-Section 228A(3) in The Indian Penal Code,1564789,The Indian Penal Code
-Section 229A in The Indian Penal Code,77781517,The Indian Penal Code
-Section 229A(a) in The Indian Penal Code,168022094,The Indian Penal Code
-Section 230 in The Indian Penal Code,137348,The Indian Penal Code
-Section 230(b) in The Indian Penal Code,1410482,The Indian Penal Code
-Section 230(c) in The Indian Penal Code,1908063,The Indian Penal Code
-Section 230(e) in The Indian Penal Code,88051,The Indian Penal Code
-Section 231 in The Indian Penal Code,1241643,The Indian Penal Code
-Section 233 in The Indian Penal Code,1419576,The Indian Penal Code
-Section 234 in The Indian Penal Code,1572307,The Indian Penal Code
-Section 236 in The Indian Penal Code,1446884,The Indian Penal Code
-Section 237 in The Indian Penal Code,1688599,The Indian Penal Code
-Section 239 in The Indian Penal Code,1572967,The Indian Penal Code
-Section 240 in The Indian Penal Code,326674,The Indian Penal Code
-Section 242 in The Indian Penal Code,1763332,The Indian Penal Code
-Section 243 in The Indian Penal Code,635719,The Indian Penal Code
-Section 245 in The Indian Penal Code,901796,The Indian Penal Code
-Section 247 in The Indian Penal Code,1860198,The Indian Penal Code
-Section 249 in The Indian Penal Code,491811,The Indian Penal Code
-Section 250 in The Indian Penal Code,1915517,The Indian Penal Code
-Section 252 in The Indian Penal Code,1489236,The Indian Penal Code
-Section 253 in The Indian Penal Code,1465779,The Indian Penal Code
-Section 255 in The Indian Penal Code,1305169,The Indian Penal Code
-Section 256 in The Indian Penal Code,1520867,The Indian Penal Code
-Section 258 in The Indian Penal Code,1585428,The Indian Penal Code
-Section 259 in The Indian Penal Code,974300,The Indian Penal Code
-Section 261 in The Indian Penal Code,458143,The Indian Penal Code
-Section 262 in The Indian Penal Code,1321901,The Indian Penal Code
-Section 263A in The Indian Penal Code,1851254,The Indian Penal Code
-Section 263A(1) in The Indian Penal Code,1036515,The Indian Penal Code
-Section 263A(1)(b) in The Indian Penal Code,1025417,The Indian Penal Code
-Section 263A(1)(c) in The Indian Penal Code,1900259,The Indian Penal Code
-Section 263A(3) in The Indian Penal Code,1930978,The Indian Penal Code
-Section 264 in The Indian Penal Code,1999051,The Indian Penal Code
-Section 265 in The Indian Penal Code,1783774,The Indian Penal Code
-Section 267 in The Indian Penal Code,1518251,The Indian Penal Code
-Section 268 in The Indian Penal Code,209076,The Indian Penal Code
-Section 270 in The Indian Penal Code,1164731,The Indian Penal Code
-Section 271 in The Indian Penal Code,1726256,The Indian Penal Code
-Section 273 in The Indian Penal Code,285163,The Indian Penal Code
-Section 274 in The Indian Penal Code,261128,The Indian Penal Code
-Section 275 in The Indian Penal Code,1565155,The Indian Penal Code
-Section 277 in The Indian Penal Code,1374604,The Indian Penal Code
-Section 278 in The Indian Penal Code,1368265,The Indian Penal Code
-Section 280 in The Indian Penal Code,1573258,The Indian Penal Code
-Section 281 in The Indian Penal Code,52012,The Indian Penal Code
-Section 283 in The Indian Penal Code,1162540,The Indian Penal Code
-Section 284 in The Indian Penal Code,1074140,The Indian Penal Code
-Section 286 in The Indian Penal Code,980159,The Indian Penal Code
-Section 287 in The Indian Penal Code,180291,The Indian Penal Code
-Section 289 in The Indian Penal Code,1162492,The Indian Penal Code
-Section 290 in The Indian Penal Code,1099867,The Indian Penal Code
-Section 292 in The Indian Penal Code,1704109,The Indian Penal Code
-Section 292(1) in The Indian Penal Code,615529,The Indian Penal Code
-Section 292(2)(a) in The Indian Penal Code,1383076,The Indian Penal Code
-Section 292(2)(b) in The Indian Penal Code,1596862,The Indian Penal Code
-Section 292(2)(d) in The Indian Penal Code,149846,The Indian Penal Code
-Section 292(2)(e) in The Indian Penal Code,206363,The Indian Penal Code
-Section 292(2)(e)(Exception)(a) in The Indian Penal Code,28412657,The Indian Penal Code
-Section 292(2)(e)(Exception)(b) in The Indian Penal Code,45287460,The Indian Penal Code
-Section 294 in The Indian Penal Code,594493,The Indian Penal Code
-Section 294(a) in The Indian Penal Code,1600124,The Indian Penal Code
-Section 294A in The Indian Penal Code,440731,The Indian Penal Code
-Section 295 in The Indian Penal Code,305995,The Indian Penal Code
-Section 296 in The Indian Penal Code,1064219,The Indian Penal Code
-Section 297 in The Indian Penal Code,15048,The Indian Penal Code
-Section 299 in The Indian Penal Code,305371,The Indian Penal Code
-Section 299(a) in The Indian Penal Code,333705,The Indian Penal Code
-Section 299(c) in The Indian Penal Code,642470,The Indian Penal Code
-Section 300 in The Indian Penal Code,626019,The Indian Penal Code
-Section 300(Thirdly) in The Indian Penal Code,134179032,The Indian Penal Code
-Section 300(Fourthly) in The Indian Penal Code,36961205,The Indian Penal Code
-Section 300(Fourthly)(b) in The Indian Penal Code,46610562,The Indian Penal Code
-Section 300(Fourthly)(d) in The Indian Penal Code,122104282,The Indian Penal Code
-Section 300(First) in The Indian Penal Code,178163194,The Indian Penal Code
-Section 300(Thirdly) in The Indian Penal Code,134179032,The Indian Penal Code
-Section 300(Thirdly)(a) in The Indian Penal Code,147489061,The Indian Penal Code
-Section 300(Thirdly)(c) in The Indian Penal Code,179562156,The Indian Penal Code
-Section 300(Thirdly)(d) in The Indian Penal Code,79186850,The Indian Penal Code
-Section 300(Thirdly)(f) in The Indian Penal Code,132639541,The Indian Penal Code
-Section 302 in The Indian Penal Code,1560742,The Indian Penal Code
-Section 303 in The Indian Penal Code,793437,The Indian Penal Code
-Section 304 in The Indian Penal Code,409589,The Indian Penal Code
-Section 304B in The Indian Penal Code,653797,The Indian Penal Code
-Section 304B(1) in The Indian Penal Code,98282,The Indian Penal Code
-Section 305 in The Indian Penal Code,255359,The Indian Penal Code
-Section 306 in The Indian Penal Code,92983,The Indian Penal Code
-Section 307(a) in The Indian Penal Code,493413,The Indian Penal Code
-Section 307(b) in The Indian Penal Code,1107733,The Indian Penal Code
-Section 307(d) in The Indian Penal Code,1779567,The Indian Penal Code
-Section 309 in The Indian Penal Code,1501595,The Indian Penal Code
-Section 310 in The Indian Penal Code,362686,The Indian Penal Code
-Section 312 in The Indian Penal Code,1990693,The Indian Penal Code
-Section 313 in The Indian Penal Code,140515,The Indian Penal Code
-Section 314 in The Indian Penal Code,1317800,The Indian Penal Code
-Section 316 in The Indian Penal Code,1184459,The Indian Penal Code
-Section 317 in The Indian Penal Code,9383,The Indian Penal Code
-Section 319 in The Indian Penal Code,1138947,The Indian Penal Code
-Section 320 in The Indian Penal Code,895891,The Indian Penal Code
-Section 320(Secondly) in The Indian Penal Code,175864808,The Indian Penal Code
-Section 320(Thirdly) in The Indian Penal Code,45255066,The Indian Penal Code
-Section 320(Fifthly) in The Indian Penal Code,183418311,The Indian Penal Code
-Section 320(Sixthly) in The Indian Penal Code,105055722,The Indian Penal Code
-Section 320(Eighthly) in The Indian Penal Code,128499502,The Indian Penal Code
-Section 322 in The Indian Penal Code,1793223,The Indian Penal Code
-Section 323 in The Indian Penal Code,1011035,The Indian Penal Code
-Section 325 in The Indian Penal Code,1133601,The Indian Penal Code
-Section 326 in The Indian Penal Code,1540253,The Indian Penal Code
-Section 327 in The Indian Penal Code,520270,The Indian Penal Code
-Section 328 in The Indian Penal Code,1535430,The Indian Penal Code
-Section 329 in The Indian Penal Code,430601,The Indian Penal Code
-Section 330(a) in The Indian Penal Code,13408724,The Indian Penal Code
-Section 330(b) in The Indian Penal Code,193316115,The Indian Penal Code
-Section 330(d) in The Indian Penal Code,8136490,The Indian Penal Code
-Section 331 in The Indian Penal Code,1135572,The Indian Penal Code
-Section 334 in The Indian Penal Code,299470,The Indian Penal Code
-Section 334 in The Indian Penal Code,299470,The Indian Penal Code
-Section 336 in The Indian Penal Code,175699,The Indian Penal Code
-Section 337 in The Indian Penal Code,1402213,The Indian Penal Code
-Section 338 in The Indian Penal Code,1721129,The Indian Penal Code
-Section 339 in The Indian Penal Code,278610,The Indian Penal Code
-Section 341 in The Indian Penal Code,1599401,The Indian Penal Code
-Section 342 in The Indian Penal Code,1243353,The Indian Penal Code
-Section 343 in The Indian Penal Code,589866,The Indian Penal Code
-Section 345 in The Indian Penal Code,1814951,The Indian Penal Code
-Section 346 in The Indian Penal Code,559735,The Indian Penal Code
-Section 348 in The Indian Penal Code,792272,The Indian Penal Code
-Section 349 in The Indian Penal Code,1346144,The Indian Penal Code
-Section 349(Secondly) in The Indian Penal Code,6187607,The Indian Penal Code
-Section 349(Thirdly) in The Indian Penal Code,98197030,The Indian Penal Code
-Section 350(a) in The Indian Penal Code,404110,The Indian Penal Code
-Section 350(b) in The Indian Penal Code,45523,The Indian Penal Code
-Section 350(d) in The Indian Penal Code,966156,The Indian Penal Code
-Section 350(f) in The Indian Penal Code,739240,The Indian Penal Code
-Section 350(g) in The Indian Penal Code,60452,The Indian Penal Code
-Section 350(h) in The Indian Penal Code,1909401,The Indian Penal Code
-Section 351(a) in The Indian Penal Code,59820,The Indian Penal Code
-Section 351(b) in The Indian Penal Code,1015150,The Indian Penal Code
-Section 352 in The Indian Penal Code,1672685,The Indian Penal Code
-Section 353 in The Indian Penal Code,1208971,The Indian Penal Code
-Section 355 in The Indian Penal Code,1258665,The Indian Penal Code
-Section 356 in The Indian Penal Code,1760174,The Indian Penal Code
-Section 357 in The Indian Penal Code,875650,The Indian Penal Code
-Section 358 in The Indian Penal Code,1369110,The Indian Penal Code
-Section 360 in The Indian Penal Code,243306,The Indian Penal Code
-Section 361 in The Indian Penal Code,1515807,The Indian Penal Code
-Section 361(Exception) in The Indian Penal Code,113974146,The Indian Penal Code
-Section 362 in The Indian Penal Code,390542,The Indian Penal Code
-Section 363 in The Indian Penal Code,619940,The Indian Penal Code
-Section 363A in The Indian Penal Code,1892519,The Indian Penal Code
-Section 363A(2) in The Indian Penal Code,1769107,The Indian Penal Code
-Section 363A(4) in The Indian Penal Code,864982,The Indian Penal Code
-Section 363A(4)(a) in The Indian Penal Code,1094376,The Indian Penal Code
-Section 363A(4)(a)(ii) in The Indian Penal Code,1280653,The Indian Penal Code
-Section 363A(4)(a)(iii) in The Indian Penal Code,682479,The Indian Penal Code
-Section 363A(4)(b) in The Indian Penal Code,263341,The Indian Penal Code
-Section 363A(4)(b)(i) in The Indian Penal Code,1009146,The Indian Penal Code
-Section 364 in The Indian Penal Code,695990,The Indian Penal Code
-Section 364(a) in The Indian Penal Code,203679,The Indian Penal Code
-Section 364A in The Indian Penal Code,1374258,The Indian Penal Code
-Section 365 in The Indian Penal Code,886598,The Indian Penal Code
-Section 366A in The Indian Penal Code,1559723,The Indian Penal Code
-Section 366B in The Indian Penal Code,1371751,The Indian Penal Code
-Section 367 in The Indian Penal Code,1324577,The Indian Penal Code
-Section 369 in The Indian Penal Code,1684623,The Indian Penal Code
-Section 370 in The Indian Penal Code,1153041,The Indian Penal Code
-Section 371 in The Indian Penal Code,586835,The Indian Penal Code
-Section 373 in The Indian Penal Code,530949,The Indian Penal Code
-Section 374 in The Indian Penal Code,1459475,The Indian Penal Code
-Section 375(First) in The Indian Penal Code,146335001,The Indian Penal Code
-Section 375(Secondly) in The Indian Penal Code,51172542,The Indian Penal Code
-Section 375(Fourthly) in The Indian Penal Code,71576325,The Indian Penal Code
-Section 375(Sixthly) in The Indian Penal Code,75513706,The Indian Penal Code
-Section 375(Exception) in The Indian Penal Code,195673915,The Indian Penal Code
-Section 375(Manipur)(b) in The Indian Penal Code,14509729,The Indian Penal Code
-Section 376 in The Indian Penal Code,1279834,The Indian Penal Code
-Section 376(2) in The Indian Penal Code,1677485,The Indian Penal Code
-Section 376(2)(a) in The Indian Penal Code,55666,The Indian Penal Code
-Section 376(2)(a)(i) in The Indian Penal Code,324024,The Indian Penal Code
-Section 376(2)(a)(iii) in The Indian Penal Code,324853,The Indian Penal Code
-Section 376(2)(b) in The Indian Penal Code,1836398,The Indian Penal Code
-Section 376(2)(d) in The Indian Penal Code,830268,The Indian Penal Code
-Section 376(2)(e) in The Indian Penal Code,865090,The Indian Penal Code
-Section 376(2)(g) in The Indian Penal Code,1284610,The Indian Penal Code
-Section 376A in The Indian Penal Code,668689,The Indian Penal Code
-Section 376C in The Indian Penal Code,1553346,The Indian Penal Code
-Section 376D in The Indian Penal Code,9545,The Indian Penal Code
-Section 378 in The Indian Penal Code,1280620,The Indian Penal Code
-Section 378(a) in The Indian Penal Code,1102227,The Indian Penal Code
-Section 378(c) in The Indian Penal Code,659325,The Indian Penal Code
-Section 378(d) in The Indian Penal Code,393234,The Indian Penal Code
-Section 378(f) in The Indian Penal Code,1900894,The Indian Penal Code
-Section 378(g) in The Indian Penal Code,1320154,The Indian Penal Code
-Section 378(i) in The Indian Penal Code,958395,The Indian Penal Code
-Section 378(k) in The Indian Penal Code,1278389,The Indian Penal Code
-Section 378(l) in The Indian Penal Code,1885347,The Indian Penal Code
-Section 378(m) in The Indian Penal Code,1945753,The Indian Penal Code
-Section 378(o) in The Indian Penal Code,115968,The Indian Penal Code
-Section 378(p) in The Indian Penal Code,813511,The Indian Penal Code
-Section 380 in The Indian Penal Code,839778,The Indian Penal Code
-Section 381 in The Indian Penal Code,436339,The Indian Penal Code
-Section 382 in The Indian Penal Code,556739,The Indian Penal Code
-Section 382(b) in The Indian Penal Code,1818573,The Indian Penal Code
-Section 383(a) in The Indian Penal Code,58458,The Indian Penal Code
-Section 383(b) in The Indian Penal Code,283038,The Indian Penal Code
-Section 383(d) in The Indian Penal Code,1307657,The Indian Penal Code
-Section 384 in The Indian Penal Code,1944660,The Indian Penal Code
-Section 385 in The Indian Penal Code,752609,The Indian Penal Code
-Section 387 in The Indian Penal Code,1688284,The Indian Penal Code
-Section 388 in The Indian Penal Code,1030257,The Indian Penal Code
-Section 389 in The Indian Penal Code,970675,The Indian Penal Code
-Section 390 in The Indian Penal Code,1905008,The Indian Penal Code
-Section 390(a) in The Indian Penal Code,1217295,The Indian Penal Code
-Section 390(b) in The Indian Penal Code,751022,The Indian Penal Code
-Section 390(c) in The Indian Penal Code,1843596,The Indian Penal Code
-Section 390(d) in The Indian Penal Code,919441,The Indian Penal Code
-Section 390(a) in The Indian Penal Code,1217295,The Indian Penal Code
-Section 390(c) in The Indian Penal Code,1843596,The Indian Penal Code
-Section 390(d) in The Indian Penal Code,919441,The Indian Penal Code
-Section 391 in The Indian Penal Code,1337698,The Indian Penal Code
-Section 392 in The Indian Penal Code,329571,The Indian Penal Code
-Section 393 in The Indian Penal Code,1068394,The Indian Penal Code
-Section 395 in The Indian Penal Code,1119707,The Indian Penal Code
-Section 396 in The Indian Penal Code,958439,The Indian Penal Code
-Section 398 in The Indian Penal Code,835557,The Indian Penal Code
-Section 399 in The Indian Penal Code,399026,The Indian Penal Code
-Section 400 in The Indian Penal Code,468585,The Indian Penal Code
-Section 402 in The Indian Penal Code,1784492,The Indian Penal Code
-Section 403 in The Indian Penal Code,1591527,The Indian Penal Code
-Section 403(a) in The Indian Penal Code,59194,The Indian Penal Code
-Section 403(c) in The Indian Penal Code,1576661,The Indian Penal Code
-Section 403(a) in The Indian Penal Code,59194,The Indian Penal Code
-Section 403(c) in The Indian Penal Code,1576661,The Indian Penal Code
-Section 403(d) in The Indian Penal Code,250044,The Indian Penal Code
-Section 403(f) in The Indian Penal Code,1243893,The Indian Penal Code
-Section 405 in The Indian Penal Code,1249173,The Indian Penal Code
-Section 405(a) in The Indian Penal Code,235541,The Indian Penal Code
-Section 405(b) in The Indian Penal Code,1982413,The Indian Penal Code
-Section 405(d) in The Indian Penal Code,1459174,The Indian Penal Code
-Section 405(e) in The Indian Penal Code,1279310,The Indian Penal Code
-Section 406 in The Indian Penal Code,988620,The Indian Penal Code
-Section 407 in The Indian Penal Code,940928,The Indian Penal Code
-Section 408 in The Indian Penal Code,1131784,The Indian Penal Code
-Section 409 in The Indian Penal Code,1326844,The Indian Penal Code
-Section 410 in The Indian Penal Code,446787,The Indian Penal Code
-Section 411 in The Indian Penal Code,812083,The Indian Penal Code
-Section 412 in The Indian Penal Code,844968,The Indian Penal Code
-Section 414 in The Indian Penal Code,94452,The Indian Penal Code
-Section 415 in The Indian Penal Code,1306824,The Indian Penal Code
-Section 415(a) in The Indian Penal Code,566623,The Indian Penal Code
-Section 415(b) in The Indian Penal Code,1380668,The Indian Penal Code
-Section 415(d) in The Indian Penal Code,1548208,The Indian Penal Code
-Section 415(f) in The Indian Penal Code,101135,The Indian Penal Code
-Section 415(g) in The Indian Penal Code,1222569,The Indian Penal Code
-Section 415(i) in The Indian Penal Code,68067,The Indian Penal Code
-Section 416 in The Indian Penal Code,1041696,The Indian Penal Code
-Section 416(b) in The Indian Penal Code,1972099,The Indian Penal Code
-Section 417 in The Indian Penal Code,105503,The Indian Penal Code
-Section 419 in The Indian Penal Code,1667388,The Indian Penal Code
-Section 420 in The Indian Penal Code,1436241,The Indian Penal Code
-Section 421 in The Indian Penal Code,821690,The Indian Penal Code
-Section 423 in The Indian Penal Code,1442106,The Indian Penal Code
-Section 424 in The Indian Penal Code,393714,The Indian Penal Code
-Section 425 in The Indian Penal Code,441951,The Indian Penal Code
-Section 425(b) in The Indian Penal Code,665517,The Indian Penal Code
-Section 425(d) in The Indian Penal Code,1418293,The Indian Penal Code
-Section 425(e) in The Indian Penal Code,1734074,The Indian Penal Code
-Section 425(g) in The Indian Penal Code,1277137,The Indian Penal Code
-Section 425(h) in The Indian Penal Code,303898,The Indian Penal Code
-Section 427 in The Indian Penal Code,222396,The Indian Penal Code
-Section 428 in The Indian Penal Code,260462,The Indian Penal Code
-Section 429 in The Indian Penal Code,3563,The Indian Penal Code
-Section 431 in The Indian Penal Code,1028121,The Indian Penal Code
-Section 432 in The Indian Penal Code,79895,The Indian Penal Code
-Section 434 in The Indian Penal Code,1322904,The Indian Penal Code
-Section 435 in The Indian Penal Code,1552733,The Indian Penal Code
-Section 437 in The Indian Penal Code,1682361,The Indian Penal Code
-Section 438 in The Indian Penal Code,1144664,The Indian Penal Code
-Section 439 in The Indian Penal Code,1667941,The Indian Penal Code
-Section 441 in The Indian Penal Code,1768645,The Indian Penal Code
-Section 441(Orissa) in The Indian Penal Code,44917203,The Indian Penal Code
-Section 443 in The Indian Penal Code,331647,The Indian Penal Code
-Section 444 in The Indian Penal Code,147438,The Indian Penal Code
-Section 445(First) in The Indian Penal Code,41623743,The Indian Penal Code
-Section 445(Secondly) in The Indian Penal Code,114916045,The Indian Penal Code
-Section 445(Fourthly) in The Indian Penal Code,72086751,The Indian Penal Code
-Section 445(Sixthly) in The Indian Penal Code,51343752,The Indian Penal Code
-Section 445(Sixthly)(a) in The Indian Penal Code,17904952,The Indian Penal Code
-Section 445(Sixthly)(c) in The Indian Penal Code,16783035,The Indian Penal Code
-Section 445(Sixthly)(d) in The Indian Penal Code,6052880,The Indian Penal Code
-Section 445(Sixthly)(f) in The Indian Penal Code,181293427,The Indian Penal Code
-Section 445(Sixthly)(h) in The Indian Penal Code,108206163,The Indian Penal Code
-Section 446 in The Indian Penal Code,367467,The Indian Penal Code
-Section 448 in The Indian Penal Code,1947545,The Indian Penal Code
-Section 449 in The Indian Penal Code,1318185,The Indian Penal Code
-Section 450 in The Indian Penal Code,1982060,The Indian Penal Code
-Section 452 in The Indian Penal Code,838469,The Indian Penal Code
-Section 453 in The Indian Penal Code,1288347,The Indian Penal Code
-Section 454 in The Indian Penal Code,578299,The Indian Penal Code
-Section 455 in The Indian Penal Code,1954086,The Indian Penal Code
-Section 457 in The Indian Penal Code,1873755,The Indian Penal Code
-Section 458 in The Indian Penal Code,959623,The Indian Penal Code
-Section 459 in The Indian Penal Code,1842737,The Indian Penal Code
-Section 461 in The Indian Penal Code,1293807,The Indian Penal Code
-Section 462 in The Indian Penal Code,1904534,The Indian Penal Code
-Section 464(a) in The Indian Penal Code,1457689,The Indian Penal Code
-Section 464(b) in The Indian Penal Code,464774,The Indian Penal Code
-Section 464(d) in The Indian Penal Code,1297415,The Indian Penal Code
-Section 464(a) in The Indian Penal Code,1457689,The Indian Penal Code
-Section 464(c) in The Indian Penal Code,1282464,The Indian Penal Code
-Section 464(e) in The Indian Penal Code,317758,The Indian Penal Code
-Section 464(f) in The Indian Penal Code,1064420,The Indian Penal Code
-Section 464(h) in The Indian Penal Code,535748,The Indian Penal Code
-Section 464(i) in The Indian Penal Code,1128280,The Indian Penal Code
-Section 464(k) in The Indian Penal Code,693233,The Indian Penal Code
-Section 464(a) in The Indian Penal Code,1457689,The Indian Penal Code
-Section 464(c) in The Indian Penal Code,1282464,The Indian Penal Code
-Section 464(d) in The Indian Penal Code,1297415,The Indian Penal Code
-Section 465 in The Indian Penal Code,1317063,The Indian Penal Code
-Section 466 in The Indian Penal Code,1053937,The Indian Penal Code
-Section 466(1) in The Indian Penal Code,131917853,The Indian Penal Code
-Section 468 in The Indian Penal Code,556166,The Indian Penal Code
-Section 469 in The Indian Penal Code,1827979,The Indian Penal Code
-Section 471 in The Indian Penal Code,1466184,The Indian Penal Code
-Section 472 in The Indian Penal Code,182233,The Indian Penal Code
-Section 473 in The Indian Penal Code,649216,The Indian Penal Code
-Section 475 in The Indian Penal Code,118906,The Indian Penal Code
-Section 476 in The Indian Penal Code,1666702,The Indian Penal Code
-Section 477A in The Indian Penal Code,896188,The Indian Penal Code
-Section 478 in The Indian Penal Code,998584,The Indian Penal Code
-Section 479 in The Indian Penal Code,326112,The Indian Penal Code
-Section 481 in The Indian Penal Code,1765305,The Indian Penal Code
-Section 483 in The Indian Penal Code,1207578,The Indian Penal Code
-Section 484 in The Indian Penal Code,249747,The Indian Penal Code
-Section 486 in The Indian Penal Code,1056907,The Indian Penal Code
-Section 486(a) in The Indian Penal Code,758422,The Indian Penal Code
-Section 486(b) in The Indian Penal Code,615862,The Indian Penal Code
-Section 487 in The Indian Penal Code,728365,The Indian Penal Code
-Section 488 in The Indian Penal Code,1013251,The Indian Penal Code
-Section 489A in The Indian Penal Code,591351,The Indian Penal Code
-Section 489B in The Indian Penal Code,1926477,The Indian Penal Code
-Section 489D in The Indian Penal Code,193831,The Indian Penal Code
-Section 489E in The Indian Penal Code,1408157,The Indian Penal Code
-Section 489E(2) in The Indian Penal Code,1759845,The Indian Penal Code
-Section 489E(3) in The Indian Penal Code,1722463,The Indian Penal Code
-Section 491 in The Indian Penal Code,191666,The Indian Penal Code
-Section 492 in The Indian Penal Code,801817,The Indian Penal Code
-Section 494 in The Indian Penal Code,508426,The Indian Penal Code
-Section 494(Exception) in The Indian Penal Code,38661019,The Indian Penal Code
-Section 495 in The Indian Penal Code,653145,The Indian Penal Code
-Section 496 in The Indian Penal Code,1912691,The Indian Penal Code
-Section 497 in The Indian Penal Code,1833006,The Indian Penal Code
-Section 498A in The Indian Penal Code,538436,The Indian Penal Code
-Section 498A(a) in The Indian Penal Code,1776697,The Indian Penal Code
-Section 498A(b) in The Indian Penal Code,1824991,The Indian Penal Code
-Section 499(a) in The Indian Penal Code,715954,The Indian Penal Code
-Section 499(c) in The Indian Penal Code,766990,The Indian Penal Code
-Section 499(a) in The Indian Penal Code,715954,The Indian Penal Code
-Section 499(a) in The Indian Penal Code,715954,The Indian Penal Code
-Section 499(b) in The Indian Penal Code,861837,The Indian Penal Code
-Section 499(d) in The Indian Penal Code,516893,The Indian Penal Code
-Section 499(a) in The Indian Penal Code,715954,The Indian Penal Code
-Section 499(b) in The Indian Penal Code,861837,The Indian Penal Code
-Section 501 in The Indian Penal Code,1820068,The Indian Penal Code
-Section 502 in The Indian Penal Code,1495647,The Indian Penal Code
-Section 504 in The Indian Penal Code,555306,The Indian Penal Code
-Section 505 in The Indian Penal Code,1198526,The Indian Penal Code
-Section 505(1) in The Indian Penal Code,926966,The Indian Penal Code
-Section 505(1)(a) in The Indian Penal Code,43397,The Indian Penal Code
-Section 505(1)(c) in The Indian Penal Code,1565692,The Indian Penal Code
-Section 505(3)(Exception) in The Indian Penal Code,19968772,The Indian Penal Code
-Section 506 in The Indian Penal Code,180217,The Indian Penal Code
-Section 508 in The Indian Penal Code,1734694,The Indian Penal Code
-Section 508(a) in The Indian Penal Code,1585960,The Indian Penal Code
-Section 509 in The Indian Penal Code,68146,The Indian Penal Code
-Section 510 in The Indian Penal Code,529653,The Indian Penal Code
-Section 511(a) in The Indian Penal Code,1199018,The Indian Penal Code
-Section 511(b) in The Indian Penal Code,1953055,The Indian Penal Code
-Section 104 in The Indian Penal Code,1409246,The Indian Penal Code
-Section 107 in The Indian Penal Code,1667403,The Indian Penal Code
-Section 107(Thirdly) in The Indian Penal Code,80409215,The Indian Penal Code
-Section 108(b) in The Indian Penal Code,1763681,The Indian Penal Code
-Section 108(b) in The Indian Penal Code,1763681,The Indian Penal Code
-Section 108A in The Indian Penal Code,1711828,The Indian Penal Code
-Section 109(c) in The Indian Penal Code,1529196,The Indian Penal Code
-Section 111(Proviso) in The Indian Penal Code,171090597,The Indian Penal Code
-Section 111(Proviso)(b) in The Indian Penal Code,168213102,The Indian Penal Code
-Section 113 in The Indian Penal Code,714962,The Indian Penal Code
-Section 116(a) in The Indian Penal Code,1125257,The Indian Penal Code
-Section 116(d) in The Indian Penal Code,1701834,The Indian Penal Code
-Section 120 in The Indian Penal Code,1128948,The Indian Penal Code
-Section 120A(2) in The Indian Penal Code,1856199,The Indian Penal Code
-Section 121 in The Indian Penal Code,786750,The Indian Penal Code
-Section 123 in The Indian Penal Code,1999903,The Indian Penal Code
-Section 125 in The Indian Penal Code,452200,The Indian Penal Code
-Section 128 in The Indian Penal Code,1538557,The Indian Penal Code
-Section 131 in The Indian Penal Code,1595435,The Indian Penal Code
-Section 134 in The Indian Penal Code,10736,The Indian Penal Code
-Section 136 in The Indian Penal Code,194391,The Indian Penal Code
-Section 138 in The Indian Penal Code,729270,The Indian Penal Code
-Section 140 in The Indian Penal Code,1735610,The Indian Penal Code
-Section 141(Second) in The Indian Penal Code,43254596,The Indian Penal Code
-Section 141(Fifth) in The Indian Penal Code,101023739,The Indian Penal Code
-Section 151 in The Indian Penal Code,828685,The Indian Penal Code
-Section 153A(1) in The Indian Penal Code,811548,The Indian Penal Code
-Section 153AA in The Indian Penal Code,129661464,The Indian Penal Code
-Section 153B(1)(a) in The Indian Penal Code,1518197,The Indian Penal Code
-Section 153B(1)(c) in The Indian Penal Code,1238250,The Indian Penal Code
-Section 155 in The Indian Penal Code,1062869,The Indian Penal Code
-Section 159 in The Indian Penal Code,275300,The Indian Penal Code
-Section 163 in The Indian Penal Code,18766893,The Indian Penal Code
-Section 165A in The Indian Penal Code,54942699,The Indian Penal Code
-Section 169 in The Indian Penal Code,477003,The Indian Penal Code
-Section 171A in The Indian Penal Code,1428563,The Indian Penal Code
-Section 171A(b) in The Indian Penal Code,101713,The Indian Penal Code
-Section 171B(1)(ii) in The Indian Penal Code,523354,The Indian Penal Code
-Section 171C in The Indian Penal Code,293432,The Indian Penal Code
-Section 171C(2)(a) in The Indian Penal Code,102155,The Indian Penal Code
-Section 171C(3) in The Indian Penal Code,1073185,The Indian Penal Code
-Section 171F in The Indian Penal Code,1211115,The Indian Penal Code
-Section 171-I in The Indian Penal Code,1405563,The Indian Penal Code
-Section 174(b) in The Indian Penal Code,654966,The Indian Penal Code
-Section 175 in The Indian Penal Code,54229,The Indian Penal Code
-Section 177 in The Indian Penal Code,974069,The Indian Penal Code
-Section 177(b) in The Indian Penal Code,1868721,The Indian Penal Code
-Section 181 in The Indian Penal Code,852002,The Indian Penal Code
-Section 182(b) in The Indian Penal Code,1023236,The Indian Penal Code
-Section 182(c) in The Indian Penal Code,204375,The Indian Penal Code
-Section 185 in The Indian Penal Code,942550,The Indian Penal Code
-Section 188 in The Indian Penal Code,1432790,The Indian Penal Code
-Section 191 in The Indian Penal Code,677888,The Indian Penal Code
-Section 191(c) in The Indian Penal Code,1332096,The Indian Penal Code
-Section 192 in The Indian Penal Code,1905297,The Indian Penal Code
-Section 192(c) in The Indian Penal Code,1854587,The Indian Penal Code
-Section 195 in The Indian Penal Code,388888,The Indian Penal Code
-Section 197 in The Indian Penal Code,1731569,The Indian Penal Code
-Section 200 in The Indian Penal Code,943588,The Indian Penal Code
-Section 203 in The Indian Penal Code,1096902,The Indian Penal Code
-Section 207 in The Indian Penal Code,1896487,The Indian Penal Code
-Section 209 in The Indian Penal Code,323386,The Indian Penal Code
-Section 212(Exception) in The Indian Penal Code,2085767,The Indian Penal Code
-Section 215 in The Indian Penal Code,1839996,The Indian Penal Code
-Section 216A in The Indian Penal Code,1886841,The Indian Penal Code
-Section 218 in The Indian Penal Code,986493,The Indian Penal Code
-Section 221 in The Indian Penal Code,649942,The Indian Penal Code
-Section 225 in The Indian Penal Code,308927,The Indian Penal Code
-Section 225A(b) in The Indian Penal Code,1641075,The Indian Penal Code
-Section 226 in The Indian Penal Code,239579,The Indian Penal Code
-Section 228A(1) in The Indian Penal Code,1523798,The Indian Penal Code
-Section 228A(2)(b) in The Indian Penal Code,1001143,The Indian Penal Code
-Section 229 in The Indian Penal Code,436461,The Indian Penal Code
-Section 229A(b) in The Indian Penal Code,118044573,The Indian Penal Code
-Section 230(a) in The Indian Penal Code,1562669,The Indian Penal Code
-Section 230(d) in The Indian Penal Code,192120,The Indian Penal Code
-Section 232 in The Indian Penal Code,367254,The Indian Penal Code
-Section 235 in The Indian Penal Code,1986933,The Indian Penal Code
-Section 238 in The Indian Penal Code,951248,The Indian Penal Code
-Section 241 in The Indian Penal Code,1659458,The Indian Penal Code
-Section 244 in The Indian Penal Code,1842242,The Indian Penal Code
-Section 248 in The Indian Penal Code,1575348,The Indian Penal Code
-Section 251 in The Indian Penal Code,1561882,The Indian Penal Code
-Section 254 in The Indian Penal Code,1714697,The Indian Penal Code
-Section 257 in The Indian Penal Code,511183,The Indian Penal Code
-Section 260 in The Indian Penal Code,120498,The Indian Penal Code
-Section 263 in The Indian Penal Code,1910622,The Indian Penal Code
-Section 263A(1)(a) in The Indian Penal Code,104426,The Indian Penal Code
-Section 263A(2) in The Indian Penal Code,334561,The Indian Penal Code
-Section 263A(4) in The Indian Penal Code,1504749,The Indian Penal Code
-Section 266 in The Indian Penal Code,1607227,The Indian Penal Code
-Section 269 in The Indian Penal Code,734195,The Indian Penal Code
-Section 272 in The Indian Penal Code,471092,The Indian Penal Code
-Section 276 in The Indian Penal Code,1049807,The Indian Penal Code
-Section 279 in The Indian Penal Code,1270101,The Indian Penal Code
-Section 282 in The Indian Penal Code,40305,The Indian Penal Code
-Section 285 in The Indian Penal Code,1728663,The Indian Penal Code
-Section 288 in The Indian Penal Code,207785,The Indian Penal Code
-Section 291 in The Indian Penal Code,1273321,The Indian Penal Code
-Section 292(2) in The Indian Penal Code,776798,The Indian Penal Code
-Section 292(2)(c) in The Indian Penal Code,1507867,The Indian Penal Code
-Section 292(2)(e)(Exception) in The Indian Penal Code,187131026,The Indian Penal Code
-Section 293 in The Indian Penal Code,601866,The Indian Penal Code
-Section 294(b) in The Indian Penal Code,1198799,The Indian Penal Code
-Section 295A in The Indian Penal Code,1803184,The Indian Penal Code
-Section 298 in The Indian Penal Code,1774593,The Indian Penal Code
-Section 299(b) in The Indian Penal Code,1247080,The Indian Penal Code
-Section 300(Secondly) in The Indian Penal Code,159316467,The Indian Penal Code
-Section 300(Fourthly)(a) in The Indian Penal Code,76942953,The Indian Penal Code
-Section 300(Fourthly)(c) in The Indian Penal Code,133604900,The Indian Penal Code
-Section 300(Secondly) in The Indian Penal Code,159316467,The Indian Penal Code
-Section 300(Thirdly)(b) in The Indian Penal Code,25057215,The Indian Penal Code
-Section 300(Thirdly)(e) in The Indian Penal Code,132494777,The Indian Penal Code
-Section 301 in The Indian Penal Code,1233988,The Indian Penal Code
-Section 304A in The Indian Penal Code,1371604,The Indian Penal Code
-Section 304B(2) in The Indian Penal Code,1785744,The Indian Penal Code
-Section 307 in The Indian Penal Code,455468,The Indian Penal Code
-Section 307(c) in The Indian Penal Code,524233,The Indian Penal Code
-Section 308 in The Indian Penal Code,4266,The Indian Penal Code
-Section 311 in The Indian Penal Code,185764,The Indian Penal Code
-Section 315 in The Indian Penal Code,1637773,The Indian Penal Code
-Section 318 in The Indian Penal Code,1173112,The Indian Penal Code
-Section 320(First) in The Indian Penal Code,126195200,The Indian Penal Code
-Section 320(Fourthly) in The Indian Penal Code,3369562,The Indian Penal Code
-Section 320(Seventhly) in The Indian Penal Code,44556736,The Indian Penal Code
-Section 321 in The Indian Penal Code,1542359,The Indian Penal Code
-Section 324 in The Indian Penal Code,724142,The Indian Penal Code
-Section 330 in The Indian Penal Code,2858386,The Indian Penal Code
-Section 330(c) in The Indian Penal Code,182267215,The Indian Penal Code
-Section 332 in The Indian Penal Code,1440821,The Indian Penal Code
-Section 335 in The Indian Penal Code,932006,The Indian Penal Code
-Section 339(Exception) in The Indian Penal Code,181171924,The Indian Penal Code
-Section 344 in The Indian Penal Code,1495318,The Indian Penal Code
-Section 347 in The Indian Penal Code,996413,The Indian Penal Code
-Section 349(First) in The Indian Penal Code,73932288,The Indian Penal Code
-Section 350 in The Indian Penal Code,179037,The Indian Penal Code
-Section 350(c) in The Indian Penal Code,1117242,The Indian Penal Code
-Section 350(e) in The Indian Penal Code,1885219,The Indian Penal Code
-Section 351 in The Indian Penal Code,478590,The Indian Penal Code
-Section 351(c) in The Indian Penal Code,614843,The Indian Penal Code
-Section 354 in The Indian Penal Code,203036,The Indian Penal Code
-Section 359 in The Indian Penal Code,1804691,The Indian Penal Code
-Section 361(Manipur) in The Indian Penal Code,67353448,The Indian Penal Code
-Section 363A(1) in The Indian Penal Code,132183,The Indian Penal Code
-Section 363A(3) in The Indian Penal Code,214579,The Indian Penal Code
-Section 363A(4)(a)(i) in The Indian Penal Code,1849691,The Indian Penal Code
-Section 363A(4)(a)(iv) in The Indian Penal Code,1645777,The Indian Penal Code
-Section 363A(4)(b)(ii) in The Indian Penal Code,569154,The Indian Penal Code
-Section 364(b) in The Indian Penal Code,1687720,The Indian Penal Code
-Section 366 in The Indian Penal Code,796352,The Indian Penal Code
-Section 368 in The Indian Penal Code,1629021,The Indian Penal Code
-Section 372 in The Indian Penal Code,1938563,The Indian Penal Code
-Section 375 in The Indian Penal Code,623254,The Indian Penal Code
-Section 375(Thirdly) in The Indian Penal Code,159488347,The Indian Penal Code
-Section 375(Fifthly) in The Indian Penal Code,62890944,The Indian Penal Code
-Section 375(Manipur) in The Indian Penal Code,37191634,The Indian Penal Code
-Section 376(1) in The Indian Penal Code,455161,The Indian Penal Code
-Section 376(2)(a)(ii) in The Indian Penal Code,1750686,The Indian Penal Code
-Section 376(2)(c) in The Indian Penal Code,907057,The Indian Penal Code
-Section 376(2)(f) in The Indian Penal Code,334057,The Indian Penal Code
-Section 376B in The Indian Penal Code,396,The Indian Penal Code
-Section 377 in The Indian Penal Code,1836974,The Indian Penal Code
-Section 378(b) in The Indian Penal Code,1937575,The Indian Penal Code
-Section 378(e) in The Indian Penal Code,1449508,The Indian Penal Code
-Section 378(h) in The Indian Penal Code,1906786,The Indian Penal Code
-Section 378(j) in The Indian Penal Code,817211,The Indian Penal Code
-Section 378(n) in The Indian Penal Code,224425,The Indian Penal Code
-Section 379 in The Indian Penal Code,1101188,The Indian Penal Code
-Section 382(a) in The Indian Penal Code,617348,The Indian Penal Code
-Section 383 in The Indian Penal Code,262864,The Indian Penal Code
-Section 383(c) in The Indian Penal Code,44924,The Indian Penal Code
-Section 386 in The Indian Penal Code,1183069,The Indian Penal Code
-Section 390(b) in The Indian Penal Code,751022,The Indian Penal Code
-Section 390(e) in The Indian Penal Code,170267283,The Indian Penal Code
-Section 394 in The Indian Penal Code,764237,The Indian Penal Code
-Section 397 in The Indian Penal Code,1865117,The Indian Penal Code
-Section 401 in The Indian Penal Code,986100,The Indian Penal Code
-Section 403(b) in The Indian Penal Code,620116,The Indian Penal Code
-Section 403(e) in The Indian Penal Code,1049597,The Indian Penal Code
-Section 404 in The Indian Penal Code,341288,The Indian Penal Code
-Section 405(f) in The Indian Penal Code,633004,The Indian Penal Code
-Section 413 in The Indian Penal Code,1976294,The Indian Penal Code
-Section 415(e) in The Indian Penal Code,536973,The Indian Penal Code
-Section 415(h) in The Indian Penal Code,507065,The Indian Penal Code
-Section 418 in The Indian Penal Code,1359568,The Indian Penal Code
-Section 422 in The Indian Penal Code,1334254,The Indian Penal Code
-Section 425(c) in The Indian Penal Code,1575839,The Indian Penal Code
-Section 425(f) in The Indian Penal Code,906977,The Indian Penal Code
-Section 430 in The Indian Penal Code,1605376,The Indian Penal Code
-Section 433 in The Indian Penal Code,1574686,The Indian Penal Code
-Section 440 in The Indian Penal Code,1018161,The Indian Penal Code
-Section 442 in The Indian Penal Code,691024,The Indian Penal Code
-Section 445(Thirdly) in The Indian Penal Code,192235759,The Indian Penal Code
-Section 445(Fifthly) in The Indian Penal Code,74635041,The Indian Penal Code
-Section 445(Sixthly)(e) in The Indian Penal Code,76400820,The Indian Penal Code
-Section 447 in The Indian Penal Code,162506,The Indian Penal Code
-Section 451 in The Indian Penal Code,513777,The Indian Penal Code
-Section 460 in The Indian Penal Code,1586755,The Indian Penal Code
-Section 463 in The Indian Penal Code,1328629,The Indian Penal Code
-Section 464(c) in The Indian Penal Code,1282464,The Indian Penal Code
-Section 464(d) in The Indian Penal Code,1297415,The Indian Penal Code
-Section 464(g) in The Indian Penal Code,1637195,The Indian Penal Code
-Section 464(b) in The Indian Penal Code,464774,The Indian Penal Code
-Section 467 in The Indian Penal Code,1985627,The Indian Penal Code
-Section 470 in The Indian Penal Code,1991013,The Indian Penal Code
-Section 474 in The Indian Penal Code,756306,The Indian Penal Code
-Section 480 in The Indian Penal Code,1727683,The Indian Penal Code
-Section 485 in The Indian Penal Code,1859458,The Indian Penal Code
-Section 486(c) in The Indian Penal Code,641636,The Indian Penal Code
-Section 489C in The Indian Penal Code,257920,The Indian Penal Code
-Section 489E(1) in The Indian Penal Code,1921711,The Indian Penal Code
-Section 493 in The Indian Penal Code,1595149,The Indian Penal Code
-Section 498 in The Indian Penal Code,1868826,The Indian Penal Code
-Section 499 in The Indian Penal Code,1041742,The Indian Penal Code
-Section 499(b) in The Indian Penal Code,861837,The Indian Penal Code
-Section 499(b) in The Indian Penal Code,861837,The Indian Penal Code
-Section 499(c) in The Indian Penal Code,766990,The Indian Penal Code
-Section 499(e) in The Indian Penal Code,1440379,The Indian Penal Code
-Section 500 in The Indian Penal Code,1408202,The Indian Penal Code
-Section 505(1)(b) in The Indian Penal Code,360749,The Indian Penal Code
-Section 505(3) in The Indian Penal Code,584684,The Indian Penal Code
-Section 508(b) in The Indian Penal Code,1043367,The Indian Penal Code
-Section 511 in The Indian Penal Code,1185693,The Indian Penal Code
-Section 403(b) in The Indian Penal Code,620116,The Indian Penal Code
-Section 405(c) in The Indian Penal Code,422169,The Indian Penal Code
-Section 415(c) in The Indian Penal Code,195528,The Indian Penal Code
-Section 416(a) in The Indian Penal Code,1545690,The Indian Penal Code
-Section 425(a) in The Indian Penal Code,627030,The Indian Penal Code
-Section 426 in The Indian Penal Code,192961,The Indian Penal Code
-Section 436 in The Indian Penal Code,1517318,The Indian Penal Code
-Section 445 in The Indian Penal Code,508356,The Indian Penal Code
-Section 445(Sixthly)(b) in The Indian Penal Code,107911441,The Indian Penal Code
-Section 445(Sixthly)(g) in The Indian Penal Code,102125502,The Indian Penal Code
-Section 456 in The Indian Penal Code,1230184,The Indian Penal Code
-Section 464(b) in The Indian Penal Code,464774,The Indian Penal Code
-Section 464(j) in The Indian Penal Code,1296621,The Indian Penal Code
-Section 464(e) in The Indian Penal Code,317758,The Indian Penal Code
-Section 477 in The Indian Penal Code,722115,The Indian Penal Code
-Section 482 in The Indian Penal Code,903398,The Indian Penal Code
-Section 489 in The Indian Penal Code,1252503,The Indian Penal Code
-Section 490 in The Indian Penal Code,237387,The Indian Penal Code
-Section 503 in The Indian Penal Code,878688,The Indian Penal Code
-Section 507 in The Indian Penal Code,1255223,The Indian Penal Code
+"act_name","section_name","section_id"
+"The Indian Penal Code","The Indian Penal Code",1569253
+"The Indian Penal Code","Section 1 in The Indian Penal Code",1873250
+"The Indian Penal Code","Section 2 in The Indian Penal Code",915147
+"The Indian Penal Code","Section 3 in The Indian Penal Code",1507082
+"The Indian Penal Code","Section 4(1) in The Indian Penal Code",1609585
+"The Indian Penal Code","Section 4(2) in The Indian Penal Code",210986
+"The Indian Penal Code","Section 4(3) in The Indian Penal Code",184142758
+"The Indian Penal Code","Section 4(3)(a) in The Indian Penal Code",63940315
+"The Indian Penal Code","Section 4(3)(b) in The Indian Penal Code",150275472
+"The Indian Penal Code","Section 5 in The Indian Penal Code",1227639
+"The Indian Penal Code","Section 6 in The Indian Penal Code",1633827
+"The Indian Penal Code","Section 6(a) in The Indian Penal Code",1632734
+"The Indian Penal Code","Section 6(b) in The Indian Penal Code",235596
+"The Indian Penal Code","Section 7 in The Indian Penal Code",1597655
+"The Indian Penal Code","Section 8 in The Indian Penal Code",1738671
+"The Indian Penal Code","Section 9 in The Indian Penal Code",1977541
+"The Indian Penal Code","Section 10 in The Indian Penal Code",1980183
+"The Indian Penal Code","Section 11 in The Indian Penal Code",668722
+"The Indian Penal Code","Section 12 in The Indian Penal Code",1066594
+"The Indian Penal Code","Section 13 in The Indian Penal Code",86648814
+"The Indian Penal Code","Section 14 in The Indian Penal Code",1087156
+"The Indian Penal Code","Section 15 in The Indian Penal Code",178237634
+"The Indian Penal Code","Section 16 in The Indian Penal Code",197248120
+"The Indian Penal Code","Section 17 in The Indian Penal Code",44781517
+"The Indian Penal Code","Section 18 in The Indian Penal Code",1638420
+"The Indian Penal Code","Section 19 in The Indian Penal Code",1807029
+"The Indian Penal Code","Section 19(a) in The Indian Penal Code",934102
+"The Indian Penal Code","Section 19(b) in The Indian Penal Code",1277561
+"The Indian Penal Code","Section 19(c) in The Indian Penal Code",1748633
+"The Indian Penal Code","Section 19(d) in The Indian Penal Code",1754152
+"The Indian Penal Code","Section 20 in The Indian Penal Code",1666329
+"The Indian Penal Code","Section 21 in The Indian Penal Code",1052367
+"The Indian Penal Code","Section 21(Second) in The Indian Penal Code",173018002
+"The Indian Penal Code","Section 21(Third) in The Indian Penal Code",85211723
+"The Indian Penal Code","Section 21(Fourth) in The Indian Penal Code",2451848
+"The Indian Penal Code","Section 21(Fifth) in The Indian Penal Code",73765099
+"The Indian Penal Code","Section 21(Sixth) in The Indian Penal Code",18139305
+"The Indian Penal Code","Section 21(Seventh) in The Indian Penal Code",76788054
+"The Indian Penal Code","Section 21(Eighth) in The Indian Penal Code",41192048
+"The Indian Penal Code","Section 21(Ninth) in The Indian Penal Code",146041163
+"The Indian Penal Code","Section 21(Tenth) in The Indian Penal Code",79688252
+"The Indian Penal Code","Section 21(Eleventh) in The Indian Penal Code",141635330
+"The Indian Penal Code","Section 21(Twelfth) in The Indian Penal Code",109485496
+"The Indian Penal Code","Section 21(Twelfth)(a) in The Indian Penal Code",28172280
+"The Indian Penal Code","Section 21(Twelfth)(b) in The Indian Penal Code",125556856
+"The Indian Penal Code","Section 21(Rajasthan) in The Indian Penal Code",194034146
+"The Indian Penal Code","Section 21(Rajasthan)(a) in The Indian Penal Code",82082490
+"The Indian Penal Code","Section 21(Rajasthan)(b) in The Indian Penal Code",7071870
+"The Indian Penal Code","Section 22 in The Indian Penal Code",1439341
+"The Indian Penal Code","Section 23 in The Indian Penal Code",519920
+"The Indian Penal Code","Section 24 in The Indian Penal Code",898393
+"The Indian Penal Code","Section 25 in The Indian Penal Code",1961417
+"The Indian Penal Code","Section 26 in The Indian Penal Code",1475631
+"The Indian Penal Code","Section 27 in The Indian Penal Code",412448
+"The Indian Penal Code","Section 28 in The Indian Penal Code",1133131
+"The Indian Penal Code","Section 29 in The Indian Penal Code",1580204
+"The Indian Penal Code","Section 29A in The Indian Penal Code",98853717
+"The Indian Penal Code","Section 29A(1) in The Indian Penal Code",167454609
+"The Indian Penal Code","Section 30 in The Indian Penal Code",1320984
+"The Indian Penal Code","Section 31 in The Indian Penal Code",1495541
+"The Indian Penal Code","Section 32 in The Indian Penal Code",1498946
+"The Indian Penal Code","Section 33 in The Indian Penal Code",1235517
+"The Indian Penal Code","Section 34 in The Indian Penal Code",37788
+"The Indian Penal Code","Section 35 in The Indian Penal Code",177872
+"The Indian Penal Code","Section 36 in The Indian Penal Code",615115
+"The Indian Penal Code","Section 37 in The Indian Penal Code",1201044
+"The Indian Penal Code","Section 37(a) in The Indian Penal Code",1142251
+"The Indian Penal Code","Section 37(b) in The Indian Penal Code",222372
+"The Indian Penal Code","Section 37(c) in The Indian Penal Code",958116
+"The Indian Penal Code","Section 38 in The Indian Penal Code",1138600
+"The Indian Penal Code","Section 39 in The Indian Penal Code",1284765
+"The Indian Penal Code","Section 41 in The Indian Penal Code",170198
+"The Indian Penal Code","Section 42 in The Indian Penal Code",1083970
+"The Indian Penal Code","Section 43 in The Indian Penal Code",704346
+"The Indian Penal Code","Section 44 in The Indian Penal Code",1106981
+"The Indian Penal Code","Section 45 in The Indian Penal Code",71684
+"The Indian Penal Code","Section 46 in The Indian Penal Code",1474653
+"The Indian Penal Code","Section 47 in The Indian Penal Code",1490617
+"The Indian Penal Code","Section 48 in The Indian Penal Code",1429988
+"The Indian Penal Code","Section 49 in The Indian Penal Code",201639
+"The Indian Penal Code","Section 50 in The Indian Penal Code",1778852
+"The Indian Penal Code","Section 51 in The Indian Penal Code",773857
+"The Indian Penal Code","Section 52 in The Indian Penal Code",1180351
+"The Indian Penal Code","Section 52A in The Indian Penal Code",328157
+"The Indian Penal Code","Section 53 in The Indian Penal Code",543586
+"The Indian Penal Code","Section 53(First) in The Indian Penal Code",163692843
+"The Indian Penal Code","Section 53(Fourthly) in The Indian Penal Code",190148979
+"The Indian Penal Code","Section 53(Fourthly)(1) in The Indian Penal Code",54041865
+"The Indian Penal Code","Section 53(Fourthly)(2) in The Indian Penal Code",38505867
+"The Indian Penal Code","Section 53(Fifthly) in The Indian Penal Code",86344884
+"The Indian Penal Code","Section 53(Sixthly) in The Indian Penal Code",64079424
+"The Indian Penal Code","Section 53A in The Indian Penal Code",492462
+"The Indian Penal Code","Section 53A(1) in The Indian Penal Code",244327
+"The Indian Penal Code","Section 53A(2) in The Indian Penal Code",1106243
+"The Indian Penal Code","Section 53A(3) in The Indian Penal Code",1498648
+"The Indian Penal Code","Section 53A(4) in The Indian Penal Code",1393088
+"The Indian Penal Code","Section 53A(4)(a) in The Indian Penal Code",1858467
+"The Indian Penal Code","Section 53A(4)(b) in The Indian Penal Code",1028342
+"The Indian Penal Code","Section 54 in The Indian Penal Code",1764008
+"The Indian Penal Code","Section 55 in The Indian Penal Code",370128
+"The Indian Penal Code","Section 55A in The Indian Penal Code",1703408
+"The Indian Penal Code","Section 55A(a) in The Indian Penal Code",1821835
+"The Indian Penal Code","Section 55A(b) in The Indian Penal Code",415592
+"The Indian Penal Code","Section 56 in The Indian Penal Code",464015
+"The Indian Penal Code","Section 57 in The Indian Penal Code",975467
+"The Indian Penal Code","Section 58 in The Indian Penal Code",1091779
+"The Indian Penal Code","Section 59 in The Indian Penal Code",1305735
+"The Indian Penal Code","Section 60 in The Indian Penal Code",1144631
+"The Indian Penal Code","Section 61 in The Indian Penal Code",1173866
+"The Indian Penal Code","Section 63 in The Indian Penal Code",961907
+"The Indian Penal Code","Section 64 in The Indian Penal Code",1314176
+"The Indian Penal Code","Section 65 in The Indian Penal Code",26136
+"The Indian Penal Code","Section 66 in The Indian Penal Code",1779880
+"The Indian Penal Code","Section 67 in The Indian Penal Code",1500319
+"The Indian Penal Code","Section 68 in The Indian Penal Code",58854
+"The Indian Penal Code","Section 69 in The Indian Penal Code",539183
+"The Indian Penal Code","Section 70 in The Indian Penal Code",1617023
+"The Indian Penal Code","Section 71 in The Indian Penal Code",396582
+"The Indian Penal Code","Section 71(a) in The Indian Penal Code",1012558
+"The Indian Penal Code","Section 71(b) in The Indian Penal Code",1363155
+"The Indian Penal Code","Section 72 in The Indian Penal Code",823480
+"The Indian Penal Code","Section 73 in The Indian Penal Code",1589108
+"The Indian Penal Code","Section 74 in The Indian Penal Code",1105025
+"The Indian Penal Code","Section 75 in The Indian Penal Code",378408
+"The Indian Penal Code","Section 75(a) in The Indian Penal Code",1894622
+"The Indian Penal Code","Section 76 in The Indian Penal Code",202169
+"The Indian Penal Code","Section 76(a) in The Indian Penal Code",1076438
+"The Indian Penal Code","Section 76(b) in The Indian Penal Code",725903
+"The Indian Penal Code","Section 77 in The Indian Penal Code",306489
+"The Indian Penal Code","Section 78 in The Indian Penal Code",208139
+"The Indian Penal Code","Section 79 in The Indian Penal Code",1918278
+"The Indian Penal Code","Section 80 in The Indian Penal Code",602933
+"The Indian Penal Code","Section 81 in The Indian Penal Code",538716
+"The Indian Penal Code","Section 81(a) in The Indian Penal Code",1842141
+"The Indian Penal Code","Section 81(b) in The Indian Penal Code",938440
+"The Indian Penal Code","Section 82 in The Indian Penal Code",1530896
+"The Indian Penal Code","Section 83 in The Indian Penal Code",1703265
+"The Indian Penal Code","Section 84 in The Indian Penal Code",1433889
+"The Indian Penal Code","Section 85 in The Indian Penal Code",138486
+"The Indian Penal Code","Section 86 in The Indian Penal Code",420874
+"The Indian Penal Code","Section 87 in The Indian Penal Code",287914
+"The Indian Penal Code","Section 88 in The Indian Penal Code",862963
+"The Indian Penal Code","Section 89 in The Indian Penal Code",1858333
+"The Indian Penal Code","Section 89(First) in The Indian Penal Code",27696165
+"The Indian Penal Code","Section 89(Secondly) in The Indian Penal Code",16744523
+"The Indian Penal Code","Section 89(Thirdly) in The Indian Penal Code",30748728
+"The Indian Penal Code","Section 89(Fourthly) in The Indian Penal Code",6770100
+"The Indian Penal Code","Section 90 in The Indian Penal Code",1742535
+"The Indian Penal Code","Section 91 in The Indian Penal Code",1957001
+"The Indian Penal Code","Section 92 in The Indian Penal Code",870189
+"The Indian Penal Code","Section 92(First) in The Indian Penal Code",2277460
+"The Indian Penal Code","Section 92(Secondly) in The Indian Penal Code",177168923
+"The Indian Penal Code","Section 92(Thirdly) in The Indian Penal Code",44593949
+"The Indian Penal Code","Section 92(Fourthly) in The Indian Penal Code",8740288
+"The Indian Penal Code","Section 92(Fourthly)(a) in The Indian Penal Code",133838321
+"The Indian Penal Code","Section 92(Fourthly)(b) in The Indian Penal Code",197483355
+"The Indian Penal Code","Section 92(Fourthly)(c) in The Indian Penal Code",177171328
+"The Indian Penal Code","Section 92(Fourthly)(d) in The Indian Penal Code",174564797
+"The Indian Penal Code","Section 93 in The Indian Penal Code",1184400
+"The Indian Penal Code","Section 94 in The Indian Penal Code",1174913
+"The Indian Penal Code","Section 95 in The Indian Penal Code",62835
+"The Indian Penal Code","Section 96 in The Indian Penal Code",777353
+"The Indian Penal Code","Section 97 in The Indian Penal Code",1499794
+"The Indian Penal Code","Section 97(First) in The Indian Penal Code",116325044
+"The Indian Penal Code","Section 97(Secondly) in The Indian Penal Code",93777918
+"The Indian Penal Code","Section 98 in The Indian Penal Code",1159920
+"The Indian Penal Code","Section 98(a) in The Indian Penal Code",885164
+"The Indian Penal Code","Section 98(b) in The Indian Penal Code",15030
+"The Indian Penal Code","Section 99 in The Indian Penal Code",650803
+"The Indian Penal Code","Section 100 in The Indian Penal Code",714464
+"The Indian Penal Code","Section 100(First) in The Indian Penal Code",187894963
+"The Indian Penal Code","Section 100(Secondly) in The Indian Penal Code",76243000
+"The Indian Penal Code","Section 100(Thirdly) in The Indian Penal Code",107378943
+"The Indian Penal Code","Section 100(Fourthly) in The Indian Penal Code",37795711
+"The Indian Penal Code","Section 100(Fifthly) in The Indian Penal Code",142496480
+"The Indian Penal Code","Section 100(Sixthly) in The Indian Penal Code",40081502
+"The Indian Penal Code","Section 101 in The Indian Penal Code",399205
+"The Indian Penal Code","Section 102 in The Indian Penal Code",1985227
+"The Indian Penal Code","Section 103 in The Indian Penal Code",860501
+"The Indian Penal Code","Section 103(First) in The Indian Penal Code",18959533
+"The Indian Penal Code","Section 103(Secondly) in The Indian Penal Code",194543591
+"The Indian Penal Code","Section 103(Thirdly) in The Indian Penal Code",140301972
+"The Indian Penal Code","Section 103(Fourthly) in The Indian Penal Code",68694017
+"The Indian Penal Code","Section 103(Karnataka) in The Indian Penal Code",54392100
+"The Indian Penal Code","Section 103(Karnataka)(i) in The Indian Penal Code",159104462
+"The Indian Penal Code","Section 103(Karnataka)(ii) in The Indian Penal Code",181059818
+"The Indian Penal Code","Section 103(Karnataka)(ii)(2) in The Indian Penal Code",166056518
+"The Indian Penal Code","Section 103(Maharashtra) in The Indian Penal Code",146052308
+"The Indian Penal Code","Section 103(Maharashtra)(a) in The Indian Penal Code",26767939
+"The Indian Penal Code","Section 103(Maharashtra)(b) in The Indian Penal Code",83161666
+"The Indian Penal Code","Section 103(Maharashtra)(c) in The Indian Penal Code",190427701
+"The Indian Penal Code","Section 105 in The Indian Penal Code",1944062
+"The Indian Penal Code","Section 106 in The Indian Penal Code",1606852
+"The Indian Penal Code","Section 107(First) in The Indian Penal Code",140859846
+"The Indian Penal Code","Section 107(Secondly) in The Indian Penal Code",13181557
+"The Indian Penal Code","Section 108 in The Indian Penal Code",1494082
+"The Indian Penal Code","Section 108(a) in The Indian Penal Code",271991
+"The Indian Penal Code","Section 108(a) in The Indian Penal Code",271991
+"The Indian Penal Code","Section 108(c) in The Indian Penal Code",1835026
+"The Indian Penal Code","Section 108(d) in The Indian Penal Code",1355701
+"The Indian Penal Code","Section 109 in The Indian Penal Code",513074
+"The Indian Penal Code","Section 109(a) in The Indian Penal Code",607056
+"The Indian Penal Code","Section 109(b) in The Indian Penal Code",1198272
+"The Indian Penal Code","Section 110 in The Indian Penal Code",1504556
+"The Indian Penal Code","Section 111 in The Indian Penal Code",1504203
+"The Indian Penal Code","Section 111(Proviso)(a) in The Indian Penal Code",155914673
+"The Indian Penal Code","Section 111(Proviso)(c) in The Indian Penal Code",145769552
+"The Indian Penal Code","Section 112 in The Indian Penal Code",1541278
+"The Indian Penal Code","Section 114 in The Indian Penal Code",112749
+"The Indian Penal Code","Section 115 in The Indian Penal Code",1075683
+"The Indian Penal Code","Section 116 in The Indian Penal Code",609127
+"The Indian Penal Code","Section 116(b) in The Indian Penal Code",1527216
+"The Indian Penal Code","Section 116(c) in The Indian Penal Code",880237
+"The Indian Penal Code","Section 117 in The Indian Penal Code",96849
+"The Indian Penal Code","Section 120A in The Indian Penal Code",591631
+"The Indian Penal Code","Section 120A(1) in The Indian Penal Code",1345425
+"The Indian Penal Code","Section 120B in The Indian Penal Code",1897847
+"The Indian Penal Code","Section 120B(1) in The Indian Penal Code",81396
+"The Indian Penal Code","Section 120B(2) in The Indian Penal Code",822448
+"The Indian Penal Code","Section 121A in The Indian Penal Code",1949191
+"The Indian Penal Code","Section 122 in The Indian Penal Code",1661760
+"The Indian Penal Code","Section 124 in The Indian Penal Code",1392445
+"The Indian Penal Code","Section 124A in The Indian Penal Code",1641007
+"The Indian Penal Code","Section 126 in The Indian Penal Code",786873
+"The Indian Penal Code","Section 127 in The Indian Penal Code",186208
+"The Indian Penal Code","Section 129 in The Indian Penal Code",1042889
+"The Indian Penal Code","Section 130 in The Indian Penal Code",1097555
+"The Indian Penal Code","Section 132 in The Indian Penal Code",1874283
+"The Indian Penal Code","Section 133 in The Indian Penal Code",356470
+"The Indian Penal Code","Section 135 in The Indian Penal Code",555656
+"The Indian Penal Code","Section 136(Exception) in The Indian Penal Code",9686916
+"The Indian Penal Code","Section 137 in The Indian Penal Code",1452939
+"The Indian Penal Code","Section 138A in The Indian Penal Code",1411937
+"The Indian Penal Code","Section 139 in The Indian Penal Code",64871
+"The Indian Penal Code","Section 141 in The Indian Penal Code",1542085
+"The Indian Penal Code","Section 141(First) in The Indian Penal Code",195482208
+"The Indian Penal Code","Section 141(Third) in The Indian Penal Code",170276286
+"The Indian Penal Code","Section 141(Fourth) in The Indian Penal Code",15421721
+"The Indian Penal Code","Section 142 in The Indian Penal Code",1364868
+"The Indian Penal Code","Section 143 in The Indian Penal Code",1096965
+"The Indian Penal Code","Section 144 in The Indian Penal Code",1196530
+"The Indian Penal Code","Section 145 in The Indian Penal Code",138788
+"The Indian Penal Code","Section 146 in The Indian Penal Code",1601950
+"The Indian Penal Code","Section 147 in The Indian Penal Code",1258372
+"The Indian Penal Code","Section 148 in The Indian Penal Code",763672
+"The Indian Penal Code","Section 149 in The Indian Penal Code",999134
+"The Indian Penal Code","Section 150 in The Indian Penal Code",737087
+"The Indian Penal Code","Section 152 in The Indian Penal Code",1506699
+"The Indian Penal Code","Section 153 in The Indian Penal Code",857209
+"The Indian Penal Code","Section 153A in The Indian Penal Code",345634
+"The Indian Penal Code","Section 153A(1)(a) in The Indian Penal Code",1102504
+"The Indian Penal Code","Section 153A(1)(b) in The Indian Penal Code",1361857
+"The Indian Penal Code","Section 153B in The Indian Penal Code",771276
+"The Indian Penal Code","Section 153B(1) in The Indian Penal Code",1928242
+"The Indian Penal Code","Section 153B(1)(b) in The Indian Penal Code",1811556
+"The Indian Penal Code","Section 153B(2) in The Indian Penal Code",1054720
+"The Indian Penal Code","Section 154 in The Indian Penal Code",1034470
+"The Indian Penal Code","Section 156 in The Indian Penal Code",833310
+"The Indian Penal Code","Section 157 in The Indian Penal Code",1773948
+"The Indian Penal Code","Section 158 in The Indian Penal Code",227771
+"The Indian Penal Code","Section 160 in The Indian Penal Code",518086
+"The Indian Penal Code","Section 161 in The Indian Penal Code",48127346
+"The Indian Penal Code","Section 162 in The Indian Penal Code",108500659
+"The Indian Penal Code","Section 164 in The Indian Penal Code",78014276
+"The Indian Penal Code","Section 165 in The Indian Penal Code",126359453
+"The Indian Penal Code","Section 166 in The Indian Penal Code",570574
+"The Indian Penal Code","Section 167 in The Indian Penal Code",1815602
+"The Indian Penal Code","Section 168 in The Indian Penal Code",9353
+"The Indian Penal Code","Section 170 in The Indian Penal Code",159157
+"The Indian Penal Code","Section 171 in The Indian Penal Code",1408303
+"The Indian Penal Code","Section 171A(a) in The Indian Penal Code",83989
+"The Indian Penal Code","Section 171B in The Indian Penal Code",298814
+"The Indian Penal Code","Section 171B(1) in The Indian Penal Code",511785
+"The Indian Penal Code","Section 171B(1)(i) in The Indian Penal Code",764852
+"The Indian Penal Code","Section 171B(2) in The Indian Penal Code",1645926
+"The Indian Penal Code","Section 171B(3) in The Indian Penal Code",1132618
+"The Indian Penal Code","Section 171C(1) in The Indian Penal Code",494088
+"The Indian Penal Code","Section 171C(2) in The Indian Penal Code",803249
+"The Indian Penal Code","Section 171C(2)(b) in The Indian Penal Code",1732104
+"The Indian Penal Code","Section 171D in The Indian Penal Code",1987204
+"The Indian Penal Code","Section 171E in The Indian Penal Code",1521382
+"The Indian Penal Code","Section 171G in The Indian Penal Code",872881
+"The Indian Penal Code","Section 171H in The Indian Penal Code",76721
+"The Indian Penal Code","Section 173 in The Indian Penal Code",1187622
+"The Indian Penal Code","Section 174 in The Indian Penal Code",456664
+"The Indian Penal Code","Section 174(a) in The Indian Penal Code",1995369
+"The Indian Penal Code","Section 174A in The Indian Penal Code",119436650
+"The Indian Penal Code","Section 174A(1) in The Indian Penal Code",55977849
+"The Indian Penal Code","Section 176 in The Indian Penal Code",641385
+"The Indian Penal Code","Section 176(1) in The Indian Penal Code",191514436
+"The Indian Penal Code","Section 177(a) in The Indian Penal Code",16728
+"The Indian Penal Code","Section 178 in The Indian Penal Code",1544991
+"The Indian Penal Code","Section 179 in The Indian Penal Code",1380952
+"The Indian Penal Code","Section 180 in The Indian Penal Code",1658410
+"The Indian Penal Code","Section 182 in The Indian Penal Code",534484
+"The Indian Penal Code","Section 182(a) in The Indian Penal Code",801371
+"The Indian Penal Code","Section 182(a) in The Indian Penal Code",801371
+"The Indian Penal Code","Section 182(b) in The Indian Penal Code",1023236
+"The Indian Penal Code","Section 183 in The Indian Penal Code",1257136
+"The Indian Penal Code","Section 184 in The Indian Penal Code",1177574
+"The Indian Penal Code","Section 186 in The Indian Penal Code",488479
+"The Indian Penal Code","Section 187 in The Indian Penal Code",697568
+"The Indian Penal Code","Section 189 in The Indian Penal Code",454796
+"The Indian Penal Code","Section 190 in The Indian Penal Code",276703
+"The Indian Penal Code","Section 191(a) in The Indian Penal Code",265754
+"The Indian Penal Code","Section 191(b) in The Indian Penal Code",1539592
+"The Indian Penal Code","Section 191(d) in The Indian Penal Code",1823184
+"The Indian Penal Code","Section 191(e) in The Indian Penal Code",772652
+"The Indian Penal Code","Section 192(a) in The Indian Penal Code",167554
+"The Indian Penal Code","Section 192(b) in The Indian Penal Code",1814231
+"The Indian Penal Code","Section 193 in The Indian Penal Code",308396
+"The Indian Penal Code","Section 194 in The Indian Penal Code",1274033
+"The Indian Penal Code","Section 195A in The Indian Penal Code",76352360
+"The Indian Penal Code","Section 196 in The Indian Penal Code",814524
+"The Indian Penal Code","Section 198 in The Indian Penal Code",373409
+"The Indian Penal Code","Section 199 in The Indian Penal Code",739296
+"The Indian Penal Code","Section 201 in The Indian Penal Code",386021
+"The Indian Penal Code","Section 202 in The Indian Penal Code",162723
+"The Indian Penal Code","Section 204 in The Indian Penal Code",1905618
+"The Indian Penal Code","Section 205 in The Indian Penal Code",1346193
+"The Indian Penal Code","Section 206 in The Indian Penal Code",455873
+"The Indian Penal Code","Section 208 in The Indian Penal Code",844323
+"The Indian Penal Code","Section 210 in The Indian Penal Code",206797
+"The Indian Penal Code","Section 211 in The Indian Penal Code",172919
+"The Indian Penal Code","Section 212 in The Indian Penal Code",66955
+"The Indian Penal Code","Section 213 in The Indian Penal Code",340188
+"The Indian Penal Code","Section 214 in The Indian Penal Code",1156930
+"The Indian Penal Code","Section 216 in The Indian Penal Code",1865807
+"The Indian Penal Code","Section 216(Exception) in The Indian Penal Code",115813370
+"The Indian Penal Code","Section 216A(Exception) in The Indian Penal Code",79075967
+"The Indian Penal Code","Section 216B in The Indian Penal Code",104723
+"The Indian Penal Code","Section 217 in The Indian Penal Code",1441158
+"The Indian Penal Code","Section 219 in The Indian Penal Code",311136
+"The Indian Penal Code","Section 220 in The Indian Penal Code",218156
+"The Indian Penal Code","Section 222 in The Indian Penal Code",384218
+"The Indian Penal Code","Section 223 in The Indian Penal Code",1375217
+"The Indian Penal Code","Section 224 in The Indian Penal Code",1522870
+"The Indian Penal Code","Section 225A in The Indian Penal Code",1452470
+"The Indian Penal Code","Section 225A(a) in The Indian Penal Code",257066
+"The Indian Penal Code","Section 225B in The Indian Penal Code",824298
+"The Indian Penal Code","Section 227 in The Indian Penal Code",470297
+"The Indian Penal Code","Section 228 in The Indian Penal Code",1969991
+"The Indian Penal Code","Section 228A in The Indian Penal Code",1696350
+"The Indian Penal Code","Section 228A(2) in The Indian Penal Code",177666
+"The Indian Penal Code","Section 228A(2)(a) in The Indian Penal Code",383815
+"The Indian Penal Code","Section 228A(2)(c) in The Indian Penal Code",473434
+"The Indian Penal Code","Section 228A(3) in The Indian Penal Code",1564789
+"The Indian Penal Code","Section 229A in The Indian Penal Code",77781517
+"The Indian Penal Code","Section 229A(a) in The Indian Penal Code",168022094
+"The Indian Penal Code","Section 230 in The Indian Penal Code",137348
+"The Indian Penal Code","Section 230(b) in The Indian Penal Code",1410482
+"The Indian Penal Code","Section 230(c) in The Indian Penal Code",1908063
+"The Indian Penal Code","Section 230(e) in The Indian Penal Code",88051
+"The Indian Penal Code","Section 231 in The Indian Penal Code",1241643
+"The Indian Penal Code","Section 233 in The Indian Penal Code",1419576
+"The Indian Penal Code","Section 234 in The Indian Penal Code",1572307
+"The Indian Penal Code","Section 236 in The Indian Penal Code",1446884
+"The Indian Penal Code","Section 237 in The Indian Penal Code",1688599
+"The Indian Penal Code","Section 239 in The Indian Penal Code",1572967
+"The Indian Penal Code","Section 240 in The Indian Penal Code",326674
+"The Indian Penal Code","Section 242 in The Indian Penal Code",1763332
+"The Indian Penal Code","Section 243 in The Indian Penal Code",635719
+"The Indian Penal Code","Section 245 in The Indian Penal Code",901796
+"The Indian Penal Code","Section 247 in The Indian Penal Code",1860198
+"The Indian Penal Code","Section 249 in The Indian Penal Code",491811
+"The Indian Penal Code","Section 250 in The Indian Penal Code",1915517
+"The Indian Penal Code","Section 252 in The Indian Penal Code",1489236
+"The Indian Penal Code","Section 253 in The Indian Penal Code",1465779
+"The Indian Penal Code","Section 255 in The Indian Penal Code",1305169
+"The Indian Penal Code","Section 256 in The Indian Penal Code",1520867
+"The Indian Penal Code","Section 258 in The Indian Penal Code",1585428
+"The Indian Penal Code","Section 259 in The Indian Penal Code",974300
+"The Indian Penal Code","Section 261 in The Indian Penal Code",458143
+"The Indian Penal Code","Section 262 in The Indian Penal Code",1321901
+"The Indian Penal Code","Section 263A in The Indian Penal Code",1851254
+"The Indian Penal Code","Section 263A(1) in The Indian Penal Code",1036515
+"The Indian Penal Code","Section 263A(1)(b) in The Indian Penal Code",1025417
+"The Indian Penal Code","Section 263A(1)(c) in The Indian Penal Code",1900259
+"The Indian Penal Code","Section 263A(3) in The Indian Penal Code",1930978
+"The Indian Penal Code","Section 264 in The Indian Penal Code",1999051
+"The Indian Penal Code","Section 265 in The Indian Penal Code",1783774
+"The Indian Penal Code","Section 267 in The Indian Penal Code",1518251
+"The Indian Penal Code","Section 268 in The Indian Penal Code",209076
+"The Indian Penal Code","Section 270 in The Indian Penal Code",1164731
+"The Indian Penal Code","Section 271 in The Indian Penal Code",1726256
+"The Indian Penal Code","Section 273 in The Indian Penal Code",285163
+"The Indian Penal Code","Section 274 in The Indian Penal Code",261128
+"The Indian Penal Code","Section 275 in The Indian Penal Code",1565155
+"The Indian Penal Code","Section 277 in The Indian Penal Code",1374604
+"The Indian Penal Code","Section 278 in The Indian Penal Code",1368265
+"The Indian Penal Code","Section 280 in The Indian Penal Code",1573258
+"The Indian Penal Code","Section 281 in The Indian Penal Code",52012
+"The Indian Penal Code","Section 283 in The Indian Penal Code",1162540
+"The Indian Penal Code","Section 284 in The Indian Penal Code",1074140
+"The Indian Penal Code","Section 286 in The Indian Penal Code",980159
+"The Indian Penal Code","Section 287 in The Indian Penal Code",180291
+"The Indian Penal Code","Section 289 in The Indian Penal Code",1162492
+"The Indian Penal Code","Section 290 in The Indian Penal Code",1099867
+"The Indian Penal Code","Section 292 in The Indian Penal Code",1704109
+"The Indian Penal Code","Section 292(1) in The Indian Penal Code",615529
+"The Indian Penal Code","Section 292(2)(a) in The Indian Penal Code",1383076
+"The Indian Penal Code","Section 292(2)(b) in The Indian Penal Code",1596862
+"The Indian Penal Code","Section 292(2)(d) in The Indian Penal Code",149846
+"The Indian Penal Code","Section 292(2)(e) in The Indian Penal Code",206363
+"The Indian Penal Code","Section 292(2)(e)(Exception)(a) in The Indian Penal Code",28412657
+"The Indian Penal Code","Section 292(2)(e)(Exception)(b) in The Indian Penal Code",45287460
+"The Indian Penal Code","Section 294 in The Indian Penal Code",594493
+"The Indian Penal Code","Section 294(a) in The Indian Penal Code",1600124
+"The Indian Penal Code","Section 294A in The Indian Penal Code",440731
+"The Indian Penal Code","Section 295 in The Indian Penal Code",305995
+"The Indian Penal Code","Section 296 in The Indian Penal Code",1064219
+"The Indian Penal Code","Section 297 in The Indian Penal Code",15048
+"The Indian Penal Code","Section 299 in The Indian Penal Code",305371
+"The Indian Penal Code","Section 299(a) in The Indian Penal Code",333705
+"The Indian Penal Code","Section 299(c) in The Indian Penal Code",642470
+"The Indian Penal Code","Section 300 in The Indian Penal Code",626019
+"The Indian Penal Code","Section 300(Thirdly) in The Indian Penal Code",134179032
+"The Indian Penal Code","Section 300(Fourthly) in The Indian Penal Code",36961205
+"The Indian Penal Code","Section 300(Fourthly)(b) in The Indian Penal Code",46610562
+"The Indian Penal Code","Section 300(Fourthly)(d) in The Indian Penal Code",122104282
+"The Indian Penal Code","Section 300(First) in The Indian Penal Code",178163194
+"The Indian Penal Code","Section 300(Thirdly) in The Indian Penal Code",134179032
+"The Indian Penal Code","Section 300(Thirdly)(a) in The Indian Penal Code",147489061
+"The Indian Penal Code","Section 300(Thirdly)(c) in The Indian Penal Code",179562156
+"The Indian Penal Code","Section 300(Thirdly)(d) in The Indian Penal Code",79186850
+"The Indian Penal Code","Section 300(Thirdly)(f) in The Indian Penal Code",132639541
+"The Indian Penal Code","Section 302 in The Indian Penal Code",1560742
+"The Indian Penal Code","Section 303 in The Indian Penal Code",793437
+"The Indian Penal Code","Section 304 in The Indian Penal Code",409589
+"The Indian Penal Code","Section 304B in The Indian Penal Code",653797
+"The Indian Penal Code","Section 304B(1) in The Indian Penal Code",98282
+"The Indian Penal Code","Section 305 in The Indian Penal Code",255359
+"The Indian Penal Code","Section 306 in The Indian Penal Code",92983
+"The Indian Penal Code","Section 307(a) in The Indian Penal Code",493413
+"The Indian Penal Code","Section 307(b) in The Indian Penal Code",1107733
+"The Indian Penal Code","Section 307(d) in The Indian Penal Code",1779567
+"The Indian Penal Code","Section 309 in The Indian Penal Code",1501595
+"The Indian Penal Code","Section 310 in The Indian Penal Code",362686
+"The Indian Penal Code","Section 312 in The Indian Penal Code",1990693
+"The Indian Penal Code","Section 313 in The Indian Penal Code",140515
+"The Indian Penal Code","Section 314 in The Indian Penal Code",1317800
+"The Indian Penal Code","Section 316 in The Indian Penal Code",1184459
+"The Indian Penal Code","Section 317 in The Indian Penal Code",9383
+"The Indian Penal Code","Section 319 in The Indian Penal Code",1138947
+"The Indian Penal Code","Section 320 in The Indian Penal Code",895891
+"The Indian Penal Code","Section 320(Secondly) in The Indian Penal Code",175864808
+"The Indian Penal Code","Section 320(Thirdly) in The Indian Penal Code",45255066
+"The Indian Penal Code","Section 320(Fifthly) in The Indian Penal Code",183418311
+"The Indian Penal Code","Section 320(Sixthly) in The Indian Penal Code",105055722
+"The Indian Penal Code","Section 320(Eighthly) in The Indian Penal Code",128499502
+"The Indian Penal Code","Section 322 in The Indian Penal Code",1793223
+"The Indian Penal Code","Section 323 in The Indian Penal Code",1011035
+"The Indian Penal Code","Section 325 in The Indian Penal Code",1133601
+"The Indian Penal Code","Section 326 in The Indian Penal Code",1540253
+"The Indian Penal Code","Section 327 in The Indian Penal Code",520270
+"The Indian Penal Code","Section 328 in The Indian Penal Code",1535430
+"The Indian Penal Code","Section 329 in The Indian Penal Code",430601
+"The Indian Penal Code","Section 330(a) in The Indian Penal Code",13408724
+"The Indian Penal Code","Section 330(b) in The Indian Penal Code",193316115
+"The Indian Penal Code","Section 330(d) in The Indian Penal Code",8136490
+"The Indian Penal Code","Section 331 in The Indian Penal Code",1135572
+"The Indian Penal Code","Section 334 in The Indian Penal Code",299470
+"The Indian Penal Code","Section 334 in The Indian Penal Code",299470
+"The Indian Penal Code","Section 336 in The Indian Penal Code",175699
+"The Indian Penal Code","Section 337 in The Indian Penal Code",1402213
+"The Indian Penal Code","Section 338 in The Indian Penal Code",1721129
+"The Indian Penal Code","Section 339 in The Indian Penal Code",278610
+"The Indian Penal Code","Section 341 in The Indian Penal Code",1599401
+"The Indian Penal Code","Section 342 in The Indian Penal Code",1243353
+"The Indian Penal Code","Section 343 in The Indian Penal Code",589866
+"The Indian Penal Code","Section 345 in The Indian Penal Code",1814951
+"The Indian Penal Code","Section 346 in The Indian Penal Code",559735
+"The Indian Penal Code","Section 348 in The Indian Penal Code",792272
+"The Indian Penal Code","Section 349 in The Indian Penal Code",1346144
+"The Indian Penal Code","Section 349(Secondly) in The Indian Penal Code",6187607
+"The Indian Penal Code","Section 349(Thirdly) in The Indian Penal Code",98197030
+"The Indian Penal Code","Section 350(a) in The Indian Penal Code",404110
+"The Indian Penal Code","Section 350(b) in The Indian Penal Code",45523
+"The Indian Penal Code","Section 350(d) in The Indian Penal Code",966156
+"The Indian Penal Code","Section 350(f) in The Indian Penal Code",739240
+"The Indian Penal Code","Section 350(g) in The Indian Penal Code",60452
+"The Indian Penal Code","Section 350(h) in The Indian Penal Code",1909401
+"The Indian Penal Code","Section 351(a) in The Indian Penal Code",59820
+"The Indian Penal Code","Section 351(b) in The Indian Penal Code",1015150
+"The Indian Penal Code","Section 352 in The Indian Penal Code",1672685
+"The Indian Penal Code","Section 353 in The Indian Penal Code",1208971
+"The Indian Penal Code","Section 355 in The Indian Penal Code",1258665
+"The Indian Penal Code","Section 356 in The Indian Penal Code",1760174
+"The Indian Penal Code","Section 357 in The Indian Penal Code",875650
+"The Indian Penal Code","Section 358 in The Indian Penal Code",1369110
+"The Indian Penal Code","Section 360 in The Indian Penal Code",243306
+"The Indian Penal Code","Section 361 in The Indian Penal Code",1515807
+"The Indian Penal Code","Section 361(Exception) in The Indian Penal Code",113974146
+"The Indian Penal Code","Section 362 in The Indian Penal Code",390542
+"The Indian Penal Code","Section 363 in The Indian Penal Code",619940
+"The Indian Penal Code","Section 363A in The Indian Penal Code",1892519
+"The Indian Penal Code","Section 363A(2) in The Indian Penal Code",1769107
+"The Indian Penal Code","Section 363A(4) in The Indian Penal Code",864982
+"The Indian Penal Code","Section 363A(4)(a) in The Indian Penal Code",1094376
+"The Indian Penal Code","Section 363A(4)(a)(ii) in The Indian Penal Code",1280653
+"The Indian Penal Code","Section 363A(4)(a)(iii) in The Indian Penal Code",682479
+"The Indian Penal Code","Section 363A(4)(b) in The Indian Penal Code",263341
+"The Indian Penal Code","Section 363A(4)(b)(i) in The Indian Penal Code",1009146
+"The Indian Penal Code","Section 364 in The Indian Penal Code",695990
+"The Indian Penal Code","Section 364(a) in The Indian Penal Code",203679
+"The Indian Penal Code","Section 364A in The Indian Penal Code",1374258
+"The Indian Penal Code","Section 365 in The Indian Penal Code",886598
+"The Indian Penal Code","Section 366A in The Indian Penal Code",1559723
+"The Indian Penal Code","Section 366B in The Indian Penal Code",1371751
+"The Indian Penal Code","Section 367 in The Indian Penal Code",1324577
+"The Indian Penal Code","Section 369 in The Indian Penal Code",1684623
+"The Indian Penal Code","Section 370 in The Indian Penal Code",1153041
+"The Indian Penal Code","Section 371 in The Indian Penal Code",586835
+"The Indian Penal Code","Section 373 in The Indian Penal Code",530949
+"The Indian Penal Code","Section 374 in The Indian Penal Code",1459475
+"The Indian Penal Code","Section 375(First) in The Indian Penal Code",146335001
+"The Indian Penal Code","Section 375(Secondly) in The Indian Penal Code",51172542
+"The Indian Penal Code","Section 375(Fourthly) in The Indian Penal Code",71576325
+"The Indian Penal Code","Section 375(Sixthly) in The Indian Penal Code",75513706
+"The Indian Penal Code","Section 375(Exception) in The Indian Penal Code",195673915
+"The Indian Penal Code","Section 375(Manipur)(b) in The Indian Penal Code",14509729
+"The Indian Penal Code","Section 376 in The Indian Penal Code",1279834
+"The Indian Penal Code","Section 376(2) in The Indian Penal Code",1677485
+"The Indian Penal Code","Section 376(2)(a) in The Indian Penal Code",55666
+"The Indian Penal Code","Section 376(2)(a)(i) in The Indian Penal Code",324024
+"The Indian Penal Code","Section 376(2)(a)(iii) in The Indian Penal Code",324853
+"The Indian Penal Code","Section 376(2)(b) in The Indian Penal Code",1836398
+"The Indian Penal Code","Section 376(2)(d) in The Indian Penal Code",830268
+"The Indian Penal Code","Section 376(2)(e) in The Indian Penal Code",865090
+"The Indian Penal Code","Section 376(2)(g) in The Indian Penal Code",1284610
+"The Indian Penal Code","Section 376A in The Indian Penal Code",668689
+"The Indian Penal Code","Section 376C in The Indian Penal Code",1553346
+"The Indian Penal Code","Section 376D in The Indian Penal Code",9545
+"The Indian Penal Code","Section 378 in The Indian Penal Code",1280620
+"The Indian Penal Code","Section 378(a) in The Indian Penal Code",1102227
+"The Indian Penal Code","Section 378(c) in The Indian Penal Code",659325
+"The Indian Penal Code","Section 378(d) in The Indian Penal Code",393234
+"The Indian Penal Code","Section 378(f) in The Indian Penal Code",1900894
+"The Indian Penal Code","Section 378(g) in The Indian Penal Code",1320154
+"The Indian Penal Code","Section 378(i) in The Indian Penal Code",958395
+"The Indian Penal Code","Section 378(k) in The Indian Penal Code",1278389
+"The Indian Penal Code","Section 378(l) in The Indian Penal Code",1885347
+"The Indian Penal Code","Section 378(m) in The Indian Penal Code",1945753
+"The Indian Penal Code","Section 378(o) in The Indian Penal Code",115968
+"The Indian Penal Code","Section 378(p) in The Indian Penal Code",813511
+"The Indian Penal Code","Section 380 in The Indian Penal Code",839778
+"The Indian Penal Code","Section 381 in The Indian Penal Code",436339
+"The Indian Penal Code","Section 382 in The Indian Penal Code",556739
+"The Indian Penal Code","Section 382(b) in The Indian Penal Code",1818573
+"The Indian Penal Code","Section 383(a) in The Indian Penal Code",58458
+"The Indian Penal Code","Section 383(b) in The Indian Penal Code",283038
+"The Indian Penal Code","Section 383(d) in The Indian Penal Code",1307657
+"The Indian Penal Code","Section 384 in The Indian Penal Code",1944660
+"The Indian Penal Code","Section 385 in The Indian Penal Code",752609
+"The Indian Penal Code","Section 387 in The Indian Penal Code",1688284
+"The Indian Penal Code","Section 388 in The Indian Penal Code",1030257
+"The Indian Penal Code","Section 389 in The Indian Penal Code",970675
+"The Indian Penal Code","Section 390 in The Indian Penal Code",1905008
+"The Indian Penal Code","Section 390(a) in The Indian Penal Code",1217295
+"The Indian Penal Code","Section 390(b) in The Indian Penal Code",751022
+"The Indian Penal Code","Section 390(c) in The Indian Penal Code",1843596
+"The Indian Penal Code","Section 390(d) in The Indian Penal Code",919441
+"The Indian Penal Code","Section 390(a) in The Indian Penal Code",1217295
+"The Indian Penal Code","Section 390(c) in The Indian Penal Code",1843596
+"The Indian Penal Code","Section 390(d) in The Indian Penal Code",919441
+"The Indian Penal Code","Section 391 in The Indian Penal Code",1337698
+"The Indian Penal Code","Section 392 in The Indian Penal Code",329571
+"The Indian Penal Code","Section 393 in The Indian Penal Code",1068394
+"The Indian Penal Code","Section 395 in The Indian Penal Code",1119707
+"The Indian Penal Code","Section 396 in The Indian Penal Code",958439
+"The Indian Penal Code","Section 398 in The Indian Penal Code",835557
+"The Indian Penal Code","Section 399 in The Indian Penal Code",399026
+"The Indian Penal Code","Section 400 in The Indian Penal Code",468585
+"The Indian Penal Code","Section 402 in The Indian Penal Code",1784492
+"The Indian Penal Code","Section 403 in The Indian Penal Code",1591527
+"The Indian Penal Code","Section 403(a) in The Indian Penal Code",59194
+"The Indian Penal Code","Section 403(c) in The Indian Penal Code",1576661
+"The Indian Penal Code","Section 403(a) in The Indian Penal Code",59194
+"The Indian Penal Code","Section 403(c) in The Indian Penal Code",1576661
+"The Indian Penal Code","Section 403(d) in The Indian Penal Code",250044
+"The Indian Penal Code","Section 403(f) in The Indian Penal Code",1243893
+"The Indian Penal Code","Section 405 in The Indian Penal Code",1249173
+"The Indian Penal Code","Section 405(a) in The Indian Penal Code",235541
+"The Indian Penal Code","Section 405(b) in The Indian Penal Code",1982413
+"The Indian Penal Code","Section 405(d) in The Indian Penal Code",1459174
+"The Indian Penal Code","Section 405(e) in The Indian Penal Code",1279310
+"The Indian Penal Code","Section 406 in The Indian Penal Code",988620
+"The Indian Penal Code","Section 407 in The Indian Penal Code",940928
+"The Indian Penal Code","Section 408 in The Indian Penal Code",1131784
+"The Indian Penal Code","Section 409 in The Indian Penal Code",1326844
+"The Indian Penal Code","Section 410 in The Indian Penal Code",446787
+"The Indian Penal Code","Section 411 in The Indian Penal Code",812083
+"The Indian Penal Code","Section 412 in The Indian Penal Code",844968
+"The Indian Penal Code","Section 414 in The Indian Penal Code",94452
+"The Indian Penal Code","Section 415 in The Indian Penal Code",1306824
+"The Indian Penal Code","Section 415(a) in The Indian Penal Code",566623
+"The Indian Penal Code","Section 415(b) in The Indian Penal Code",1380668
+"The Indian Penal Code","Section 415(d) in The Indian Penal Code",1548208
+"The Indian Penal Code","Section 415(f) in The Indian Penal Code",101135
+"The Indian Penal Code","Section 415(g) in The Indian Penal Code",1222569
+"The Indian Penal Code","Section 415(i) in The Indian Penal Code",68067
+"The Indian Penal Code","Section 416 in The Indian Penal Code",1041696
+"The Indian Penal Code","Section 416(b) in The Indian Penal Code",1972099
+"The Indian Penal Code","Section 417 in The Indian Penal Code",105503
+"The Indian Penal Code","Section 419 in The Indian Penal Code",1667388
+"The Indian Penal Code","Section 420 in The Indian Penal Code",1436241
+"The Indian Penal Code","Section 421 in The Indian Penal Code",821690
+"The Indian Penal Code","Section 423 in The Indian Penal Code",1442106
+"The Indian Penal Code","Section 424 in The Indian Penal Code",393714
+"The Indian Penal Code","Section 425 in The Indian Penal Code",441951
+"The Indian Penal Code","Section 425(b) in The Indian Penal Code",665517
+"The Indian Penal Code","Section 425(d) in The Indian Penal Code",1418293
+"The Indian Penal Code","Section 425(e) in The Indian Penal Code",1734074
+"The Indian Penal Code","Section 425(g) in The Indian Penal Code",1277137
+"The Indian Penal Code","Section 425(h) in The Indian Penal Code",303898
+"The Indian Penal Code","Section 427 in The Indian Penal Code",222396
+"The Indian Penal Code","Section 428 in The Indian Penal Code",260462
+"The Indian Penal Code","Section 429 in The Indian Penal Code",3563
+"The Indian Penal Code","Section 431 in The Indian Penal Code",1028121
+"The Indian Penal Code","Section 432 in The Indian Penal Code",79895
+"The Indian Penal Code","Section 434 in The Indian Penal Code",1322904
+"The Indian Penal Code","Section 435 in The Indian Penal Code",1552733
+"The Indian Penal Code","Section 437 in The Indian Penal Code",1682361
+"The Indian Penal Code","Section 438 in The Indian Penal Code",1144664
+"The Indian Penal Code","Section 439 in The Indian Penal Code",1667941
+"The Indian Penal Code","Section 441 in The Indian Penal Code",1768645
+"The Indian Penal Code","Section 441(Orissa) in The Indian Penal Code",44917203
+"The Indian Penal Code","Section 443 in The Indian Penal Code",331647
+"The Indian Penal Code","Section 444 in The Indian Penal Code",147438
+"The Indian Penal Code","Section 445(First) in The Indian Penal Code",41623743
+"The Indian Penal Code","Section 445(Secondly) in The Indian Penal Code",114916045
+"The Indian Penal Code","Section 445(Fourthly) in The Indian Penal Code",72086751
+"The Indian Penal Code","Section 445(Sixthly) in The Indian Penal Code",51343752
+"The Indian Penal Code","Section 445(Sixthly)(a) in The Indian Penal Code",17904952
+"The Indian Penal Code","Section 445(Sixthly)(c) in The Indian Penal Code",16783035
+"The Indian Penal Code","Section 445(Sixthly)(d) in The Indian Penal Code",6052880
+"The Indian Penal Code","Section 445(Sixthly)(f) in The Indian Penal Code",181293427
+"The Indian Penal Code","Section 445(Sixthly)(h) in The Indian Penal Code",108206163
+"The Indian Penal Code","Section 446 in The Indian Penal Code",367467
+"The Indian Penal Code","Section 448 in The Indian Penal Code",1947545
+"The Indian Penal Code","Section 449 in The Indian Penal Code",1318185
+"The Indian Penal Code","Section 450 in The Indian Penal Code",1982060
+"The Indian Penal Code","Section 452 in The Indian Penal Code",838469
+"The Indian Penal Code","Section 453 in The Indian Penal Code",1288347
+"The Indian Penal Code","Section 454 in The Indian Penal Code",578299
+"The Indian Penal Code","Section 455 in The Indian Penal Code",1954086
+"The Indian Penal Code","Section 457 in The Indian Penal Code",1873755
+"The Indian Penal Code","Section 458 in The Indian Penal Code",959623
+"The Indian Penal Code","Section 459 in The Indian Penal Code",1842737
+"The Indian Penal Code","Section 461 in The Indian Penal Code",1293807
+"The Indian Penal Code","Section 462 in The Indian Penal Code",1904534
+"The Indian Penal Code","Section 464(a) in The Indian Penal Code",1457689
+"The Indian Penal Code","Section 464(b) in The Indian Penal Code",464774
+"The Indian Penal Code","Section 464(d) in The Indian Penal Code",1297415
+"The Indian Penal Code","Section 464(a) in The Indian Penal Code",1457689
+"The Indian Penal Code","Section 464(c) in The Indian Penal Code",1282464
+"The Indian Penal Code","Section 464(e) in The Indian Penal Code",317758
+"The Indian Penal Code","Section 464(f) in The Indian Penal Code",1064420
+"The Indian Penal Code","Section 464(h) in The Indian Penal Code",535748
+"The Indian Penal Code","Section 464(i) in The Indian Penal Code",1128280
+"The Indian Penal Code","Section 464(k) in The Indian Penal Code",693233
+"The Indian Penal Code","Section 464(a) in The Indian Penal Code",1457689
+"The Indian Penal Code","Section 464(c) in The Indian Penal Code",1282464
+"The Indian Penal Code","Section 464(d) in The Indian Penal Code",1297415
+"The Indian Penal Code","Section 465 in The Indian Penal Code",1317063
+"The Indian Penal Code","Section 466 in The Indian Penal Code",1053937
+"The Indian Penal Code","Section 466(1) in The Indian Penal Code",131917853
+"The Indian Penal Code","Section 468 in The Indian Penal Code",556166
+"The Indian Penal Code","Section 469 in The Indian Penal Code",1827979
+"The Indian Penal Code","Section 471 in The Indian Penal Code",1466184
+"The Indian Penal Code","Section 472 in The Indian Penal Code",182233
+"The Indian Penal Code","Section 473 in The Indian Penal Code",649216
+"The Indian Penal Code","Section 475 in The Indian Penal Code",118906
+"The Indian Penal Code","Section 476 in The Indian Penal Code",1666702
+"The Indian Penal Code","Section 477A in The Indian Penal Code",896188
+"The Indian Penal Code","Section 478 in The Indian Penal Code",998584
+"The Indian Penal Code","Section 479 in The Indian Penal Code",326112
+"The Indian Penal Code","Section 481 in The Indian Penal Code",1765305
+"The Indian Penal Code","Section 483 in The Indian Penal Code",1207578
+"The Indian Penal Code","Section 484 in The Indian Penal Code",249747
+"The Indian Penal Code","Section 486 in The Indian Penal Code",1056907
+"The Indian Penal Code","Section 486(a) in The Indian Penal Code",758422
+"The Indian Penal Code","Section 486(b) in The Indian Penal Code",615862
+"The Indian Penal Code","Section 487 in The Indian Penal Code",728365
+"The Indian Penal Code","Section 488 in The Indian Penal Code",1013251
+"The Indian Penal Code","Section 489A in The Indian Penal Code",591351
+"The Indian Penal Code","Section 489B in The Indian Penal Code",1926477
+"The Indian Penal Code","Section 489D in The Indian Penal Code",193831
+"The Indian Penal Code","Section 489E in The Indian Penal Code",1408157
+"The Indian Penal Code","Section 489E(2) in The Indian Penal Code",1759845
+"The Indian Penal Code","Section 489E(3) in The Indian Penal Code",1722463
+"The Indian Penal Code","Section 491 in The Indian Penal Code",191666
+"The Indian Penal Code","Section 492 in The Indian Penal Code",801817
+"The Indian Penal Code","Section 494 in The Indian Penal Code",508426
+"The Indian Penal Code","Section 494(Exception) in The Indian Penal Code",38661019
+"The Indian Penal Code","Section 495 in The Indian Penal Code",653145
+"The Indian Penal Code","Section 496 in The Indian Penal Code",1912691
+"The Indian Penal Code","Section 497 in The Indian Penal Code",1833006
+"The Indian Penal Code","Section 498A in The Indian Penal Code",538436
+"The Indian Penal Code","Section 498A(a) in The Indian Penal Code",1776697
+"The Indian Penal Code","Section 498A(b) in The Indian Penal Code",1824991
+"The Indian Penal Code","Section 499(a) in The Indian Penal Code",715954
+"The Indian Penal Code","Section 499(c) in The Indian Penal Code",766990
+"The Indian Penal Code","Section 499(a) in The Indian Penal Code",715954
+"The Indian Penal Code","Section 499(a) in The Indian Penal Code",715954
+"The Indian Penal Code","Section 499(b) in The Indian Penal Code",861837
+"The Indian Penal Code","Section 499(d) in The Indian Penal Code",516893
+"The Indian Penal Code","Section 499(a) in The Indian Penal Code",715954
+"The Indian Penal Code","Section 499(b) in The Indian Penal Code",861837
+"The Indian Penal Code","Section 501 in The Indian Penal Code",1820068
+"The Indian Penal Code","Section 502 in The Indian Penal Code",1495647
+"The Indian Penal Code","Section 504 in The Indian Penal Code",555306
+"The Indian Penal Code","Section 505 in The Indian Penal Code",1198526
+"The Indian Penal Code","Section 505(1) in The Indian Penal Code",926966
+"The Indian Penal Code","Section 505(1)(a) in The Indian Penal Code",43397
+"The Indian Penal Code","Section 505(1)(c) in The Indian Penal Code",1565692
+"The Indian Penal Code","Section 505(3)(Exception) in The Indian Penal Code",19968772
+"The Indian Penal Code","Section 506 in The Indian Penal Code",180217
+"The Indian Penal Code","Section 508 in The Indian Penal Code",1734694
+"The Indian Penal Code","Section 508(a) in The Indian Penal Code",1585960
+"The Indian Penal Code","Section 509 in The Indian Penal Code",68146
+"The Indian Penal Code","Section 510 in The Indian Penal Code",529653
+"The Indian Penal Code","Section 511(a) in The Indian Penal Code",1199018
+"The Indian Penal Code","Section 511(b) in The Indian Penal Code",1953055
+"The Indian Penal Code","Section 104 in The Indian Penal Code",1409246
+"The Indian Penal Code","Section 107 in The Indian Penal Code",1667403
+"The Indian Penal Code","Section 107(Thirdly) in The Indian Penal Code",80409215
+"The Indian Penal Code","Section 108(b) in The Indian Penal Code",1763681
+"The Indian Penal Code","Section 108(b) in The Indian Penal Code",1763681
+"The Indian Penal Code","Section 108A in The Indian Penal Code",1711828
+"The Indian Penal Code","Section 109(c) in The Indian Penal Code",1529196
+"The Indian Penal Code","Section 111(Proviso) in The Indian Penal Code",171090597
+"The Indian Penal Code","Section 111(Proviso)(b) in The Indian Penal Code",168213102
+"The Indian Penal Code","Section 113 in The Indian Penal Code",714962
+"The Indian Penal Code","Section 116(a) in The Indian Penal Code",1125257
+"The Indian Penal Code","Section 116(d) in The Indian Penal Code",1701834
+"The Indian Penal Code","Section 120 in The Indian Penal Code",1128948
+"The Indian Penal Code","Section 120A(2) in The Indian Penal Code",1856199
+"The Indian Penal Code","Section 121 in The Indian Penal Code",786750
+"The Indian Penal Code","Section 123 in The Indian Penal Code",1999903
+"The Indian Penal Code","Section 125 in The Indian Penal Code",452200
+"The Indian Penal Code","Section 128 in The Indian Penal Code",1538557
+"The Indian Penal Code","Section 131 in The Indian Penal Code",1595435
+"The Indian Penal Code","Section 134 in The Indian Penal Code",10736
+"The Indian Penal Code","Section 136 in The Indian Penal Code",194391
+"The Indian Penal Code","Section 138 in The Indian Penal Code",729270
+"The Indian Penal Code","Section 140 in The Indian Penal Code",1735610
+"The Indian Penal Code","Section 141(Second) in The Indian Penal Code",43254596
+"The Indian Penal Code","Section 141(Fifth) in The Indian Penal Code",101023739
+"The Indian Penal Code","Section 151 in The Indian Penal Code",828685
+"The Indian Penal Code","Section 153A(1) in The Indian Penal Code",811548
+"The Indian Penal Code","Section 153AA in The Indian Penal Code",129661464
+"The Indian Penal Code","Section 153B(1)(a) in The Indian Penal Code",1518197
+"The Indian Penal Code","Section 153B(1)(c) in The Indian Penal Code",1238250
+"The Indian Penal Code","Section 155 in The Indian Penal Code",1062869
+"The Indian Penal Code","Section 159 in The Indian Penal Code",275300
+"The Indian Penal Code","Section 163 in The Indian Penal Code",18766893
+"The Indian Penal Code","Section 165A in The Indian Penal Code",54942699
+"The Indian Penal Code","Section 169 in The Indian Penal Code",477003
+"The Indian Penal Code","Section 171A in The Indian Penal Code",1428563
+"The Indian Penal Code","Section 171A(b) in The Indian Penal Code",101713
+"The Indian Penal Code","Section 171B(1)(ii) in The Indian Penal Code",523354
+"The Indian Penal Code","Section 171C in The Indian Penal Code",293432
+"The Indian Penal Code","Section 171C(2)(a) in The Indian Penal Code",102155
+"The Indian Penal Code","Section 171C(3) in The Indian Penal Code",1073185
+"The Indian Penal Code","Section 171F in The Indian Penal Code",1211115
+"The Indian Penal Code","Section 171-I in The Indian Penal Code",1405563
+"The Indian Penal Code","Section 174(b) in The Indian Penal Code",654966
+"The Indian Penal Code","Section 175 in The Indian Penal Code",54229
+"The Indian Penal Code","Section 177 in The Indian Penal Code",974069
+"The Indian Penal Code","Section 177(b) in The Indian Penal Code",1868721
+"The Indian Penal Code","Section 181 in The Indian Penal Code",852002
+"The Indian Penal Code","Section 182(b) in The Indian Penal Code",1023236
+"The Indian Penal Code","Section 182(c) in The Indian Penal Code",204375
+"The Indian Penal Code","Section 185 in The Indian Penal Code",942550
+"The Indian Penal Code","Section 188 in The Indian Penal Code",1432790
+"The Indian Penal Code","Section 191 in The Indian Penal Code",677888
+"The Indian Penal Code","Section 191(c) in The Indian Penal Code",1332096
+"The Indian Penal Code","Section 192 in The Indian Penal Code",1905297
+"The Indian Penal Code","Section 192(c) in The Indian Penal Code",1854587
+"The Indian Penal Code","Section 195 in The Indian Penal Code",388888
+"The Indian Penal Code","Section 197 in The Indian Penal Code",1731569
+"The Indian Penal Code","Section 200 in The Indian Penal Code",943588
+"The Indian Penal Code","Section 203 in The Indian Penal Code",1096902
+"The Indian Penal Code","Section 207 in The Indian Penal Code",1896487
+"The Indian Penal Code","Section 209 in The Indian Penal Code",323386
+"The Indian Penal Code","Section 212(Exception) in The Indian Penal Code",2085767
+"The Indian Penal Code","Section 215 in The Indian Penal Code",1839996
+"The Indian Penal Code","Section 216A in The Indian Penal Code",1886841
+"The Indian Penal Code","Section 218 in The Indian Penal Code",986493
+"The Indian Penal Code","Section 221 in The Indian Penal Code",649942
+"The Indian Penal Code","Section 225 in The Indian Penal Code",308927
+"The Indian Penal Code","Section 225A(b) in The Indian Penal Code",1641075
+"The Indian Penal Code","Section 226 in The Indian Penal Code",239579
+"The Indian Penal Code","Section 228A(1) in The Indian Penal Code",1523798
+"The Indian Penal Code","Section 228A(2)(b) in The Indian Penal Code",1001143
+"The Indian Penal Code","Section 229 in The Indian Penal Code",436461
+"The Indian Penal Code","Section 229A(b) in The Indian Penal Code",118044573
+"The Indian Penal Code","Section 230(a) in The Indian Penal Code",1562669
+"The Indian Penal Code","Section 230(d) in The Indian Penal Code",192120
+"The Indian Penal Code","Section 232 in The Indian Penal Code",367254
+"The Indian Penal Code","Section 235 in The Indian Penal Code",1986933
+"The Indian Penal Code","Section 238 in The Indian Penal Code",951248
+"The Indian Penal Code","Section 241 in The Indian Penal Code",1659458
+"The Indian Penal Code","Section 244 in The Indian Penal Code",1842242
+"The Indian Penal Code","Section 248 in The Indian Penal Code",1575348
+"The Indian Penal Code","Section 251 in The Indian Penal Code",1561882
+"The Indian Penal Code","Section 254 in The Indian Penal Code",1714697
+"The Indian Penal Code","Section 257 in The Indian Penal Code",511183
+"The Indian Penal Code","Section 260 in The Indian Penal Code",120498
+"The Indian Penal Code","Section 263 in The Indian Penal Code",1910622
+"The Indian Penal Code","Section 263A(1)(a) in The Indian Penal Code",104426
+"The Indian Penal Code","Section 263A(2) in The Indian Penal Code",334561
+"The Indian Penal Code","Section 263A(4) in The Indian Penal Code",1504749
+"The Indian Penal Code","Section 266 in The Indian Penal Code",1607227
+"The Indian Penal Code","Section 269 in The Indian Penal Code",734195
+"The Indian Penal Code","Section 272 in The Indian Penal Code",471092
+"The Indian Penal Code","Section 276 in The Indian Penal Code",1049807
+"The Indian Penal Code","Section 279 in The Indian Penal Code",1270101
+"The Indian Penal Code","Section 282 in The Indian Penal Code",40305
+"The Indian Penal Code","Section 285 in The Indian Penal Code",1728663
+"The Indian Penal Code","Section 288 in The Indian Penal Code",207785
+"The Indian Penal Code","Section 291 in The Indian Penal Code",1273321
+"The Indian Penal Code","Section 292(2) in The Indian Penal Code",776798
+"The Indian Penal Code","Section 292(2)(c) in The Indian Penal Code",1507867
+"The Indian Penal Code","Section 292(2)(e)(Exception) in The Indian Penal Code",187131026
+"The Indian Penal Code","Section 293 in The Indian Penal Code",601866
+"The Indian Penal Code","Section 294(b) in The Indian Penal Code",1198799
+"The Indian Penal Code","Section 295A in The Indian Penal Code",1803184
+"The Indian Penal Code","Section 298 in The Indian Penal Code",1774593
+"The Indian Penal Code","Section 299(b) in The Indian Penal Code",1247080
+"The Indian Penal Code","Section 300(Secondly) in The Indian Penal Code",159316467
+"The Indian Penal Code","Section 300(Fourthly)(a) in The Indian Penal Code",76942953
+"The Indian Penal Code","Section 300(Fourthly)(c) in The Indian Penal Code",133604900
+"The Indian Penal Code","Section 300(Secondly) in The Indian Penal Code",159316467
+"The Indian Penal Code","Section 300(Thirdly)(b) in The Indian Penal Code",25057215
+"The Indian Penal Code","Section 300(Thirdly)(e) in The Indian Penal Code",132494777
+"The Indian Penal Code","Section 301 in The Indian Penal Code",1233988
+"The Indian Penal Code","Section 304A in The Indian Penal Code",1371604
+"The Indian Penal Code","Section 304B(2) in The Indian Penal Code",1785744
+"The Indian Penal Code","Section 307 in The Indian Penal Code",455468
+"The Indian Penal Code","Section 307(c) in The Indian Penal Code",524233
+"The Indian Penal Code","Section 308 in The Indian Penal Code",4266
+"The Indian Penal Code","Section 311 in The Indian Penal Code",185764
+"The Indian Penal Code","Section 315 in The Indian Penal Code",1637773
+"The Indian Penal Code","Section 318 in The Indian Penal Code",1173112
+"The Indian Penal Code","Section 320(First) in The Indian Penal Code",126195200
+"The Indian Penal Code","Section 320(Fourthly) in The Indian Penal Code",3369562
+"The Indian Penal Code","Section 320(Seventhly) in The Indian Penal Code",44556736
+"The Indian Penal Code","Section 321 in The Indian Penal Code",1542359
+"The Indian Penal Code","Section 324 in The Indian Penal Code",724142
+"The Indian Penal Code","Section 330 in The Indian Penal Code",2858386
+"The Indian Penal Code","Section 330(c) in The Indian Penal Code",182267215
+"The Indian Penal Code","Section 332 in The Indian Penal Code",1440821
+"The Indian Penal Code","Section 335 in The Indian Penal Code",932006
+"The Indian Penal Code","Section 339(Exception) in The Indian Penal Code",181171924
+"The Indian Penal Code","Section 344 in The Indian Penal Code",1495318
+"The Indian Penal Code","Section 347 in The Indian Penal Code",996413
+"The Indian Penal Code","Section 349(First) in The Indian Penal Code",73932288
+"The Indian Penal Code","Section 350 in The Indian Penal Code",179037
+"The Indian Penal Code","Section 350(c) in The Indian Penal Code",1117242
+"The Indian Penal Code","Section 350(e) in The Indian Penal Code",1885219
+"The Indian Penal Code","Section 351 in The Indian Penal Code",478590
+"The Indian Penal Code","Section 351(c) in The Indian Penal Code",614843
+"The Indian Penal Code","Section 354 in The Indian Penal Code",203036
+"The Indian Penal Code","Section 359 in The Indian Penal Code",1804691
+"The Indian Penal Code","Section 361(Manipur) in The Indian Penal Code",67353448
+"The Indian Penal Code","Section 363A(1) in The Indian Penal Code",132183
+"The Indian Penal Code","Section 363A(3) in The Indian Penal Code",214579
+"The Indian Penal Code","Section 363A(4)(a)(i) in The Indian Penal Code",1849691
+"The Indian Penal Code","Section 363A(4)(a)(iv) in The Indian Penal Code",1645777
+"The Indian Penal Code","Section 363A(4)(b)(ii) in The Indian Penal Code",569154
+"The Indian Penal Code","Section 364(b) in The Indian Penal Code",1687720
+"The Indian Penal Code","Section 366 in The Indian Penal Code",796352
+"The Indian Penal Code","Section 368 in The Indian Penal Code",1629021
+"The Indian Penal Code","Section 372 in The Indian Penal Code",1938563
+"The Indian Penal Code","Section 375 in The Indian Penal Code",623254
+"The Indian Penal Code","Section 375(Thirdly) in The Indian Penal Code",159488347
+"The Indian Penal Code","Section 375(Fifthly) in The Indian Penal Code",62890944
+"The Indian Penal Code","Section 375(Manipur) in The Indian Penal Code",37191634
+"The Indian Penal Code","Section 376(1) in The Indian Penal Code",455161
+"The Indian Penal Code","Section 376(2)(a)(ii) in The Indian Penal Code",1750686
+"The Indian Penal Code","Section 376(2)(c) in The Indian Penal Code",907057
+"The Indian Penal Code","Section 376(2)(f) in The Indian Penal Code",334057
+"The Indian Penal Code","Section 376B in The Indian Penal Code",396
+"The Indian Penal Code","Section 377 in The Indian Penal Code",1836974
+"The Indian Penal Code","Section 378(b) in The Indian Penal Code",1937575
+"The Indian Penal Code","Section 378(e) in The Indian Penal Code",1449508
+"The Indian Penal Code","Section 378(h) in The Indian Penal Code",1906786
+"The Indian Penal Code","Section 378(j) in The Indian Penal Code",817211
+"The Indian Penal Code","Section 378(n) in The Indian Penal Code",224425
+"The Indian Penal Code","Section 379 in The Indian Penal Code",1101188
+"The Indian Penal Code","Section 382(a) in The Indian Penal Code",617348
+"The Indian Penal Code","Section 383 in The Indian Penal Code",262864
+"The Indian Penal Code","Section 383(c) in The Indian Penal Code",44924
+"The Indian Penal Code","Section 386 in The Indian Penal Code",1183069
+"The Indian Penal Code","Section 390(b) in The Indian Penal Code",751022
+"The Indian Penal Code","Section 390(e) in The Indian Penal Code",170267283
+"The Indian Penal Code","Section 394 in The Indian Penal Code",764237
+"The Indian Penal Code","Section 397 in The Indian Penal Code",1865117
+"The Indian Penal Code","Section 401 in The Indian Penal Code",986100
+"The Indian Penal Code","Section 403(b) in The Indian Penal Code",620116
+"The Indian Penal Code","Section 403(e) in The Indian Penal Code",1049597
+"The Indian Penal Code","Section 404 in The Indian Penal Code",341288
+"The Indian Penal Code","Section 405(f) in The Indian Penal Code",633004
+"The Indian Penal Code","Section 413 in The Indian Penal Code",1976294
+"The Indian Penal Code","Section 415(e) in The Indian Penal Code",536973
+"The Indian Penal Code","Section 415(h) in The Indian Penal Code",507065
+"The Indian Penal Code","Section 418 in The Indian Penal Code",1359568
+"The Indian Penal Code","Section 422 in The Indian Penal Code",1334254
+"The Indian Penal Code","Section 425(c) in The Indian Penal Code",1575839
+"The Indian Penal Code","Section 425(f) in The Indian Penal Code",906977
+"The Indian Penal Code","Section 430 in The Indian Penal Code",1605376
+"The Indian Penal Code","Section 433 in The Indian Penal Code",1574686
+"The Indian Penal Code","Section 440 in The Indian Penal Code",1018161
+"The Indian Penal Code","Section 442 in The Indian Penal Code",691024
+"The Indian Penal Code","Section 445(Thirdly) in The Indian Penal Code",192235759
+"The Indian Penal Code","Section 445(Fifthly) in The Indian Penal Code",74635041
+"The Indian Penal Code","Section 445(Sixthly)(e) in The Indian Penal Code",76400820
+"The Indian Penal Code","Section 447 in The Indian Penal Code",162506
+"The Indian Penal Code","Section 451 in The Indian Penal Code",513777
+"The Indian Penal Code","Section 460 in The Indian Penal Code",1586755
+"The Indian Penal Code","Section 463 in The Indian Penal Code",1328629
+"The Indian Penal Code","Section 464(c) in The Indian Penal Code",1282464
+"The Indian Penal Code","Section 464(d) in The Indian Penal Code",1297415
+"The Indian Penal Code","Section 464(g) in The Indian Penal Code",1637195
+"The Indian Penal Code","Section 464(b) in The Indian Penal Code",464774
+"The Indian Penal Code","Section 467 in The Indian Penal Code",1985627
+"The Indian Penal Code","Section 470 in The Indian Penal Code",1991013
+"The Indian Penal Code","Section 474 in The Indian Penal Code",756306
+"The Indian Penal Code","Section 480 in The Indian Penal Code",1727683
+"The Indian Penal Code","Section 485 in The Indian Penal Code",1859458
+"The Indian Penal Code","Section 486(c) in The Indian Penal Code",641636
+"The Indian Penal Code","Section 489C in The Indian Penal Code",257920
+"The Indian Penal Code","Section 489E(1) in The Indian Penal Code",1921711
+"The Indian Penal Code","Section 493 in The Indian Penal Code",1595149
+"The Indian Penal Code","Section 498 in The Indian Penal Code",1868826
+"The Indian Penal Code","Section 499 in The Indian Penal Code",1041742
+"The Indian Penal Code","Section 499(b) in The Indian Penal Code",861837
+"The Indian Penal Code","Section 499(b) in The Indian Penal Code",861837
+"The Indian Penal Code","Section 499(c) in The Indian Penal Code",766990
+"The Indian Penal Code","Section 499(e) in The Indian Penal Code",1440379
+"The Indian Penal Code","Section 500 in The Indian Penal Code",1408202
+"The Indian Penal Code","Section 505(1)(b) in The Indian Penal Code",360749
+"The Indian Penal Code","Section 505(3) in The Indian Penal Code",584684
+"The Indian Penal Code","Section 508(b) in The Indian Penal Code",1043367
+"The Indian Penal Code","Section 511 in The Indian Penal Code",1185693
+"The Indian Penal Code","Section 403(b) in The Indian Penal Code",620116
+"The Indian Penal Code","Section 405(c) in The Indian Penal Code",422169
+"The Indian Penal Code","Section 415(c) in The Indian Penal Code",195528
+"The Indian Penal Code","Section 416(a) in The Indian Penal Code",1545690
+"The Indian Penal Code","Section 425(a) in The Indian Penal Code",627030
+"The Indian Penal Code","Section 426 in The Indian Penal Code",192961
+"The Indian Penal Code","Section 436 in The Indian Penal Code",1517318
+"The Indian Penal Code","Section 445 in The Indian Penal Code",508356
+"The Indian Penal Code","Section 445(Sixthly)(b) in The Indian Penal Code",107911441
+"The Indian Penal Code","Section 445(Sixthly)(g) in The Indian Penal Code",102125502
+"The Indian Penal Code","Section 456 in The Indian Penal Code",1230184
+"The Indian Penal Code","Section 464(b) in The Indian Penal Code",464774
+"The Indian Penal Code","Section 464(j) in The Indian Penal Code",1296621
+"The Indian Penal Code","Section 464(e) in The Indian Penal Code",317758
+"The Indian Penal Code","Section 477 in The Indian Penal Code",722115
+"The Indian Penal Code","Section 482 in The Indian Penal Code",903398
+"The Indian Penal Code","Section 489 in The Indian Penal Code",1252503
+"The Indian Penal Code","Section 490 in The Indian Penal Code",237387
+"The Indian Penal Code","Section 503 in The Indian Penal Code",878688
+"The Indian Penal Code","Section 507 in The Indian Penal Code",1255223
+"Consumer Protection Act, 1986","Consumer Protection Act, 1986",1733066
+"Consumer Protection Act, 1986","Section 1 in the Consumer Protection Act, 1986",345589
+"Consumer Protection Act, 1986","Section 1(1) in the Consumer Protection Act, 1986",1448273
+"Consumer Protection Act, 1986","Section 1(2) in the Consumer Protection Act, 1986",1418851
+"Consumer Protection Act, 1986","Section 1(3) in the Consumer Protection Act, 1986",102389
+"Consumer Protection Act, 1986","Section 1(4) in the Consumer Protection Act, 1986",1646670
+"Consumer Protection Act, 1986","Section 2(1) in the Consumer Protection Act, 1986",1516524
+"Consumer Protection Act, 1986","Section 2(1)(a) in the Consumer Protection Act, 1986",1150591
+"Consumer Protection Act, 1986","Section 2(1)(a)(i) in the Consumer Protection Act, 1986",38173582
+"Consumer Protection Act, 1986","Section 2(1)(a)(ii) in the Consumer Protection Act, 1986",1908845
+"Consumer Protection Act, 1986","Section 2(1)(a)(iii) in the Consumer Protection Act, 1986",1266215
+"Consumer Protection Act, 1986","Section 2(1)(aa) in the Consumer Protection Act, 1986",465498
+"Consumer Protection Act, 1986","Section 2(1)(aa)(i) in the Consumer Protection Act, 1986",1295912
+"Consumer Protection Act, 1986","Section 2(1)(aa)(ii) in the Consumer Protection Act, 1986",443666
+"Consumer Protection Act, 1986","Section 2(1)(aa)(viii) in the Consumer Protection Act, 1986",8540034
+"Consumer Protection Act, 1986","Section 2(1)(aa)(ix) in the Consumer Protection Act, 1986",50245316
+"Consumer Protection Act, 1986","Section 2(1)(aa)(x) in the Consumer Protection Act, 1986",53208261
+"Consumer Protection Act, 1986","Section 2(1)(aa)(x)(a) in the Consumer Protection Act, 1986",56061548
+"Consumer Protection Act, 1986","Section 2(1)(aa)(x)(b) in the Consumer Protection Act, 1986",108149672
+"Consumer Protection Act, 1986","Section 2(1)(aa)(x)(c) in the Consumer Protection Act, 1986",81397159
+"Consumer Protection Act, 1986","Section 2(1)(b) in the Consumer Protection Act, 1986",1386117
+"Consumer Protection Act, 1986","Section 2(1)(b)(i) in the Consumer Protection Act, 1986",1221569
+"Consumer Protection Act, 1986","Section 2(1)(b)(ii) in the Consumer Protection Act, 1986",1181094
+"Consumer Protection Act, 1986","Section 2(1)(b)(iii) in the Consumer Protection Act, 1986",1602474
+"Consumer Protection Act, 1986","Section 2(1)(b)(iv) in the Consumer Protection Act, 1986",383223
+"Consumer Protection Act, 1986","Section 2(1)(b)(v) in the Consumer Protection Act, 1986",121280306
+"Consumer Protection Act, 1986","Section 2(1)(c) in the Consumer Protection Act, 1986",1877647
+"Consumer Protection Act, 1986","Section 2(1)(c)(i) in the Consumer Protection Act, 1986",1388754
+"Consumer Protection Act, 1986","Section 2(1)(c)(ii) in the Consumer Protection Act, 1986",1726858
+"Consumer Protection Act, 1986","Section 2(1)(c)(iii) in the Consumer Protection Act, 1986",262665
+"Consumer Protection Act, 1986","Section 2(1)(c)(iv) in the Consumer Protection Act, 1986",86496
+"Consumer Protection Act, 1986","Section 2(1)(c)(iv)(a) in the Consumer Protection Act, 1986",16289877
+"Consumer Protection Act, 1986","Section 2(1)(c)(iv)(b) in the Consumer Protection Act, 1986",38308342
+"Consumer Protection Act, 1986","Section 2(1)(c)(iv)(c) in the Consumer Protection Act, 1986",136397779
+"Consumer Protection Act, 1986","Section 2(1)(c)(iv)(d) in the Consumer Protection Act, 1986",32940737
+"Consumer Protection Act, 1986","Section 2(1)(c)(v) in the Consumer Protection Act, 1986",62622
+"Consumer Protection Act, 1986","Section 2(1)(b)(vi) in the Consumer Protection Act, 1986",11297933
+"Consumer Protection Act, 1986","Section 2(1)(d) in the Consumer Protection Act, 1986",992267
+"Consumer Protection Act, 1986","Section 2(1)(d)(i) in the Consumer Protection Act, 1986",745746
+"Consumer Protection Act, 1986","Section 2(1)(d)(ii) in the Consumer Protection Act, 1986",1820593
+"Consumer Protection Act, 1986","Section 2(1)(e) in the Consumer Protection Act, 1986",1706308
+"Consumer Protection Act, 1986","Section 2(1)(f) in the Consumer Protection Act, 1986",135928
+"Consumer Protection Act, 1986","Section 2(1)(g) in the Consumer Protection Act, 1986",1658883
+"Consumer Protection Act, 1986","Section 2(1)(h) in the Consumer Protection Act, 1986",532250
+"Consumer Protection Act, 1986","Section 2(1)(i) in the Consumer Protection Act, 1986",850510
+"Consumer Protection Act, 1986","Section 2(1)(j) in the Consumer Protection Act, 1986",427217
+"Consumer Protection Act, 1986","Section 2(1)(j)(i) in the Consumer Protection Act, 1986",1465754
+"Consumer Protection Act, 1986","Section 2(1)(j)(ii) in the Consumer Protection Act, 1986",277867
+"Consumer Protection Act, 1986","Section 2(1)(j)(iii) in the Consumer Protection Act, 1986",1238985
+"Consumer Protection Act, 1986","Section 2(1)(jj) in the Consumer Protection Act, 1986",324699
+"Consumer Protection Act, 1986","Section 2(1)(k) in the Consumer Protection Act, 1986",1724893
+"Consumer Protection Act, 1986","Section 2(1)(l) in the Consumer Protection Act, 1986",1093527
+"Consumer Protection Act, 1986","Section 2(1)(m) in the Consumer Protection Act, 1986",503992
+"Consumer Protection Act, 1986","Section 2(1)(m)(i) in the Consumer Protection Act, 1986",955991
+"Consumer Protection Act, 1986","Section 2(1)(m)(ii) in the Consumer Protection Act, 1986",360331
+"Consumer Protection Act, 1986","Section 2(1)(m)(iii) in the Consumer Protection Act, 1986",1898256
+"Consumer Protection Act, 1986","Section 2(1)(m)(iv) in the Consumer Protection Act, 1986",335777
+"Consumer Protection Act, 1986","Section 2(1)(n) in the Consumer Protection Act, 1986",935961
+"Consumer Protection Act, 1986","Section 2(1)(nn) in the Consumer Protection Act, 1986",1571990
+"Consumer Protection Act, 1986","Section 2(1)(nnn) in the Consumer Protection Act, 1986",77868756
+"Consumer Protection Act, 1986","Section 2(1)(o) in the Consumer Protection Act, 1986",1809742
+"Consumer Protection Act, 1986","Section 2(1)(p) in the Consumer Protection Act, 1986",1949254
+"Consumer Protection Act, 1986","Section 2(1)(q) in the Consumer Protection Act, 1986",1933664
+"Consumer Protection Act, 1986","Section 2(1)(r) in the Consumer Protection Act, 1986",1463276
+"Consumer Protection Act, 1986","Section 2(1)(r)(1) in the Consumer Protection Act, 1986",175394
+"Consumer Protection Act, 1986","Section 2(1)(r)(1)(i) in the Consumer Protection Act, 1986",346283
+"Consumer Protection Act, 1986","Section 2(1)(r)(1)(ii) in the Consumer Protection Act, 1986",1430751
+"Consumer Protection Act, 1986","Section 2(1)(r)(1)(iii) in the Consumer Protection Act, 1986",74721
+"Consumer Protection Act, 1986","Section 2(1)(r)(1)(iv) in the Consumer Protection Act, 1986",1957926
+"Consumer Protection Act, 1986","Section 2(1)(r)(1)(v) in the Consumer Protection Act, 1986",621675
+"Consumer Protection Act, 1986","Section 2(1)(r)(1)(vi) in the Consumer Protection Act, 1986",1342328
+"Consumer Protection Act, 1986","Section 2(1)(r)(1)(vii) in the Consumer Protection Act, 1986",396909
+"Consumer Protection Act, 1986","Section 2(2) in the Consumer Protection Act, 1986",136943714
+"Consumer Protection Act, 1986","Section 2(2)(a) in the Consumer Protection Act, 1986",94782360
+"Consumer Protection Act, 1986","Section 2(2)(b) in the Consumer Protection Act, 1986",142412088
+"Consumer Protection Act, 1986","Section 2(3) in the Consumer Protection Act, 1986",172344883
+"Consumer Protection Act, 1986","Section 2(3)(a) in the Consumer Protection Act, 1986",50185035
+"Consumer Protection Act, 1986","Section 2(3A) in the Consumer Protection Act, 1986",86345332
+"Consumer Protection Act, 1986","Section 2(4) in the Consumer Protection Act, 1986",196264672
+"Consumer Protection Act, 1986","Section 2(5) in the Consumer Protection Act, 1986",70343583
+"Consumer Protection Act, 1986","Section 2(6) in the Consumer Protection Act, 1986",57518361
+"Consumer Protection Act, 1986","Section 3 in the Consumer Protection Act, 1986",1202608
+"Consumer Protection Act, 1986","Section 4 in the Consumer Protection Act, 1986",733045
+"Consumer Protection Act, 1986","Section 4(1) in the Consumer Protection Act, 1986",1800231
+"Consumer Protection Act, 1986","Section 4(2) in the Consumer Protection Act, 1986",31648
+"Consumer Protection Act, 1986","Section 4(2)(a) in the Consumer Protection Act, 1986",41569
+"Consumer Protection Act, 1986","Section 4(2)(b) in the Consumer Protection Act, 1986",23497
+"Consumer Protection Act, 1986","Section 5 in the Consumer Protection Act, 1986",1164361
+"Consumer Protection Act, 1986","Section 5(1) in the Consumer Protection Act, 1986",627855
+"Consumer Protection Act, 1986","Section 5(2) in the Consumer Protection Act, 1986",38615
+"Consumer Protection Act, 1986","Section 6 in the Consumer Protection Act, 1986",1536207
+"Consumer Protection Act, 1986","Section 6(a) in the Consumer Protection Act, 1986",1518463
+"Consumer Protection Act, 1986","Section 6(b) in the Consumer Protection Act, 1986",363377
+"Consumer Protection Act, 1986","Section 6(c) in the Consumer Protection Act, 1986",1286896
+"Consumer Protection Act, 1986","Section 6(d) in the Consumer Protection Act, 1986",1478076
+"Consumer Protection Act, 1986","Section 6(e) in the Consumer Protection Act, 1986",1906758
+"Consumer Protection Act, 1986","Section 6(f) in the Consumer Protection Act, 1986",1135240
+"Consumer Protection Act, 1986","Section 7 in the Consumer Protection Act, 1986",1697716
+"Consumer Protection Act, 1986","Section 7(1) in the Consumer Protection Act, 1986",455668
+"Consumer Protection Act, 1986","Section 7(1)(a) in the Consumer Protection Act, 1986",54565243
+"Consumer Protection Act, 1986","Section 7(1)(b) in the Consumer Protection Act, 1986",117447395
+"Consumer Protection Act, 1986","Section 7(3) in the Consumer Protection Act, 1986",516937
+"Consumer Protection Act, 1986","Section 7(4) in the Consumer Protection Act, 1986",746821
+"Consumer Protection Act, 1986","Section 8 in the Consumer Protection Act, 1986",350759
+"Consumer Protection Act, 1986","Section 8(a) in the Consumer Protection Act, 1986",41492627
+"Consumer Protection Act, 1986","Section 8A in the Consumer Protection Act, 1986",5226990
+"Consumer Protection Act, 1986","Section 8A(1) in the Consumer Protection Act, 1986",126580018
+"Consumer Protection Act, 1986","Section 8A(2) in the Consumer Protection Act, 1986",145434055
+"Consumer Protection Act, 1986","Section 8A(2)(a) in the Consumer Protection Act, 1986",185550029
+"Consumer Protection Act, 1986","Section 8A(2)(b) in the Consumer Protection Act, 1986",143996803
+"Consumer Protection Act, 1986","Section 8A(3) in the Consumer Protection Act, 1986",7227473
+"Consumer Protection Act, 1986","Section 8A(4) in the Consumer Protection Act, 1986",194757773
+"Consumer Protection Act, 1986","Section 8B in the Consumer Protection Act, 1986",90621028
+"Consumer Protection Act, 1986","Section 8B(a) in the Consumer Protection Act, 1986",161875215
+"Consumer Protection Act, 1986","Section 9 in the Consumer Protection Act, 1986",785641
+"Consumer Protection Act, 1986","Section 2(1)(c)(iv)(d) in the Consumer Protection Act, 1986",1376692
+"Consumer Protection Act, 1986","Section 9(b) in the Consumer Protection Act, 1986",308980
+"Consumer Protection Act, 1986","Section 9(c) in the Consumer Protection Act, 1986",525957
+"Consumer Protection Act, 1986","Section 10 in the Consumer Protection Act, 1986",18380279
+"Consumer Protection Act, 1986","Section 10(1) in the Consumer Protection Act, 1986",91170150
+"Consumer Protection Act, 1986","Section 10(1)(a) in the Consumer Protection Act, 1986",14169690
+"Consumer Protection Act, 1986","Section 10(1)(a)(i) in the Consumer Protection Act, 1986",101014182
+"Consumer Protection Act, 1986","Section 10(1)(a)(ii) in the Consumer Protection Act, 1986",73525791
+"Consumer Protection Act, 1986","Section 10(1)(a)(iii) in the Consumer Protection Act, 1986",108284235
+"Consumer Protection Act, 1986","Section 10(1)(a)(iii)(a) in the Consumer Protection Act, 1986",36591960
+"Consumer Protection Act, 1986","Section 10(1)(a)(iii)(b) in the Consumer Protection Act, 1986",174952750
+"Consumer Protection Act, 1986","Section 10(1)(a)(iii)(c) in the Consumer Protection Act, 1986",180696069
+"Consumer Protection Act, 1986","Section 10(1)(a)(iii)(d) in the Consumer Protection Act, 1986",90849227
+"Consumer Protection Act, 1986","Section 10(1)(a)(iii)(e) in the Consumer Protection Act, 1986",158171920
+"Consumer Protection Act, 1986","Section 10(1)(a)(iii)(f) in the Consumer Protection Act, 1986",187924939
+"Consumer Protection Act, 1986","Section 10(3) in the Consumer Protection Act, 1986",92892925
+"Consumer Protection Act, 1986","Section 11 in the Consumer Protection Act, 1986",1094200
+"Consumer Protection Act, 1986","Section 11(1) in the Consumer Protection Act, 1986",1977340
+"Consumer Protection Act, 1986","Section 11(2) in the Consumer Protection Act, 1986",1142452
+"Consumer Protection Act, 1986","Section 11(2)(a) in the Consumer Protection Act, 1986",1790822
+"Consumer Protection Act, 1986","Section 11(2)(b) in the Consumer Protection Act, 1986",633027
+"Consumer Protection Act, 1986","Section 11(2)(c) in the Consumer Protection Act, 1986",1061990
+"Consumer Protection Act, 1986","Section 12 in the Consumer Protection Act, 1986",1891987
+"Consumer Protection Act, 1986","Section 12(1) in the Consumer Protection Act, 1986",137684443
+"Consumer Protection Act, 1986","Section 12(1)(a) in the Consumer Protection Act, 1986",106533438
+"Consumer Protection Act, 1986","Section 12(1)(b) in the Consumer Protection Act, 1986",15771568
+"Consumer Protection Act, 1986","Section 12(1)(c) in the Consumer Protection Act, 1986",9346579
+"Consumer Protection Act, 1986","Section 12(1)(d) in the Consumer Protection Act, 1986",75629674
+"Consumer Protection Act, 1986","Section 12(2) in the Consumer Protection Act, 1986",120524476
+"Consumer Protection Act, 1986","Section 12(3) in the Consumer Protection Act, 1986",170391574
+"Consumer Protection Act, 1986","Section 12(4) in the Consumer Protection Act, 1986",15755172
+"Consumer Protection Act, 1986","Section 13 in the Consumer Protection Act, 1986",1977503
+"Consumer Protection Act, 1986","Section 13(1) in the Consumer Protection Act, 1986",1823226
+"Consumer Protection Act, 1986","Section 13(1)(b) in the Consumer Protection Act, 1986",321845
+"Consumer Protection Act, 1986","Section 13(1)(c) in the Consumer Protection Act, 1986",904712
+"Consumer Protection Act, 1986","Section 13(1)(d) in the Consumer Protection Act, 1986",1607297
+"Consumer Protection Act, 1986","Section 13(1)(e) in the Consumer Protection Act, 1986",672973
+"Consumer Protection Act, 1986","Section 13(1)(f) in the Consumer Protection Act, 1986",1829203
+"Consumer Protection Act, 1986","Section 13(1)(g) in the Consumer Protection Act, 1986",352511
+"Consumer Protection Act, 1986","Section 13(2) in the Consumer Protection Act, 1986",1545556
+"Consumer Protection Act, 1986","Section 13(2)(a) in the Consumer Protection Act, 1986",627008
+"Consumer Protection Act, 1986","Section 13(2)(b) in the Consumer Protection Act, 1986",350745
+"Consumer Protection Act, 1986","Section 13(2)(b)(i) in the Consumer Protection Act, 1986",1205208
+"Consumer Protection Act, 1986","Section 13(2)(b)(ii) in the Consumer Protection Act, 1986",1358966
+"Consumer Protection Act, 1986","Section 13(3) in the Consumer Protection Act, 1986",213048
+"Consumer Protection Act, 1986","Section 13(3B) in the Consumer Protection Act, 1986",44605531
+"Consumer Protection Act, 1986","Section 13(4) in the Consumer Protection Act, 1986",1087536
+"Consumer Protection Act, 1986","Section 13(4)(i) in the Consumer Protection Act, 1986",1888553
+"Consumer Protection Act, 1986","Section 13(4)(ii) in the Consumer Protection Act, 1986",997840
+"Consumer Protection Act, 1986","Section 13(4)(iii) in the Consumer Protection Act, 1986",407487
+"Consumer Protection Act, 1986","Section 13(4)(iv) in the Consumer Protection Act, 1986",757358
+"Consumer Protection Act, 1986","Section 13(4)(v) in the Consumer Protection Act, 1986",1966430
+"Consumer Protection Act, 1986","Section 13(4)(vi) in the Consumer Protection Act, 1986",778968
+"Consumer Protection Act, 1986","Section 13(5) in the Consumer Protection Act, 1986",488218
+"Consumer Protection Act, 1986","Section 14 in the Consumer Protection Act, 1986",550350
+"Consumer Protection Act, 1986","Section 14(1) in the Consumer Protection Act, 1986",1434688
+"Consumer Protection Act, 1986","Section 14(1)(a) in the Consumer Protection Act, 1986",611001
+"Consumer Protection Act, 1986","Section 14(1)(b) in the Consumer Protection Act, 1986",780288
+"Consumer Protection Act, 1986","Section 14(1)(c) in the Consumer Protection Act, 1986",446480
+"Consumer Protection Act, 1986","Section 14(1)(d) in the Consumer Protection Act, 1986",1650356
+"Consumer Protection Act, 1986","Section 14(1)(e) in the Consumer Protection Act, 1986",1300207
+"Consumer Protection Act, 1986","Section 14(1)(f) in the Consumer Protection Act, 1986",1181675
+"Consumer Protection Act, 1986","Section 14(1)(g) in the Consumer Protection Act, 1986",848941
+"Consumer Protection Act, 1986","Section 14(1)(h) in the Consumer Protection Act, 1986",739344
+"Consumer Protection Act, 1986","Section 14(1)(ha) in the Consumer Protection Act, 1986",18605106
+"Consumer Protection Act, 1986","Section 14(1)(hb) in the Consumer Protection Act, 1986",89320091
+"Consumer Protection Act, 1986","Section 14(1)(hc) in the Consumer Protection Act, 1986",132340123
+"Consumer Protection Act, 1986","Section 14(1)(hc)(i) in the Consumer Protection Act, 1986",158273863
+"Consumer Protection Act, 1986","Section 14(2) in the Consumer Protection Act, 1986",828818
+"Consumer Protection Act, 1986","Section 14(2A) in the Consumer Protection Act, 1986",426097
+"Consumer Protection Act, 1986","Section 14(3) in the Consumer Protection Act, 1986",1235606
+"Consumer Protection Act, 1986","Section 15 in the Consumer Protection Act, 1986",864520
+"Consumer Protection Act, 1986","Section 16 in the Consumer Protection Act, 1986",798312
+"Consumer Protection Act, 1986","Section 16(1) in the Consumer Protection Act, 1986",116465
+"Consumer Protection Act, 1986","Section 16(1)(a) in the Consumer Protection Act, 1986",803902
+"Consumer Protection Act, 1986","Section 16(1)(a)(i) in the Consumer Protection Act, 1986",143963583
+"Consumer Protection Act, 1986","Section 16(1)(a)(ii) in the Consumer Protection Act, 1986",28523602
+"Consumer Protection Act, 1986","Section 16(1)(a)(iii) in the Consumer Protection Act, 1986",134272266
+"Consumer Protection Act, 1986","Section 16(1)(a)(iii)(a) in the Consumer Protection Act, 1986",69372484
+"Consumer Protection Act, 1986","Section 16(1)(a)(iii)(b) in the Consumer Protection Act, 1986",53004302
+"Consumer Protection Act, 1986","Section 16(1)(a)(iii)(c) in the Consumer Protection Act, 1986",142722764
+"Consumer Protection Act, 1986","Section 16(1)(a)(iii)(d) in the Consumer Protection Act, 1986",44618167
+"Consumer Protection Act, 1986","Section 16(1)(a)(iii)(e) in the Consumer Protection Act, 1986",153497996
+"Consumer Protection Act, 1986","Section 16(1)(a)(iii)(f) in the Consumer Protection Act, 1986",189306940
+"Consumer Protection Act, 1986","Section 16(1A) in the Consumer Protection Act, 1986",21380690
+"Consumer Protection Act, 1986","Section 16(1A)(i) in the Consumer Protection Act, 1986",124950038
+"Consumer Protection Act, 1986","Section 16(1A)(ii) in the Consumer Protection Act, 1986",100045506
+"Consumer Protection Act, 1986","Section 16(1A)(iii) in the Consumer Protection Act, 1986",11574961
+"Consumer Protection Act, 1986","Section 16(1B) in the Consumer Protection Act, 1986",135991792
+"Consumer Protection Act, 1986","Section 16(1B)(ii) in the Consumer Protection Act, 1986",11618953
+"Consumer Protection Act, 1986","Section 16(1B)(iii) in the Consumer Protection Act, 1986",61873431
+"Consumer Protection Act, 1986","Section 16(2) in the Consumer Protection Act, 1986",129009
+"Consumer Protection Act, 1986","Section 16(4) in the Consumer Protection Act, 1986",1794864
+"Consumer Protection Act, 1986","Section 17 in the Consumer Protection Act, 1986",1749394
+"Consumer Protection Act, 1986","Section 17(1) in the Consumer Protection Act, 1986",96152914
+"Consumer Protection Act, 1986","Section 17(1)(a) in the Consumer Protection Act, 1986",51582562
+"Consumer Protection Act, 1986","Section 17(1)(a)(i) in the Consumer Protection Act, 1986",24424029
+"Consumer Protection Act, 1986","Section 17(1)(a)(ii) in the Consumer Protection Act, 1986",114720969
+"Consumer Protection Act, 1986","Section 17(1)(b) in the Consumer Protection Act, 1986",17055129
+"Consumer Protection Act, 1986","Section 17(2) in the Consumer Protection Act, 1986",96766741
+"Consumer Protection Act, 1986","Section 17(2)(a) in the Consumer Protection Act, 1986",150217103
+"Consumer Protection Act, 1986","Section 17(2)(b) in the Consumer Protection Act, 1986",61548993
+"Consumer Protection Act, 1986","Section 17(2)(c) in the Consumer Protection Act, 1986",85196700
+"Consumer Protection Act, 1986","Section 17A in the Consumer Protection Act, 1986",27831883
+"Consumer Protection Act, 1986","Section 17B in the Consumer Protection Act, 1986",147808157
+"Consumer Protection Act, 1986","Section 18 in the Consumer Protection Act, 1986",808805
+"Consumer Protection Act, 1986","Section 19 in the Consumer Protection Act, 1986",1907922
+"Consumer Protection Act, 1986","Section 19(i) in the Consumer Protection Act, 1986",28249788
+"Consumer Protection Act, 1986","Section 19(i)(a) in the Consumer Protection Act, 1986",120780602
+"Consumer Protection Act, 1986","Section 19A in the Consumer Protection Act, 1986",139781977
+"Consumer Protection Act, 1986","Section 20 in the Consumer Protection Act, 1986",1014113
+"Consumer Protection Act, 1986","Section 20(1) in the Consumer Protection Act, 1986",1415116
+"Consumer Protection Act, 1986","Section 20(1)(a) in the Consumer Protection Act, 1986",838485
+"Consumer Protection Act, 1986","Section 20(1)(b) in the Consumer Protection Act, 1986",1267475
+"Consumer Protection Act, 1986","Section 20(1)(b)(i) in the Consumer Protection Act, 1986",15664900
+"Consumer Protection Act, 1986","Section 20(1)(b)(ii) in the Consumer Protection Act, 1986",134542740
+"Consumer Protection Act, 1986","Section 20(1)(b)(iii) in the Consumer Protection Act, 1986",98141565
+"Consumer Protection Act, 1986","Section 20(1)(b)(iii)(a) in the Consumer Protection Act, 1986",21386419
+"Consumer Protection Act, 1986","Section 20(1)(b)(iii)(b) in the Consumer Protection Act, 1986",84818694
+"Consumer Protection Act, 1986","Section 20(1)(b)(iii)(c) in the Consumer Protection Act, 1986",100372262
+"Consumer Protection Act, 1986","Section 20(1)(b)(iii)(d) in the Consumer Protection Act, 1986",7628164
+"Consumer Protection Act, 1986","Section 20(1)(b)(iii)(e) in the Consumer Protection Act, 1986",89072359
+"Consumer Protection Act, 1986","Section 20(1)(b)(iii)(f) in the Consumer Protection Act, 1986",9920939
+"Consumer Protection Act, 1986","Section 20(1A) in the Consumer Protection Act, 1986",128432115
+"Consumer Protection Act, 1986","Section 20(1A)(ii) in the Consumer Protection Act, 1986",18610861
+"Consumer Protection Act, 1986","Section 20(1A)(iii) in the Consumer Protection Act, 1986",2367806
+"Consumer Protection Act, 1986","Section 20(2) in the Consumer Protection Act, 1986",299741
+"Consumer Protection Act, 1986","Section 20(4) in the Consumer Protection Act, 1986",73204
+"Consumer Protection Act, 1986","Section 21 in the Consumer Protection Act, 1986",86602
+"Consumer Protection Act, 1986","Section 21(a) in the Consumer Protection Act, 1986",1440258
+"Consumer Protection Act, 1986","Section 21(a)(i) in the Consumer Protection Act, 1986",723599
+"Consumer Protection Act, 1986","Section 21(a)(ii) in the Consumer Protection Act, 1986",1361544
+"Consumer Protection Act, 1986","Section 21(b) in the Consumer Protection Act, 1986",862263
+"Consumer Protection Act, 1986","Section 22 in the Consumer Protection Act, 1986",1069685
+"Consumer Protection Act, 1986","Section 22(1) in the Consumer Protection Act, 1986",196301171
+"Consumer Protection Act, 1986","Section 22(2) in the Consumer Protection Act, 1986",2573405
+"Consumer Protection Act, 1986","Section 22A in the Consumer Protection Act, 1986",25671315
+"Consumer Protection Act, 1986","Section 22B in the Consumer Protection Act, 1986",199978567
+"Consumer Protection Act, 1986","Section 22C in the Consumer Protection Act, 1986",180128982
+"Consumer Protection Act, 1986","Section 22D in the Consumer Protection Act, 1986",138240798
+"Consumer Protection Act, 1986","Section 23 in the Consumer Protection Act, 1986",271754
+"Consumer Protection Act, 1986","Section 23(i) in the Consumer Protection Act, 1986",161503924
+"Consumer Protection Act, 1986","Section 23(i)(a) in the Consumer Protection Act, 1986",139951241
+"Consumer Protection Act, 1986","Section 24 in the Consumer Protection Act, 1986",950908
+"Consumer Protection Act, 1986","Section 24A in the Consumer Protection Act, 1986",1317008
+"Consumer Protection Act, 1986","Section 24A(1) in the Consumer Protection Act, 1986",203387
+"Consumer Protection Act, 1986","Section 24A(2) in the Consumer Protection Act, 1986",1854526
+"Consumer Protection Act, 1986","Section 24B in the Consumer Protection Act, 1986",1327546
+"Consumer Protection Act, 1986","Section 24B(1) in the Consumer Protection Act, 1986",155153
+"Consumer Protection Act, 1986","Section 24B(1)(i) in the Consumer Protection Act, 1986",852911
+"Consumer Protection Act, 1986","Section 24B(1)(ii) in the Consumer Protection Act, 1986",1837617
+"Consumer Protection Act, 1986","Section 24B(1)(iii) in the Consumer Protection Act, 1986",433133
+"Consumer Protection Act, 1986","Section 24B(2) in the Consumer Protection Act, 1986",912811
+"Consumer Protection Act, 1986","Section 25 in the Consumer Protection Act, 1986",1098723
+"Consumer Protection Act, 1986","Section 25(1) in the Consumer Protection Act, 1986",194008308
+"Consumer Protection Act, 1986","Section 25(2) in the Consumer Protection Act, 1986",123421948
+"Consumer Protection Act, 1986","Section 25(3) in the Consumer Protection Act, 1986",151759363
+"Consumer Protection Act, 1986","Section 26 in the Consumer Protection Act, 1986",1342740
+"Consumer Protection Act, 1986","Section 27 in the Consumer Protection Act, 1986",1763766
+"Consumer Protection Act, 1986","Section 27(1) in the Consumer Protection Act, 1986",191249577
+"Consumer Protection Act, 1986","Section 27(2) in the Consumer Protection Act, 1986",31694546
+"Consumer Protection Act, 1986","Section 27(3) in the Consumer Protection Act, 1986",76622657
+"Consumer Protection Act, 1986","Section 27A in the Consumer Protection Act, 1986",94449543
+"Consumer Protection Act, 1986","Section 27A(1) in the Consumer Protection Act, 1986",176022837
+"Consumer Protection Act, 1986","Section 27A(1)(a) in the Consumer Protection Act, 1986",125016774
+"Consumer Protection Act, 1986","Section 27A(1)(b) in the Consumer Protection Act, 1986",165726672
+"Consumer Protection Act, 1986","Section 27A(1)(c) in the Consumer Protection Act, 1986",169616069
+"Consumer Protection Act, 1986","Section 27A(2) in the Consumer Protection Act, 1986",10284921
+"Consumer Protection Act, 1986","Section 27A(3) in the Consumer Protection Act, 1986",75768363
+"Consumer Protection Act, 1986","Section 28 in the Consumer Protection Act, 1986",517853
+"Consumer Protection Act, 1986","Section 28A in the Consumer Protection Act, 1986",191240003
+"Consumer Protection Act, 1986","Section 28A(1) in the Consumer Protection Act, 1986",23896964
+"Consumer Protection Act, 1986","Section 28A(2) in the Consumer Protection Act, 1986",162772525
+"Consumer Protection Act, 1986","Section 28A(3) in the Consumer Protection Act, 1986",174463350
+"Consumer Protection Act, 1986","Section 28A(4) in the Consumer Protection Act, 1986",33537360
+"Consumer Protection Act, 1986","Section 29 in the Consumer Protection Act, 1986",1695995
+"Consumer Protection Act, 1986","Section 29(1) in the Consumer Protection Act, 1986",1626474
+"Consumer Protection Act, 1986","Section 29(2) in the Consumer Protection Act, 1986",1099419
+"Consumer Protection Act, 1986","Section 29(3) in the Consumer Protection Act, 1986",23195393
+"Consumer Protection Act, 1986","Section 29(4) in the Consumer Protection Act, 1986",79316860
+"Consumer Protection Act, 1986","Section 29A in the Consumer Protection Act, 1986",408555
+"Consumer Protection Act, 1986","Section 30 in the Consumer Protection Act, 1986",45926
+"Consumer Protection Act, 1986","Section 30(1) in the Consumer Protection Act, 1986",410889
+"Consumer Protection Act, 1986","Section 30(1)(a) in the Consumer Protection Act, 1986",177620672
+"Consumer Protection Act, 1986","Section 30(2) in the Consumer Protection Act, 1986",810562
+"Consumer Protection Act, 1986","Section 30A in the Consumer Protection Act, 1986",36273556
+"Consumer Protection Act, 1986","Section 30A(1) in the Consumer Protection Act, 1986",131943871
+"Consumer Protection Act, 1986","Section 30A(2) in the Consumer Protection Act, 1986",20018543
+"Consumer Protection Act, 1986","Section 31 in the Consumer Protection Act, 1986",511716
+"Consumer Protection Act, 1986","Section 31(1) in the Consumer Protection Act, 1986",1033562
+"Consumer Protection Act, 1986","Section 31(2) in the Consumer Protection Act, 1986",1021653

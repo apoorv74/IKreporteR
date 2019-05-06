@@ -33,8 +33,7 @@ fluidPage(
         ),
         column(
             width = 4,
-            selectizeInput('select_section', 'Select section to explore',
-                           choices = all_sections)
+            uiOutput('section_explorer')
         )
     ),
     fluidRow(
