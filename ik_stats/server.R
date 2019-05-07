@@ -90,7 +90,8 @@ shinyServer(function(input, output, session) {
 
 output$caseAggregator <- DT::renderDataTable({
   if(reactiveFlags$court_number_flag == TRUE){
-    cases_by_courts() %>% DT::datatable(escape = FALSE, class = 'row-border hover nowrap') %>%
+    cases_by_courts_ui <- cases_by_courts()[, !names(cases_by_courts()) %in% c("FromDate","TillDate")]
+    cases_by_courts_ui %>% DT::datatable(escape = FALSE, class = 'row-border hover nowrap') %>%
       DT::formatStyle(
         columns = 'CourtName',
         backgroundColor = DT::styleEqual(c(unique(
@@ -103,7 +104,9 @@ output$caseAggregator <- DT::renderDataTable({
         columns = 'CaseContribution',
         valueColumns = 'CourtRank',
         backgroundColor = styleEqual(c(1), c('#bc4b51'))
-      )} else {
+      )
+    
+    } else {
         cases_by_courts()
       }
   })

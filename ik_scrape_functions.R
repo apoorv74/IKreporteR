@@ -74,7 +74,13 @@ get_court_cases_from_ik <- function( court_name, citedby, from_date=NULL, to_dat
   }
   
   ik_link <- createLink(ik_act_url)
-  ik_act_data <- list('Act' = act_name, 'Section'= section_name,'CourtName' = court_name,'TotalJudgements' = total_judgements,'IndianKanonLink'=ik_link)
+  
+  if(is.null(from_date)){
+    from_date <- 'Not selected'
+    to_date <- 'Not selected'
+  }
+  
+  ik_act_data <- list('Act' = act_name, 'Section'= section_name,'CourtName' = court_name,'TotalJudgements' = total_judgements,'IndianKanonLink'=ik_link,'FromDate' = from_date,'TillDate' = to_date)
   
   return(ik_act_data)
 }
