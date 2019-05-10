@@ -8,14 +8,49 @@ shinyServer(function(input, output, session) {
   # This flag controls the number of courts selected from the UI. If the user
   # selectes more than 5 courts, then this flag toggles to FALSE and the
   # user is forced to re-select the courts
-  reactiveFlags <- reactiveValues(court_number_flag = TRUE)
+  reactiveFlags <- reactiveValues(court_number_flag = TRUE,
+                                  valid_act_id = TRUE)
+  
+  # Toggle between selection by Act Name or Act ID
+  
+  output$actSelection <- renderUI({
+    if (input$selectmode == 'Explore by acts') {
+      selectizeInput('select_act', 'Select act to explore',
+                     choices = all_acts)
+    } else if (input$selectmode == 'Explore by IndianKanoon ID') {
+      textInput("actIkId", label = "Enter Act/Section ID from IndianKanoon", value = "")
+    }
+  })
+  
+  # Notify if act ID is not correct
+  
+  observeEvent(input$refresh, {
+    actIkId <- as.character(stringr::str_trim(input$actIkId))
+    # print(glue::glue('this is act id -- {actIkId}'))
+    # print(glue::glue('and this is the function output -- {check_act_section_id(actIkId)}'))
+    if(!check_act_section_id(actIkId)){
+      sendSweetAlert(
+        session = session,
+        title = "Error...",
+        text = "Please enter valid Act/Section ID from IndianKanoon",
+        type = "error"
+      )
+      reactiveFlags$valid_act_id <- FALSE
+    } else {
+      reactiveFlags$valid_act_id <- TRUE
+    }
+    # print(glue::glue('this is act flag -- {reactiveFlags$valid_act_id}'))
+  })
+  
   
   # Select sections
   
   output$section_explorer <- renderUI({
+    if(input$selectmode == 'Explore by acts'){
     all_sections <- ipc_section_citations$section_name[ipc_section_citations$act_name == input$select_act]
     selectizeInput('select_section', 'Select section to explore',
                    choices = all_sections)
+    }
   })
   
   # Enable/Disable date picker
@@ -49,7 +84,8 @@ shinyServer(function(input, output, session) {
   observeEvent(input$refresh, {
     shinyjs::show("exportCSV")
     shinyjs::show("exportJSON")
-    reactiveFlags$court_number_flag <- TRUE
+    # reactiveFlags$court_number_flag <- TRUE
+    # reactiveFlags$valid_act_id <- TRUE
   })
   
   observeEvent(input$refresh, {
@@ -61,27 +97,39 @@ shinyServer(function(input, output, session) {
         type = "error"
       )
       reactiveFlags$court_number_flag <- FALSE
+    } else {
+      reactiveFlags$court_number_flag <- TRUE
     }
   })
   
   cases_by_courts <- eventReactive(input$refresh, {
-    if(reactiveFlags$court_number_flag == TRUE) {
+
+    # print(glue::glue("reactiveFlags$court_number_flag -> {reactiveFlags$court_number_flag}"))
+    # print(glue::glue("reactiveFlags$valid_act_id -> {reactiveFlags$valid_act_id}"))
+    
+    if (reactiveFlags$court_number_flag == TRUE & reactiveFlags$valid_act_id == TRUE) {
+      if(input$selectmode == 'Explore by acts'){
       cited_by_section <- input$select_section
-    cited_by_id <- ipc_section_citations$section_id[ipc_section_citations$section_name == cited_by_section]
-    if(input$courtid == TRUE) {
-      court_list <- input$selectcourts
-    } else {
-      # By default (without selection of courts from the UI), stats from only Supreme court will be fetched
-      court_list <- 'Supreme court'
+      cited_by_id <-
+        ipc_section_citations$section_id[ipc_section_citations$section_name == cited_by_section]
+      } else if(input$selectmode == 'Explore by IndianKanoon ID'){
+        cited_by_id <- as.character(stringr::str_trim(input$actIkId))
     }
-    if(input$dateid == TRUE){
-      from_date <- input$dates[[1]]
-      to_date <- input$dates[[2]]
-    } else {
-      from_date <- NULL
-      to_date <- NULL
-    }
-    ik_case_summary_geography_mem(cited_by_id, court_list, from_date, to_date)
+      if (input$courtid == TRUE) {
+        court_list <- input$selectcourts
+      } else {
+        # By default (without selection of courts from the UI), stats from only Supreme court will be fetched
+        court_list <- 'Supreme court'
+      }
+      if (input$dateid == TRUE) {
+        from_date <- input$dates[[1]]
+        to_date <- input$dates[[2]]
+      } else {
+        from_date <- NULL
+        to_date <- NULL
+      }
+      online_flag <- ifelse(input$selectmode == 'Explore by acts',0,1)
+      ik_case_summary_geography_mem(cited_by_id, court_list, from_date, to_date, online_flag)
     } else {
       NULL
     }
@@ -89,7 +137,7 @@ shinyServer(function(input, output, session) {
   
 
 output$caseAggregator <- DT::renderDataTable({
-  if(reactiveFlags$court_number_flag == TRUE){
+  if(reactiveFlags$court_number_flag == TRUE & reactiveFlags$valid_act_id == TRUE){
     cases_by_courts_ui <- cases_by_courts()[, !names(cases_by_courts()) %in% c("FromDate","TillDate")]
     cases_by_courts_ui %>% DT::datatable(escape = FALSE, class = 'row-border hover nowrap') %>%
       DT::formatStyle(
@@ -113,7 +161,7 @@ output$caseAggregator <- DT::renderDataTable({
   
 
 cases_by_courts_export <- eventReactive(input$refresh,{
-  if(reactiveFlags$court_number_flag == TRUE) {
+  if(reactiveFlags$court_number_flag == TRUE & reactiveFlags$valid_act_id == TRUE) {
     cases_by_courts <- cases_by_courts() %>% data.frame()
     ik_link <- cases_by_courts$IndianKanonLink
     ik_link <- stringr::str_replace_all(ik_link,'""','"')

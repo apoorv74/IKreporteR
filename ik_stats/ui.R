@@ -25,11 +25,19 @@ fluidPage(
             # ,tags$span(icon("balance-scale"), class = "main-icon")
         )
     )),
+    fluidRow(column(
+        width = 4,
+        radioGroupButtons(
+            inputId = "selectmode",
+            label = "Explore judgements",
+            choices = c("Explore by acts", "Explore by IndianKanoon ID"),
+            status = "primary"
+        )
+    )),
     fluidRow(
         column(
             width = 4,
-            selectizeInput('select_act', 'Select act to explore',
-                           choices = all_acts)
+            uiOutput('actSelection')
         ),
         column(
             width = 4,
@@ -55,7 +63,7 @@ fluidPage(
         width = 4,
         actionBttn(
             inputId = "refresh",
-            label = "Go",
+            label = "Explore",
             style = "unite", 
             color = "primary"
         )
