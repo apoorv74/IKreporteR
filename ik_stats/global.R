@@ -15,7 +15,7 @@ court_df <- data.frame('court_name' = c("All courts","Supreme court","Allahabad"
                                         "lucknow","madhyapradesh","orissa","patna",
                                         "punjab","rajasthan","sikkim","uttaranchal",
                                         "jodhpur","srinagar","meghalaya","tripura"),
-                       'jurisdiction' = c("all courts","supreme court","Uttar Pradesh",
+                       'jurisdiction' = c("all courts","Supreme Court","Uttar Pradesh",
                                             "Andhra Pradesh and Telangana","Goa, Dadra and Nagar Haveli, Daman and Diu, Maharashtra",
                                             "Chhattisgarh","Pondicherry, Tamil Nadu","National Capital Territory of Delhi",
                                             "Arunachal Pradesh, Assam, Mizoram, Nagaland","Gujarat",

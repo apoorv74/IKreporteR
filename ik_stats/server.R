@@ -25,19 +25,21 @@ shinyServer(function(input, output, session) {
   # Notify if act ID is not correct
   
   observeEvent(input$refresh, {
-    actIkId <- as.character(stringr::str_trim(input$actIkId))
-    # print(glue::glue('this is act id -- {actIkId}'))
-    # print(glue::glue('and this is the function output -- {check_act_section_id(actIkId)}'))
-    if(!check_act_section_id(actIkId)){
-      sendSweetAlert(
-        session = session,
-        title = "Error...",
-        text = "Please enter valid Act/Section ID from IndianKanoon",
-        type = "error"
-      )
-      reactiveFlags$valid_act_id <- FALSE
-    } else {
-      reactiveFlags$valid_act_id <- TRUE
+    if (input$selectmode == 'Explore by IndianKanoon ID') {
+      actIkId <- as.character(stringr::str_trim(input$actIkId))
+      # print(glue::glue('this is act id -- {actIkId}'))
+      # print(glue::glue('and this is the function output -- {check_act_section_id(actIkId)}'))
+      if (!check_act_section_id(actIkId)) {
+        sendSweetAlert(
+          session = session,
+          title = "Error...",
+          text = "Please enter valid Act/Section ID from IndianKanoon",
+          type = "error"
+        )
+        reactiveFlags$valid_act_id <- FALSE
+      } else {
+        reactiveFlags$valid_act_id <- TRUE
+      }
     }
     # print(glue::glue('this is act flag -- {reactiveFlags$valid_act_id}'))
   })
@@ -74,7 +76,7 @@ shinyServer(function(input, output, session) {
     if(input$courtid == TRUE){
       checkboxGroupButtons(
         inputId = "selectcourts", label = "Select courts to explore (Max 5):", 
-        choices = court_df$court_name[!grepl(court_df$court_name,pattern = 'all',ignore.case = TRUE)], 
+        choices = court_df$court_name[!court_df$court_name %in% c('All courts')], 
         justified = FALSE, status = "primary",
         checkIcon = list(yes = icon("ok", lib = "glyphicon"), no = icon("remove", lib = "glyphicon"))
       )
