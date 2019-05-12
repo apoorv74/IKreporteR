@@ -4,4 +4,5 @@
 .Ruserdata
 shapefiles/
 shinyapps/
+rsconnect/
 .DS_Store

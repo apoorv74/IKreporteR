@@ -2,7 +2,7 @@ library(dplyr)
 library(rvest)
 library(glue)
 
-# check if an ID is an Act/Section
+# check if an ID is an Act/Section or a case from the Supreme Court
 
 # citation_id <- '19583647'
 check_act_section_id <- function(citation_id){

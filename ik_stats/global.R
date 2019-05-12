@@ -1,5 +1,5 @@
 library(readr)
-source("../ik_scrape_functions.R")
+source("R/ik_scrape_functions.R")
 
 court_df <- data.frame('court_name' = c("All courts","Supreme court","Allahabad","Andhra Pradesh",
                                         "Bombay","Chattisgarh","Chennai","Delhi",
@@ -24,8 +24,16 @@ court_df <- data.frame('court_name' = c("All courts","Supreme court","Allahabad"
                                             "Uttar Pradesh","Madhya Pradesh","Odisha","Bihar","Chandigarh, Haryana, Punjab",
                                             "Rajasthan","Sikkim","Uttarakhand","Jodhpur","Srinagar","Meghalaya","Tripura"),
                        'formatcolor' = c('#52aa8a', '#08b2e3',rep('#fed766', 26)))
-
-ipc_section_citations <- read_csv("../ipc_section_citations.csv")
+court_df[] <- sapply(court_df,as.character)
+ipc_section_citations <-
+  read_csv(
+    "data/ipc_section_citations.csv",
+    col_types = cols(
+      act_name = col_character(),
+      section_id = col_double(),
+      section_name = col_character()
+    )
+  )
 all_acts <- unique(ipc_section_citations$act_name)
 
 # Reference - https://stackoverflow.com/questions/28117556/clickable-links-in-shiny-datatable
