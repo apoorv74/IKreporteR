@@ -70,9 +70,9 @@ get_court_cases_from_ik <- function( court_name, citedby, from_date=NULL, to_dat
   
   if(court_name == 'all'){
     if(length(from_date)>0){
-      ik_act_url <- glue::glue('http://indiankanoon.org/search/?formInput=citedby%3A+{citedby}+fromdate%3A+{from_date}+todate%3A+{to_date}')
+      ik_act_url <- glue::glue('http://indiankanoon.org/search/?formInput=citedby%3A+{citedby}+fromdate%3A+{from_date}+todate%3A+{to_date}+doctypes:judgments')
     } else {
-      ik_act_url <- glue::glue('http://indiankanoon.org/search/?formInput=citedby%3A%20{citedby}')  
+      ik_act_url <- glue::glue('http://indiankanoon.org/search/?formInput=citedby%3A%20{citedby}+doctypes%3A+judgments')  
     }
   } else {
     if(length(from_date)>0){
