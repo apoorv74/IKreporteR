@@ -137,23 +137,38 @@ shinyServer(function(input, output, session) {
     }
   })
   
+  
+  output$act_details <- renderUI({
+    if (reactiveFlags$court_number_flag == TRUE &
+        reactiveFlags$valid_act_id == TRUE) {
+      act_name <- unique(cases_by_courts()[, 'Act'])
+      section_name <- unique(cases_by_courts()[, 'Section'])
+      wellPanel(tags$b(renderText(paste0(
+        glue::glue("Act: {act_name}")
+      ))),
+      tags$br(),
+      tags$b(renderText(paste0(
+        glue::glue("Section: {section_name}")
+      ))))
+    }
+  })
 
 output$caseAggregator <- DT::renderDataTable({
   if(reactiveFlags$court_number_flag == TRUE & reactiveFlags$valid_act_id == TRUE){
-    cases_by_courts_ui <- cases_by_courts()[, !names(cases_by_courts()) %in% c("FromDate","TillDate","CourtRank")]
-    colour_var <- sort(cases_by_courts_ui$TotalJudgements)[length(cases_by_courts_ui$TotalJudgements)-1]
+    cases_by_courts_ui <- cases_by_courts()[, !names(cases_by_courts()) %in% c("Act","Section","FromDate","TillDate","CourtRank")]
+    colour_var <- sort(cases_by_courts_ui$Judgements)[length(cases_by_courts_ui$Judgements)-1]
     cases_by_courts_ui %>% DT::datatable(escape = FALSE, class = 'row-border hover nowrap') %>%
       DT::formatStyle(
-        columns = 'CourtName',
+        columns = 'Court',
         backgroundColor = DT::styleEqual(c(unique(
-          cases_by_courts()$CourtName
+          cases_by_courts()$Court
         )),
-        c(court_df$formatcolor[court_df$court_name %in% cases_by_courts()$CourtName])),
+        c(court_df$formatcolor[court_df$court_name %in% cases_by_courts()$Court])),
         fontWeight = 'bold'
       ) %>%
       DT::formatStyle(
-        columns = 'CaseContribution',
-        valueColumns = 'TotalJudgements',
+        columns = 'Percent',
+        valueColumns = 'Judgements',
         backgroundColor = styleEqual(c(colour_var), c('#bc4b51'))
       )
     

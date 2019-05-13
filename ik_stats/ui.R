@@ -45,16 +45,16 @@ fluidPage(
         )
     ),
     fluidRow(
-        column(width=2,
+        column(width=4,
                materialSwitch(inputId = "dateid", label = "Filter cases by date", status = "primary")),
-        column(width=2),
+        # column(width=2),
         column(
         width = 4,
         uiOutput('selectDate')
     )),
-    fluidRow(column(width=2, 
+    fluidRow(column(width=4, 
                     materialSwitch(inputId = "courtid", label = "Toggle to select courts (Default - Supreme Court)", status = "primary")),
-             column(width=2),
+             # column(width=2),
              column(
         width = 6,
         uiOutput('selectCourts')
@@ -70,6 +70,10 @@ fluidPage(
     )),
     tags$br(),
     fluidRow(column(
+      width = 6,
+      uiOutput("act_details")
+    )),
+    fluidRow(column(
         width=10,
         withSpinner(DT::dataTableOutput(outputId = 'caseAggregator'),type = 8)
     )),
@@ -79,9 +83,7 @@ fluidPage(
     # Export options
     fluidRow(
         column(width = 2),
-        column(width = 2,
-               downloadButton('exportCSV',"Export as CSV")),
-        column(width = 2),
+        downloadButton('exportCSV',"Export as CSV"),
         downloadButton('exportJSON',"Export as JSON")
     ),
     tags$br(),

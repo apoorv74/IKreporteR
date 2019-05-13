@@ -125,7 +125,7 @@ get_court_cases_from_ik <- function( court_name, citedby, from_date=NULL, to_dat
     to_date <- 'Not selected'
   }
   
-  ik_act_data <- list('Act' = act_name, 'Section'= section_name,'CourtName' = court_name,'TotalJudgements' = total_judgements,'IndianKanonLink'=ik_link,'FromDate' = from_date,'TillDate' = to_date)
+  ik_act_data <- list('Act' = act_name, 'Section'= section_name,'Court' = court_name,'Judgements' = total_judgements,'IK'=ik_link,'FromDate' = from_date,'TillDate' = to_date)
   
   return(ik_act_data)
 }
@@ -171,12 +171,12 @@ ik_case_summary_geography <- function(citedby, court_list, from_date=NULL, to_da
   }
   
   # Find case contribution percent
-  total_cases <- act_geography_summary_df$`TotalJudgements`[act_geography_summary_df$`CourtName` == 'All courts']
+  total_cases <- act_geography_summary_df$`Judgements`[act_geography_summary_df$`Court` == 'All courts']
   
   # To avoid avraging ranks when equal, we are using 'min' as a method of ties - This will ensure that
   # all courts with highest judgements are coloured
-  act_geography_summary_df <- act_geography_summary_df %>% mutate('CaseContribution' = paste0(round(`TotalJudgements`/total_cases*100,2)," %"),
-                                                                  'CourtRank' = rank(-TotalJudgements,ties.method= "min")-1)
+  act_geography_summary_df <- act_geography_summary_df %>% mutate('Percent' = paste0(round(`Judgements`/total_cases*100,2)," %"),
+                                                                  'CourtRank' = rank(-Judgements,ties.method= "min")-1)
   
   return(act_geography_summary_df)
 }
