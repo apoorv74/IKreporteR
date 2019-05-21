@@ -3,6 +3,9 @@ library(shiny)
 library(shinycssloaders)
 library(D3TableFilter)
 
+
+
+
 fluidPage(
     shinyjs::useShinyjs(), 
     tags$head(
@@ -87,5 +90,12 @@ fluidPage(
         downloadButton('exportJSON',"Export as JSON")
     ),
     tags$br(),
-    tags$br()
+    tags$br(),
+    actionLink(
+      inputId = "about", label = "About the application", icon = NULL,
+      style = "color: #112446; padding: 5px; line-height:25px;", class = "pull-right"
+    )
 ))
+
+
+

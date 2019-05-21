@@ -1,5 +1,6 @@
 library(readr)
 source("R/ik_scrape_functions.R")
+source("R/about_application.R")
 
 court_df <- data.frame('court_name' = c("All courts","Supreme court","Allahabad","Andhra Pradesh",
                                         "Bombay","Chattisgarh","Chennai","Delhi",

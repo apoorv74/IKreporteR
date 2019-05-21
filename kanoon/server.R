@@ -213,4 +213,8 @@ output$exportJSON <- downloadHandler(
   # disable the downdload buttons on page load
   shinyjs::hide("exportCSV")
   shinyjs::hide("exportJSON")
+  
+  observeEvent(input$about, {
+    showModal(about_application())
+  })
 })
