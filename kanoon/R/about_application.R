@@ -31,10 +31,17 @@ about_application <- function() {
       #                 ))),c("NA")c("NA")
       tags$br(),
       fluidRow(column(width = 2,
-                      tags$b("Source code")),
+                      tags$b("Source Code")),
                column(width = 10,
-                      tags$p(
-                        tags$a(href = "https://github.com/apoorv74/IKreporteR/issues", 'View on GitHub')
+                      tags$p('View on ',
+                        tags$a(href = "https://github.com/apoorv74/IKreporteR/issues", shiny::icon('github'))
+                      ))),
+      tags$br(),
+      fluidRow(column(width = 2,
+                      tags$b("Documentation")),
+               column(width = 10,
+                      tags$p('How to use the application - ',
+                        tags$a(href = "https://github.com/apoorv74/IKreporteR/wiki/Introduction", shiny::icon('file'))
                       ))),
       tags$br(),
       fluidRow(column(width = 2,
