@@ -42,7 +42,7 @@ about_application <- function() {
                column(
                  width = 10,
                  tags$p(
-                   "This tools stands on top of some of the amazing work done by developers and we really apreciate them for opening up the source code. Kudos people :)",
+                   "This tools stands on top of some amazing work done by developers, and we really appreciate them for opening up the source code. Kudos people :)",
                    tags$ul(
                      tags$li(tags$a("shiny", href = "https://shiny.rstudio.com/")),
                      tags$li(
@@ -78,7 +78,7 @@ about_application <- function() {
       tags$br(),
       fluidRow(column(width = 4,
                       tags$b(
-                        "Acknowledgements"
+                        "Acknowledgments"
                       ))),
       tags$hr(),
       fluidRow(column(
@@ -95,7 +95,7 @@ about_application <- function() {
           tags$a(href = "https://indiankanoon.org", "IndianKanoon."),
           " We thank ",
           tags$a(href = "https://twitter.com/sushantsinha", "Sushant Sinha"),
-          "and team for all their work on this irreplacable platform."
+          "and team for all their work on this irreplaceable platform."
           
         )
       )),
