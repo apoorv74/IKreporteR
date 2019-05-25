@@ -17,7 +17,7 @@ about_application <- function() {
                tags$b("Motivation")),
         column(
           width = 10,
-          "It all started when we wanted to view the trends for cases listed under a particular act/section. IndianKanoon is a great resource to conduct quick research and it gives you advanced search capabilities to view judgements across geographies, but we wanted a quicker way to get aggregaed numbers across all courts. This platform helps the user see these patterns across years and lets them export results in a convienient machine readable format (csv/json)"
+          "It all started when we wanted to view the trends for cases listed under a particular act/section. IndianKanoon is a great resource to conduct quick research and it gives you advanced search capabilities to view judgements across geographies, but we wanted a quicker way to get aggregated numbers across all courts. This platform helps the user see these patterns across years and lets them export results in a convenient machine-readable format (csv/json)"
         )
       ),
       # fluidRow(column(width = 1,
