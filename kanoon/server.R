@@ -181,11 +181,12 @@ output$caseAggregator <- DT::renderDataTable({
 cases_by_courts_export <- eventReactive(input$refresh,{
   if(reactiveFlags$court_number_flag == TRUE & reactiveFlags$valid_act_id == TRUE) {
     cases_by_courts <- cases_by_courts() %>% data.frame()
-    ik_link <- cases_by_courts$IndianKanonLink
+    # browser()
+    ik_link <- cases_by_courts$IK
     ik_link <- stringr::str_replace_all(ik_link,'""','"')
     ik_link <- paste0(ik_link, collapse = "")
     ik_link <- ik_link %>% read_html() %>% html_nodes('a') %>% html_attr('href') %>% unlist()
-    cases_by_courts$IndianKanonLink <- ik_link
+    cases_by_courts$IK <- ik_link
     cases_by_courts
   } else {
     NULL
